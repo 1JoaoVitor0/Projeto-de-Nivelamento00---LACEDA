@@ -23,7 +23,7 @@ Atuando como **Engenheiro de Dados**, este projeto tem como objetivo processar, 
 
 ---
 
-## 📂 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```text
 .
@@ -110,7 +110,7 @@ Todos apresentam taxas de evasão superiores a **30%**, sugerindo necessidade de
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Python 3.11
 - Pandas
@@ -119,7 +119,7 @@ Todos apresentam taxas de evasão superiores a **30%**, sugerindo necessidade de
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **Arthur Batista**
 
