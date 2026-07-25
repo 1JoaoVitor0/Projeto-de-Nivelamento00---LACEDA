@@ -1,78 +1,67 @@
 # ⚖️ Desafio de Nivelamento LACEDA 2026 - Eixo de Ciência e Engenharia de Dados
 
-Bem-vindo(a) ao projeto de nivelamento da LACEDA! Este desafio foi desenhado para consolidar seus conhecimentos em manipulação, limpeza, análise exploratória e geração de insights.
+## 1. Contexto
 
-⏱️ **Prazo de Entrega:** 17/07
+O departamento de Recursos Humanos de um grande escritório de advocacia forneceu bases de dados (`dados/funcionarios.csv`, `dados/filiais.csv` e `dados/departamentos.csv`) com informações dos colaboradores. O objetivo desta análise é atuar como cientista/engenheiro(a) de dados para identificar os principais fatores associados ao desligamento (evasão) dos colaboradores e apresentar as conclusões em forma de insights e dashboards.
 
----
+A principal base utilizada (`funcionarios.csv`) contém 650 colaboradores e 16 colunas, incluindo dados pessoais (nome, gênero), de carreira (nível, data de admissão, data de promoção), financeiros (salário-base, percentual de bônus) e operacionais (departamento, filial, gestor, processos ativos, horas extras, score de satisfação, home office, status atual).
 
-## 📊 O Desafio
-Você recebeu um conjunto de dados do departamento de Recursos Humanos de um grande escritório de advocacia (`dados/funcionaris.csv`). 
+## 2. Premissas adotadas
+* A coluna `status_atual` foi tratada como variável-alvo (`desligado` = 1 para "Desligado", 0 para "Ativo").
+* A coluna `genero` tinha uma inconsistência de rótulo ("Fem" em algumas linhas, "Feminino" em outras) e ambas foram tratadas como a mesma categoria.
+* `data_promocao` nula foi interpretada como ausência de promoção desde o dia da admissão, e não como dado ausente por erro, dando origem à coluna `ja_promovido`.
 
-Sua missão é atuar como Cientista/Engenheiro(a) de Dados para **identificar os principais fatores que estão levando ao desligamento (evasão) dos colaboradores** e apresentar suas conclusões em forma de insights e dashboards.
+## 3. Metodologia
+A análise seguiu uma abordagem exploratória: estatísticas descritivas gerais, cálculo da taxa de desligamento cruzada com variáveis categóricas e numéricas, e verificação de correlação entre as variáveis numéricas e o desligamento via matriz de correlação (heatmap).
 
-### 📥 O que a Liga está fornecendo:
-1. Conjunto de dados dos Funcionários (`dados\funcionarios.csv`).
-2. Conjunto de dados dos Departamentos (`dados/departamentos.csv`).
-3. Conjunto de dados das Filiais (`dados/filiais.csv`).
+## 4. Principais achados
 
----
+### 4.1 Taxa geral de desligamento
+A taxa geral de desligamento na base é de 27,2% (177 de 650 colaboradores).
 
-### 📁 Dicionário de Dados (Metadados)
+### 4.2 Promoção como fator de retenção
+Colaboradores que já foram promovidos têm uma taxa de desligamento bem menor do que os que nunca foram promovidos, o que indica que a promoção (ou a falta dela) pode ser um fator relevante de retenção.
 
-Para guiar sua análise e seus tratamentos, abaixo está a descrição de cada tabela e o significado de suas respectivas colunas:
+![](graficos/taxa%20de%20desligamento%20(0-1)%20por%20status%20de%20promocao.png)
 
-#### 1. Tabela: `funcionarios.csv`
-*   **id_colaborador:** Identificador único e numérico de cada funcionário.
-*   **nome:** Nome completo do colaborador.
-*   **genero:** Identidade de gênero declarada pelo profissional.
-*   **nivel:** Nível de senioridade no escritório (Júnior, Pleno, Sênior, Sócio).
-*   **data_admissao:** Data em que o colaborador foi contratado pelo escritório.
-*   **data_promocao:** Data da última promoção do colaborador (pode estar vazia caso ele nunca tenha sido promovido).
-*   **salario_base:** Salário bruto mensal contratual do funcionário.
-*   **percentual_bonus:** Porcentagem do salário anual que o colaborador recebe como bônus por performance.
-*   **id_departamento:** Código identificador do departamento onde o colaborador atua (Chave Estrangeira).
-*   **id_filial:** Código identificador da filial física onde o colaborador está alocado (Chave Estrangeira).
-*   **id_reporta_a:** ID do gestor/líder direto a quem esse funcionário responde (Auto-relacionamento). Sócios não possuem gestores diretos.
-*   **processos_actifs:** Volume de processos jurídicos sob a responsabilidade direta deste advogado no último trimestre.
-*   **horas_extras_mes:** Média de horas extras computadas e prestadas pelo colaborador no último mês.
-*   **score_satisfacao:** Nota de 1.0 a 5.0 atribuída pelo funcionário na pesquisa interna e anônima de clima organizacional.
-*   **home_office:** Campo indicador se o colaborador trabalha em regime 100% remoto.
-*   **status_atual:** Situação do contrato do colaborador no escritório (Ativo ou Desligado).
+### 4.3 Satisfação por departamento
+O departamento 20 apresenta, em média, a menor satisfação entre os departamentos.
 
-#### 2. Tabela: `departamentos.csv`
-*   **id_departamento:** Código identificador único do setor jurídico (Chave Primária).
-*   **nome_departamento:** Nome da especialidade/área (Civil, Trabalhista, Corporativo, Tributário).
-*   **id_chefe_departamento:** ID do Sócio responsável pela gestão nacional daquela área.
+![](graficos/media%20da%20satisfacao%20(0-5)%20por%20departamento.png)
 
-#### 3. Tabela: `filiais.csv`
-*   **id_filial:** Código identificador único da unidade física do escritório (Chave Primária).
-*   **cidade:** Cidade onde a filial está localizada.
-*   **estado:** Unidade Federativa (UF) da filial.
-*   **id_socio_diretor:** ID do Sócio regional que lidera a operação daquela filial específica.
+### 4.4 Desligamento por departamento
+O departamento 20 também apresenta a maior taxa de desligamento entre os quatro departamentos, o que é consistente com sua menor satisfação média — dado que a correlação entre satisfação e desligamento é negativa (gráfico da seção 4.5).
 
-> ⚠️ **Atenção:** Os dados extraídos dos sistemas internos do escritório podem conter ruídos, falhas de digitação, omissões ou problemas de formatação. Parte fundamental da sua avaliação será identificar, limpar e padronizar essas inconsistências antes de iniciar a sua análise estatística.
+![](graficos/taxa%20de%20desligamento%20(0-1)%20por%20departamento.png)
 
----
+### 4.5 Satisfação x desligamento
+A matriz de correlação mostra uma relação negativa (ainda que fraca) entre score_satisfacao e desligado: quanto maior a satisfação, menor a chance de desligamento.
 
-### 📤 O que você deve entregar:
-Para concluir o nivelamento, você deve commitar neste repositório (via Pull Request ou em sua branch de entrega):
-- [ ] **Notebook (.ipynb):** Contendo todo o código de tratamento, análise exploratória e estatística.
-- [ ] **Documentação/Relatório:** Explicando as premissas adotadas e a conclusão final.
-- [ ] **Dashboards / Visualizações:** Gráficos claros que facilitem a tomada de decisão.
-- [ ] *(Opcional)* Modelo preditivo, análise estatística avançada ou dados complementares.
+![](graficos/correlacao_variaveis_numericas.png)
 
----
+### 4.6 Departamento 20 apresenta carga de trabalho como causa de insatisfação
 
-## ⚙️ Como Participar e Entregar
-1. Faça um **Fork** deste repositório para a sua conta pessoal.
-2. Crie uma branch com o seu nome: `git checkout -b nome-sobrenome`.
-3. Desenvolva seu projeto na pasta raiz ou em uma pasta própria com seu nome.
-4. Ao finalizar, abra um **Pull Request** para o repositório principal da LACEDA.
+A taxa de promoção do departamento 20 é semelhante à dos demais departamentos, ou seja, sua maior taxa de desligamento não é explicada por promover menos gente. Em vez disso, o departamento 20 tem a maior média de horas extras entre os departamentos, o que se conecta ao volume de processos jurídicos sob responsabilidade de cada advogado: mais processos, mais horas extras.
 
-## 📒Materiais de Apoio:
-1. https://www.youtube.com/watch?v=Z_SPrzlT4Fc&list=PLucm8g_ezqNoAkYKXN_zWupyH6hQCAwxY
-2. https://www.youtube.com/watch?v=NCG9niOlm40&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r&index=7
-3. https://www.youtube.com/watch?v=Dnt4H_WCrWE&list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk&index=11
+![](graficos/taxa%20de%20promocao%20(0-1)%20por%20departamento.png)
 
-*Nota: A segunda parte da avaliação consistirá em uma entrevista com banco de perguntas conceituais sorteadas e a apresentação do seu projeto.*
+![](graficos/media%20de%20horas%20extras%20por%20departamento.png)
+
+Essa carga de trabalho mais alta é uma explicação plausível para a menor satisfação observada no departamento (seção 4.3), que por sua vez se relaciona à maior taxa de desligamento (seção 4.5).
+
+## 5. Conclusão
+Os dados sugerem que a evasão nesta empresa está mais associada à falta de progressão de carreira e à sobrecarga de trabalho do que a fatores como salário, gênero ou modelo de trabalho. Colaboradores nunca promovidos apresentam taxa de desligamento bem mais alta, um padrão que atinge a empresa como um todo.
+
+Já o departamento 20 concentra um problema próprio: sua taxa de promoção é parecida com a dos demais, então a explicação não é falta de promoção. O que se destaca é uma carga de trabalho maior (mais horas extras, ligadas ao volume de processos por advogado), que aparenta reduzir a satisfação e, com isso, elevar o desligamento nesse departamento especificamente.
+
+## 6. Recomendações
+* Revisar os critérios e a frequência de promoção, onde a falta de progressão parece pesar mais na decisão de sair.
+* Avaliar a distribuição de processos jurídicos por advogado no departamento 20, buscando reduzir a carga de horas extras nessa área.
+* Acompanhar o score de satisfação como indicador de risco de saída, já que se mostrou correlacionado (ainda que fracamente) ao desligamento.
+
+## 7. Limitações
+* A base não possui data de desligamento, apenas de admissão, ou seja, não há informações sobre o tempo de empresa de quem já saiu.
+
+## Autor(a)
+
+Feito por Mariana Bispo.
