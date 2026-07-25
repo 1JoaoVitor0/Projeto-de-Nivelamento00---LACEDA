@@ -1,0 +1,651 @@
+id_colaborador;nome;genero;nivel;data_admissao;data_promocao;salario_base;percentual_bonus;id_departamento;id_filial;id_reporta_a;processos_actifs;horas_extras_mes;score_satisfacao;home_office;status_atual;nome_departamento;id_chefe_departamento;cidade;estado;id_socio_diretor
+1;Isabela Carvalho ;Não-binário;Júnior;2024-09-07;;3834,82;0,0;10;1;501,0;14;8;;False;Ativo;Civil;100;Salvador;BA;501
+2;Samuel Teixeira ;Não-binário;Pleno;2022-05-09;;7267,8;0,15;10;2;300,0;16;8;4,9;True;Desligado;Civil;100;São Paulo;SP;502
+3;Diego Santos ;Masculino;Júnior;2025-01-02;;4771,24;0,01;10;1;501,0;29;11;4,7;True;Ativo;Civil;100;Salvador;BA;501
+4;Carla Oliveira ;Não-binário;Pleno;2020-04-03;;7819,21;0,14;30;2;300,0;32;13;3,5;False;Desligado;Corporativo;300;São Paulo;SP;502
+5;Carla Oliveira ;Não-binário;Júnior;2025-09-15;;4452,47;0,05;20;3;300,0;46;42;2,2;False;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+6;Gabriela Almeida ;Feminino;Júnior;2025-08-03;;4814,55;0,04;40;3;501,0;16;9;4,5;True;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+7;Mariana Rocha ;Não-binário;Júnior;2025-01-05;;3828,98;0,1;30;4;400,0;17;15;4,3;True;Ativo;Corporativo;300;Belo Horizonte;MG;504
+8;Isabela Carvalho ;Não-binário;Pleno;2023-02-07;;5534,44;0,2;40;4;400,0;15;11;4,0;True;Desligado;Tributário;400;Belo Horizonte;MG;504
+9;Felipe Costa ;Não-binário;Pleno;2022-11-05;2023-12-29;6395,33;0,12;10;3;400,0;28;2;4,3;True;Ativo;Civil;100;Rio de Janeiro;RJ;503
+10;João Lima ;Masculino;Pleno;2021-05-05;;8134,03;0,18;10;1;200,0;16;17;4,9;False;Desligado;Civil;100;Salvador;BA;501
+11;Samuel Teixeira ;Feminino;Júnior;2025-12-07;;3801,73;0,03;30;4;501,0;19;4;3,8;False;Ativo;Corporativo;300;Belo Horizonte;MG;504
+12;Carla Oliveira ;Feminino;Pleno;2023-12-20;2025-11-07;5702,2;0,14;20;2;502,0;60;41;1,8;False;Ativo;Trabalhista;200;São Paulo;SP;502
+13;Natan Alves ;Masculino;Júnior;2024-07-13;;3641,49;0,06;40;2;100,0;35;12;4,6;True;Ativo;Tributário;400;São Paulo;SP;502
+14;Samuel Teixeira ;Feminino;Sênior;2019-07-08;2023-07-07;10624,13;0,23;20;2;200,0;62;35;2,4;False;Desligado;Trabalhista;200;São Paulo;SP;502
+15;Pedro Gomes ;Masculino;Pleno;2021-03-13;2022-10-04;5993,91;0,16;20;4;200,0;66;57;1,7;False;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+16;Tatiana Mendes ;Feminino;Júnior;2025-07-09;;3591,44;0,08;30;2;100,0;14;7;3,3;True;Ativo;Corporativo;300;São Paulo;SP;502
+17;Tatiana Mendes ;Feminino;Júnior;2024-09-09;;4368,38;0,03;20;4;300,0;66;57;1,4;False;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+18;João Lima ;Não-binário;Júnior;2025-04-13;;3974,27;0,08;40;2;300,0;18;18;3,7;False;Ativo;Tributário;400;São Paulo;SP;502
+19;João Lima ;Masculino;Pleno;2020-11-19;;7129,65;0,2;10;2;200,0;21;5;4,9;False;Desligado;Civil;100;São Paulo;SP;502
+20;Samuel Teixeira ;Feminino;Júnior;2024-06-08;;3908,52;0,07;30;1;400,0;20;3;;False;Ativo;Corporativo;300;Salvador;BA;501
+21;Kamila Pereira ;Feminino;Pleno;2024-04-28;;8439,39;0,11;30;1;300,0;34;6;4,2;False;Ativo;Corporativo;300;Salvador;BA;501
+22;Bruno Souza ;Feminino;Pleno;2021-09-23;;8299,26;0,2;20;4;501,0;66;38;1,5;True;Desligado;Trabalhista;200;Belo Horizonte;MG;504
+23;Felipe Costa ;Feminino;Júnior;2024-06-30;;4822,12;0,02;40;2;100,0;34;5;3,9;True;Ativo;Tributário;400;São Paulo;SP;502
+24;Olivia Barbosa ;Feminino;Júnior;2024-12-24;;3957,79;0,04;40;2;501,0;14;10;3,8;True;Ativo;Tributário;400;São Paulo;SP;502
+25;Diego Santos ;Feminino;Júnior;2024-09-24;;3767,85;0,06;40;3;501,0;31;18;3,4;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+26;Natan Alves ;Feminino;Júnior;2024-01-02;;4279,88;0,01;20;3;502,0;66;45;1,9;False;Ativo;Trabalhista;200;Rio de Janeiro;RJ;503
+27;João Lima ;Não-binário;Júnior;2025-11-13;;4112,59;0,02;10;3;501,0;31;20;3,7;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+28;Gabriela Almeida ;Masculino;Júnior;2025-03-16;;4678,64;0,1;10;3;502,0;14;11;4,1;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+29;João Lima ;Feminino;Pleno;2021-04-05;2022-07-15;5638,64;0,16;30;1;400,0;30;8;4,5;True;Ativo;Corporativo;300;Salvador;BA;501
+30;Elena Rodrigues ;Feminino;Pleno;2023-09-05;;8177,98;0,12;40;4;100,0;26;3;4,2;False;Ativo;Tributário;400;Belo Horizonte;MG;504
+31;Renata Pinto ;Masculino;Sênior;2020-02-19;2025-02-17;12256,94;0,33;40;2;200,0;17;17;4,0;True;Ativo;Tributário;400;São Paulo;SP;502
+32;Hugo Ribeiro ;Não-binário;Júnior;2024-10-08;;4159,81;0,02;30;4;502,0;19;14;4,4;False;Ativo;Corporativo;300;Belo Horizonte;MG;504
+33;Natan Alves ;Masculino;Pleno;2021-11-08;2023-08-12;5686,8;0,19;20;1;300,0;60;35;2,3;True;Ativo;Trabalhista;200;Salvador;BA;501
+34;Samuel Teixeira ;Não-binário;Júnior;2025-09-09;;4846,72;0,1;40;4;200,0;24;7;4,7;True;Ativo;Tributário;400;Belo Horizonte;MG;504
+35;Tatiana Mendes ;Não-binário;Pleno;2023-09-19;;7428,25;0,16;10;4;400,0;18;16;3,8;False;Ativo;Civil;100;Belo Horizonte;MG;504
+36;Carla Oliveira ;Masculino;Pleno;2022-08-21;2023-08-30;5656,26;0,1;30;4;200,0;18;2;4,3;False;Ativo;Corporativo;300;Belo Horizonte;MG;504
+37;Diego Santos ;Não-binário;Pleno;2023-03-01;;6895,1;0,12;20;4;300,0;48;53;1,0;False;Desligado;Trabalhista;200;Belo Horizonte;MG;504
+38;Gabriela Almeida ;Não-binário;Júnior;2024-03-18;;4388,15;0,0;40;4;300,0;23;19;4,0;False;Ativo;Tributário;400;Belo Horizonte;MG;504
+39;Natan Alves ;Feminino;Júnior;2025-05-16;;3658,31;0,08;10;3;501,0;32;10;;True;Ativo;Civil;100;Rio de Janeiro;RJ;503
+40;Tatiana Mendes ;Masculino;Júnior;2024-10-01;;3983,46;0,09;40;4;400,0;31;14;3,8;True;Ativo;Tributário;400;Belo Horizonte;MG;504
+41;Gabriela Almeida ;Masculino;Sênior;2018-12-28;2023-12-27;12655,33;0,26;30;2;200,0;35;15;4,1;False;Ativo;Corporativo;300;São Paulo;SP;502
+42;Ana Silva ;Masculino;Sócio;2013-01-16;2019-01-30;22652,44;0,5;40;4;;22;13;4,5;True;Ativo;Tributário;400;Belo Horizonte;MG;504
+43;Hugo Ribeiro ;Masculino;Pleno;2025-05-10;2024-01-15;6446,64;0,13;30;3;501,0;20;20;5,0;True;Desligado;Corporativo;300;Rio de Janeiro;RJ;503
+44;João Lima ;Feminino;Júnior;2024-08-20;;4041,32;0,04;30;1;400,0;34;6;4,3;True;Ativo;Corporativo;300;Salvador;BA;501
+45;João Lima ;Não-binário;Júnior;2025-04-25;;4218,07;0,06;10;1;502,0;27;4;4,2;False;Ativo;Civil;100;Salvador;BA;501
+46;Tatiana Mendes ;Feminino;Pleno;2021-09-14;;6244,57;0,18;10;2;501,0;26;16;3,7;False;Desligado;Civil;100;São Paulo;SP;502
+47;Vitor Xavier ;Não-binário;Pleno;2020-05-03;2022-03-11;5797,7;0,12;40;3;100,0;17;19;3,3;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+48;Vitor Xavier ;Não-binário;Pleno;2022-08-20;;6194,43;0,2;40;4;200,0;20;22;4,3;False;Desligado;Tributário;400;Belo Horizonte;MG;504
+49;Hugo Ribeiro ;Não-binário;Júnior;2025-10-25;;3723,48;0,01;40;1;300,0;26;11;4,5;True;Ativo;Tributário;400;Salvador;BA;501
+50;Vitor Xavier ;Feminino;Júnior;2024-02-10;;4834,13;0,04;40;4;200,0;30;3;4,6;False;Ativo;Tributário;400;Belo Horizonte;MG;504
+51;Felipe Costa ;Masculino;Sênior;2020-04-13;2026-04-12;9910,59;0,3;40;4;400,0;17;12;3,9;True;Desligado;Tributário;400;Belo Horizonte;MG;504
+52;Bruno Souza ;Não-binário;Júnior;2025-04-10;;3632,09;0,08;30;4;501,0;26;15;3,3;False;Ativo;Corporativo;300;Belo Horizonte;MG;504
+53;Olivia Barbosa ;Não-binário;Júnior;2024-02-22;;3805,34;0,1;30;4;300,0;31;9;4,5;True;Ativo;Corporativo;300;Belo Horizonte;MG;504
+54;Hugo Ribeiro ;Feminino;Júnior;2024-04-26;;4192,17;0,07;10;4;200,0;27;9;4,0;False;Ativo;Civil;100;Belo Horizonte;MG;504
+55;Renata Pinto ;Não-binário;Júnior;2024-05-19;;4796,04;0,04;40;2;501,0;35;11;4,7;False;Ativo;Tributário;400;São Paulo;SP;502
+56;Samuel Teixeira ;Masculino;Sênior;2019-09-19;2024-09-17;11197,45;0,27;40;2;502,0;19;15;3,3;False;Ativo;Tributário;400;São Paulo;SP;502
+57;Elena Rodrigues ;Masculino;Sócio;2017-07-21;2020-05-23;18802,92;0,49;40;4;;12;6;3,9;True;Ativo;Tributário;400;Belo Horizonte;MG;504
+58;Isabela Carvalho ;Masculino;Pleno;2021-11-24;2023-10-09;7449,51;0,15;20;1;100,0;67;50;;True;Ativo;Trabalhista;200;Salvador;BA;501
+59;João Lima ;Não-binário;Júnior;2024-08-20;;4620,15;0,04;10;2;100,0;12;3;3,8;False;Ativo;Civil;100;São Paulo;SP;502
+60;Natan Alves ;Masculino;Pleno;2020-10-25;2022-02-27;7197,78;0,19;30;3;200,0;19;17;4,8;True;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+61;Isabela Carvalho ;Não-binário;Sênior;2019-07-31;2024-07-29;11593,64;0,25;20;4;400,0;56;53;1,4;True;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+62;Gabriela Almeida ;Masculino;Pleno;2022-02-26;;5819,96;0,1;30;4;502,0;24;10;3,2;True;Desligado;Corporativo;300;Belo Horizonte;MG;504
+63;Hugo Ribeiro ;Masculino;Sênior;2020-05-28;2025-05-27;10627,82;0,23;10;4;100,0;13;11;4,6;True;Ativo;Civil;100;Belo Horizonte;MG;504
+64;João Lima ;Feminino;Pleno;2021-10-31;2023-05-31;5896,48;0,12;30;2;300,0;27;11;4,5;False;Ativo;Corporativo;300;São Paulo;SP;502
+65;Elena Rodrigues ;Feminino;Pleno;2024-03-24;;8080,42;0,11;10;4;400,0;12;10;4,2;True;Ativo;Civil;100;Belo Horizonte;MG;504
+66;Mariana Rocha ;Não-binário;Pleno;2023-07-31;2025-02-05;6201,47;0,19;30;3;400,0;32;4;4,3;True;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+67;Elena Rodrigues ;Feminino;Júnior;2024-02-16;;4919,39;0,07;30;4;502,0;23;19;4,0;False;Ativo;Corporativo;300;Belo Horizonte;MG;504
+68;Diego Santos ;Não-binário;Pleno;2022-09-29;2024-08-09;8354,56;0,13;20;4;502,0;48;56;1,5;False;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+69;Isabela Carvalho ;Masculino;Júnior;2024-07-13;;4952,31;0,05;30;1;200,0;19;6;4,6;False;Ativo;Corporativo;300;Salvador;BA;501
+70;Gabriela Almeida ;Não-binário;Júnior;2024-08-26;;3992,84;0,04;10;2;100,0;17;5;4,4;False;Ativo;Civil;100;São Paulo;SP;502
+71;Hugo Ribeiro ;Masculino;Pleno;2023-04-20;;6022,74;0,11;20;1;100,0;59;46;1,7;True;Desligado;Trabalhista;200;Salvador;BA;501
+72;Bruno Souza ;Não-binário;Júnior;2025-11-05;;4282,18;0,1;40;2;400,0;15;17;4,5;True;Ativo;Tributário;400;São Paulo;SP;502
+73;Vitor Xavier ;Masculino;Sócio;2013-08-30;2016-10-07;23697,22;0,47;10;1;;31;15;3,4;False;Ativo;Civil;100;Salvador;BA;501
+74;Olivia Barbosa ;Masculino;Júnior;2024-08-21;;4120,72;0,1;10;2;502,0;20;13;4,9;False;Ativo;Civil;100;São Paulo;SP;502
+75;Carla Oliveira ;Feminino;Pleno;2020-07-09;;7733,77;0,2;40;1;400,0;25;13;4,8;False;Desligado;Tributário;400;Salvador;BA;501
+76;João Lima ;Não-binário;Júnior;2024-12-26;;3655,4;0,05;10;3;400,0;15;10;4,2;True;Ativo;Civil;100;Rio de Janeiro;RJ;503
+77;Felipe Costa ;Feminino;Sênior;2018-07-14;2023-07-13;10316,33;0,22;10;3;200,0;12;4;;False;Desligado;Civil;100;Rio de Janeiro;RJ;503
+78;Kamila Pereira ;Masculino;Pleno;2020-11-18;2022-05-26;6473,15;0,12;40;4;502,0;13;4;3,7;False;Ativo;Tributário;400;Belo Horizonte;MG;504
+79;Olivia Barbosa ;Não-binário;Sênior;2019-04-29;2024-04-27;11053,28;0,35;40;4;501,0;21;3;3,6;False;Desligado;Tributário;400;Belo Horizonte;MG;504
+80;João Lima ;Feminino;Pleno;2021-03-08;2022-05-17;6368,34;0,12;10;1;502,0;29;9;4,1;True;Ativo;Civil;100;Salvador;BA;501
+81;Bruno Souza ;Masculino;Sócio;2016-11-21;2019-09-06;21434,27;0,47;30;1;;24;2;4,9;False;Ativo;Corporativo;300;Salvador;BA;501
+82;Lucas Martins ;Não-binário;Júnior;2024-03-31;;4155,07;0,05;20;4;100,0;52;45;2,1;False;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+83;Lucas Martins ;Masculino;Júnior;2025-10-22;;4722,56;0,01;10;2;501,0;17;22;4,1;True;Ativo;Civil;100;São Paulo;SP;502
+84;Kamila Pereira ;Não-binário;Pleno;2020-11-05;;6906,76;0,15;40;3;100,0;14;11;4,0;False;Desligado;Tributário;400;Rio de Janeiro;RJ;503
+85;Carla Oliveira ;Masculino;Júnior;2025-10-22;;4796,38;0,09;10;3;400,0;32;8;3,8;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+86;Diego Santos ;Masculino;Júnior;2024-12-17;;4973,58;0,08;20;1;300,0;64;40;1,5;False;Ativo;Trabalhista;200;Salvador;BA;501
+87;Vitor Xavier ;Masculino;Sênior;2017-04-18;2022-04-17;12552,71;0,24;40;4;300,0;30;6;4,9;False;Ativo;Tributário;400;Belo Horizonte;MG;504
+88;Carla Oliveira ;Não-binário;Pleno;2021-09-26;2023-07-09;7874,99;0,2;40;2;300,0;25;18;3,9;True;Ativo;Tributário;400;São Paulo;SP;502
+89;Kamila Pereira ;Feminino;Júnior;2025-05-12;;3788,01;0,05;30;2;200,0;31;6;4,3;True;Ativo;Corporativo;300;São Paulo;SP;502
+90;Vitor Xavier ;Não-binário;Sênior;2021-07-15;2025-07-14;11139,35;0,29;20;2;400,0;62;42;1,4;False;Ativo;Trabalhista;200;São Paulo;SP;502
+91;Tatiana Mendes ;Não-binário;Pleno;2022-06-21;;6345,32;0,19;20;3;300,0;53;36;1,9;False;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+92;Carla Oliveira ;Masculino;Pleno;2024-04-11;;6847,96;0,17;10;1;501,0;12;15;3,3;True;Ativo;Civil;100;Salvador;BA;501
+93;Carla Oliveira ;Masculino;Sênior;2019-02-07;2023-02-06;13276,29;0,24;30;2;400,0;27;6;4,6;True;Ativo;Corporativo;300;São Paulo;SP;502
+94;Ana Silva ;Feminino;Pleno;2021-06-08;2022-09-26;7146,41;0,13;40;1;502,0;15;3;3,6;False;Ativo;Tributário;400;Salvador;BA;501
+95;Pedro Gomes ;Feminino;Sênior;2020-05-07;2023-05-07;12733,45;0,31;40;1;100,0;25;7;4,4;True;Desligado;Tributário;400;Salvador;BA;501
+96;Samuel Teixeira ;Não-binário;Júnior;2025-06-03;;4679,62;0,04;30;1;100,0;35;2;;False;Ativo;Corporativo;300;Salvador;BA;501
+97;Diego Santos ;Não-binário;Júnior;2025-08-18;;4602,78;0,07;30;2;200,0;34;17;4,3;False;Ativo;Corporativo;300;São Paulo;SP;502
+98;João Lima ;Feminino;Sênior;2018-02-17;2021-02-16;10920,18;0,35;10;4;100,0;32;8;3,7;True;Desligado;Civil;100;Belo Horizonte;MG;504
+99;Lucas Martins ;Feminino;Júnior;2025-03-23;;4834,23;0,05;30;3;502,0;28;10;4,6;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+100;Vitor Xavier ;Masculino;Pleno;2021-01-04;2022-10-10;5807,79;0,12;40;1;300,0;23;16;3,3;False;Ativo;Tributário;400;Salvador;BA;501
+101;Bruno Souza ;Não-binário;Sênior;2017-06-03;2023-06-02;12557,35;0,34;40;3;300,0;14;9;4,6;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+102;Bruno Souza ;Não-binário;Júnior;2025-09-11;;3730,16;0,05;30;4;200,0;24;12;4,4;False;Ativo;Corporativo;300;Belo Horizonte;MG;504
+103;Felipe Costa ;Não-binário;Sócio;2017-08-06;2021-10-14;20082,32;0,49;10;1;;34;17;3,6;True;Ativo;Civil;100;Salvador;BA;501
+104;Felipe Costa ;Masculino;Pleno;2023-12-31;;5763,37;0,11;20;1;200,0;62;44;2,2;False;Ativo;Trabalhista;200;Salvador;BA;501
+105;Hugo Ribeiro ;Não-binário;Pleno;2020-09-05;;7876,2;0,17;20;3;100,0;49;54;2,2;True;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+106;Pedro Gomes ;Não-binário;Júnior;2025-06-22;;4116,19;0,07;30;4;501,0;33;18;3,8;False;Ativo;Corporativo;300;Belo Horizonte;MG;504
+107;Renata Pinto ;Masculino;Sênior;2021-11-14;2024-11-13;10868,56;0,31;20;2;501,0;47;43;1,3;False;Desligado;Trabalhista;200;São Paulo;SP;502
+108;João Lima ;Não-binário;Júnior;2025-09-21;;4300,22;0,09;30;2;501,0;35;21;3,8;False;Ativo;Corporativo;300;São Paulo;SP;502
+109;Bruno Souza ;Feminino;Pleno;2023-08-06;;6293,97;0,17;10;1;300,0;29;11;4,4;False;Ativo;Civil;100;Salvador;BA;501
+110;Mariana Rocha ;Não-binário;Pleno;2021-09-01;;7565,84;0,15;40;2;300,0;16;12;4,8;True;Desligado;Tributário;400;São Paulo;SP;502
+111;Lucas Martins ;Feminino;Júnior;2025-06-11;;4342,48;0,0;30;4;400,0;21;14;4,8;True;Ativo;Corporativo;300;Belo Horizonte;MG;504
+112;Tatiana Mendes ;Masculino;Pleno;2024-01-16;2025-06-24;5978,03;0,1;20;2;200,0;57;51;1,6;False;Ativo;Trabalhista;200;São Paulo;SP;502
+113;Bruno Souza ;Feminino;Pleno;2021-07-30;2023-04-09;8028,55;0,16;20;3;400,0;53;58;1,5;False;Ativo;Trabalhista;200;Rio de Janeiro;RJ;503
+114;Bruno Souza ;Masculino;Júnior;2025-08-06;;4342,73;0,1;30;1;100,0;31;5;3,4;True;Ativo;Corporativo;300;Salvador;BA;501
+115;Samuel Teixeira ;Masculino;Sênior;2019-01-19;2023-01-18;11750,35;0,3;40;3;501,0;26;6;;True;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+116;Kamila Pereira ;Não-binário;Pleno;2020-11-28;;7349,5;0,19;20;3;502,0;60;35;1,5;True;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+117;João Lima ;Não-binário;Pleno;2024-01-25;2026-01-11;7290,73;0,1;10;4;502,0;27;7;4,1;True;Ativo;Civil;100;Belo Horizonte;MG;504
+118;Hugo Ribeiro ;Não-binário;Pleno;2020-03-05;;7601,56;0,16;40;2;400,0;25;18;4,6;False;Desligado;Tributário;400;São Paulo;SP;502
+119;Gabriela Almeida ;Não-binário;Pleno;2023-02-22;;7486,68;0,18;10;2;502,0;29;13;4,4;False;Desligado;Civil;100;São Paulo;SP;502
+120;Hugo Ribeiro ;Feminino;Júnior;2024-10-12;;4337,13;0,05;30;4;502,0;27;13;4,2;False;Ativo;Corporativo;300;Belo Horizonte;MG;504
+121;Tatiana Mendes ;Feminino;Júnior;2025-11-23;;4314,79;0,04;30;3;400,0;34;4;3,8;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+122;Gabriela Almeida ;Feminino;Júnior;2025-07-05;;3906,7;0,0;30;4;200,0;33;18;3,6;True;Ativo;Corporativo;300;Belo Horizonte;MG;504
+123;Kamila Pereira ;Masculino;Sócio;2017-04-18;2020-04-24;25823,29;0,4;10;1;;27;22;3,6;False;Ativo;Civil;100;Salvador;BA;501
+124;Bruno Souza ;Masculino;Sênior;2021-04-24;2024-04-23;12824,09;0,25;30;3;200,0;13;14;4,6;True;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+125;João Lima ;Feminino;Júnior;2025-08-04;;4404,17;0,08;30;1;100,0;26;10;3,5;True;Ativo;Corporativo;300;Salvador;BA;501
+126;Olivia Barbosa ;Não-binário;Pleno;2023-08-20;;6058,6;0,12;30;2;501,0;32;14;4,7;False;Ativo;Corporativo;300;São Paulo;SP;502
+127;Diego Santos ;Masculino;Júnior;2024-07-08;;4972,53;0,04;30;1;501,0;22;11;4,2;False;Ativo;Corporativo;300;Salvador;BA;501
+128;Lucas Martins ;Não-binário;Pleno;2023-11-19;;7503,36;0,11;10;3;200,0;21;13;4,3;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+129;Olivia Barbosa ;Feminino;Júnior;2025-09-12;;4060,44;0,09;20;4;502,0;47;51;1,6;True;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+130;Diego Santos ;Não-binário;Pleno;2020-05-06;2022-02-10;6106,47;0,11;30;1;501,0;18;20;4,1;True;Ativo;Corporativo;300;Salvador;BA;501
+131;Elena Rodrigues ;Masculino;Júnior;2025-06-09;;4123,14;0,04;40;1;100,0;12;8;4,2;True;Ativo;Tributário;400;Salvador;BA;501
+132;Carla Oliveira ;Não-binário;Pleno;2023-01-13;;8303,75;0,16;40;3;502,0;16;22;5,0;False;Desligado;Tributário;400;Rio de Janeiro;RJ;503
+133;Olivia Barbosa ;Masculino;Júnior;2025-01-21;;4063,47;0,02;40;3;502,0;29;14;4,2;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+134;João Lima ;Feminino;Júnior;2025-04-19;;4510,25;0,02;20;1;502,0;53;41;;False;Ativo;Trabalhista;200;Salvador;BA;501
+135;Natan Alves ;Não-binário;Júnior;2025-09-21;;4649,08;0,09;10;1;100,0;33;3;3,6;False;Ativo;Civil;100;Salvador;BA;501
+136;Samuel Teixeira ;Feminino;Pleno;2021-03-20;2022-04-17;8480,45;0,19;40;4;200,0;33;12;3,6;True;Ativo;Tributário;400;Belo Horizonte;MG;504
+137;Isabela Carvalho ;Masculino;Pleno;2020-05-04;;7275,0;0,1;20;4;501,0;65;56;1,5;False;Desligado;Trabalhista;200;Belo Horizonte;MG;504
+138;Elena Rodrigues ;Masculino;Sênior;2018-09-07;2024-09-05;10584,36;0,34;30;4;200,0;25;15;4,2;True;Ativo;Corporativo;300;Belo Horizonte;MG;504
+139;Gabriela Almeida ;Masculino;Sênior;2018-11-08;2021-11-07;9916,09;0,21;40;2;100,0;33;21;4,3;False;Ativo;Tributário;400;São Paulo;SP;502
+140;Gabriela Almeida ;Masculino;Sócio;2015-09-25;2020-03-02;25696,62;0,38;20;2;;67;41;1,6;False;Ativo;Trabalhista;200;São Paulo;SP;502
+141;Mariana Rocha ;Masculino;Pleno;2022-08-12;;6577,78;0,11;20;3;400,0;55;41;1,5;False;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+142;Elena Rodrigues ;Não-binário;Pleno;2020-02-03;;8304,27;0,15;10;2;400,0;24;20;4,7;True;Desligado;Civil;100;São Paulo;SP;502
+143;Pedro Gomes ;Masculino;Sócio;2017-03-02;2020-05-17;22372,37;0,4;30;3;;14;3;4,6;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+144;Hugo Ribeiro ;Não-binário;Júnior;2024-03-10;;4560,75;0,07;40;2;400,0;12;2;4,2;True;Ativo;Tributário;400;São Paulo;SP;502
+145;Isabela Carvalho ;Não-binário;Júnior;2025-07-02;;4966,22;0,08;10;1;501,0;16;9;3,5;True;Ativo;Civil;100;Salvador;BA;501
+146;Mariana Rocha ;Masculino;Júnior;2024-03-21;;4059,58;0,01;30;3;100,0;32;22;4,6;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+147;Samuel Teixeira ;Masculino;Júnior;2025-05-02;;3584,17;0,01;40;4;502,0;28;3;3,6;True;Ativo;Tributário;400;Belo Horizonte;MG;504
+148;Carla Oliveira ;Feminino;Pleno;2023-11-02;2025-03-24;7190,53;0,13;40;3;300,0;16;14;4,9;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+149;Mariana Rocha ;Não-binário;Júnior;2025-11-24;;4844,79;0,01;20;2;300,0;58;42;2,2;False;Ativo;Trabalhista;200;São Paulo;SP;502
+150;Isabela Carvalho ;Feminino;Pleno;2024-05-23;;6971,81;0,2;40;3;501,0;33;14;3,4;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+151;Carla Oliveira ;Não-binário;Pleno;2020-06-17;2021-11-01;7635,03;0,11;30;2;300,0;12;11;4,0;True;Ativo;Corporativo;300;São Paulo;SP;502
+152;Felipe Costa ;Feminino;Pleno;2022-06-01;;7164,22;0,19;10;2;400,0;22;14;3,2;False;Desligado;Civil;100;São Paulo;SP;502
+153;Samuel Teixeira ;Não-binário;Júnior;2024-09-05;;4357,94;0,02;40;1;400,0;14;7;;True;Ativo;Tributário;400;Salvador;BA;501
+154;Lucas Martins ;Feminino;Pleno;2021-05-30;2022-10-03;6987,41;0,1;30;4;300,0;22;21;3,9;False;Ativo;Corporativo;300;Belo Horizonte;MG;504
+155;Vitor Xavier ;Masculino;Sócio;2013-07-11;2019-08-19;20513,47;0,47;40;3;;27;20;4,6;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+156;Mariana Rocha ;Masculino;Sênior;2019-01-18;2022-01-17;13987,69;0,2;30;4;100,0;26;11;4,7;True;Ativo;Corporativo;300;Belo Horizonte;MG;504
+157;João Lima ;Feminino;Sênior;2018-05-11;2023-05-10;13050,85;0,35;40;4;502,0;29;18;4,9;False;Ativo;Tributário;400;Belo Horizonte;MG;504
+158;Samuel Teixeira ;Masculino;Pleno;2023-05-01;;5754,95;0,2;40;1;502,0;13;20;5,0;True;Desligado;Tributário;400;Salvador;BA;501
+159;Diego Santos ;Masculino;Júnior;2024-01-11;;3647,91;0,05;40;3;501,0;24;16;4,6;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+160;Pedro Gomes ;Feminino;Júnior;2024-04-17;;3943,15;0,05;20;3;300,0;59;41;1,7;False;Ativo;Trabalhista;200;Rio de Janeiro;RJ;503
+161;Olivia Barbosa ;Masculino;Sócio;2015-07-30;2018-09-09;24793,44;0,55;40;1;;35;9;4,1;False;Ativo;Tributário;400;Salvador;BA;501
+162;Natan Alves ;Não-binário;Pleno;2022-08-04;;6715,14;0,1;20;3;400,0;51;49;1,8;True;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+163;Isabela Carvalho ;Feminino;Júnior;2025-12-21;;4713,09;0,03;10;2;400,0;26;5;3,7;False;Ativo;Civil;100;São Paulo;SP;502
+164;Mariana Rocha ;Não-binário;Pleno;2023-04-17;;6555,95;0,2;30;4;100,0;22;5;3,6;False;Desligado;Corporativo;300;Belo Horizonte;MG;504
+165;Elena Rodrigues ;Não-binário;Júnior;2025-06-07;;4082,69;0,02;20;3;300,0;60;44;1,2;True;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+166;Ana Silva ;Masculino;Pleno;2022-09-19;;7945,65;0,2;40;1;100,0;25;16;4,1;False;Desligado;Tributário;400;Salvador;BA;501
+167;Bruno Souza ;Masculino;Pleno;2021-07-16;2022-11-08;6004,63;0,19;10;2;300,0;20;19;4,7;True;Ativo;Civil;100;São Paulo;SP;502
+168;Gabriela Almeida ;Não-binário;Pleno;2022-05-20;;7990,21;0,14;10;4;100,0;14;16;4,8;True;Desligado;Civil;100;Belo Horizonte;MG;504
+169;Tatiana Mendes ;Não-binário;Júnior;2025-12-06;;4025,95;0,0;20;2;501,0;63;46;1,7;True;Desligado;Trabalhista;200;São Paulo;SP;502
+170;João Lima ;Não-binário;Pleno;2021-08-15;;8357,19;0,16;20;3;200,0;53;55;1,2;True;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+171;Kamila Pereira ;Não-binário;Júnior;2024-09-10;;4642,21;0,07;20;2;100,0;47;55;2,1;True;Desligado;Trabalhista;200;São Paulo;SP;502
+172;Lucas Martins ;Não-binário;Júnior;2025-04-10;;4925,38;0,1;40;3;501,0;34;13;;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+173;Gabriela Almeida ;Masculino;Sócio;2017-07-19;2021-01-13;19044,75;0,5;40;2;;13;5;4,3;False;Ativo;Tributário;400;São Paulo;SP;502
+174;Felipe Costa ;Feminino;Pleno;2022-06-22;2024-02-10;8374,1;0,12;40;1;100,0;14;22;3,8;True;Ativo;Tributário;400;Salvador;BA;501
+175;Mariana Rocha ;Feminino;Pleno;2023-07-05;;7598,32;0,13;30;2;501,0;14;6;4,3;False;Ativo;Corporativo;300;São Paulo;SP;502
+176;Kamila Pereira ;Feminino;Sênior;2021-08-01;2024-07-31;10094,79;0,22;40;1;200,0;22;13;4,8;False;Ativo;Tributário;400;Salvador;BA;501
+177;Elena Rodrigues ;Não-binário;Júnior;2024-03-11;;4295,76;0,09;40;2;100,0;33;16;4,7;False;Ativo;Tributário;400;São Paulo;SP;502
+178;Tatiana Mendes ;Feminino;Júnior;2025-01-28;;4027,3;0,08;10;2;300,0;31;21;4,5;True;Ativo;Civil;100;São Paulo;SP;502
+179;Renata Pinto ;Feminino;Júnior;2025-09-13;;4264,28;0,01;10;3;100,0;19;17;4,3;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+180;Elena Rodrigues ;Masculino;Sênior;2019-03-04;2025-03-02;12932,27;0,2;10;3;100,0;12;10;3,6;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+181;Renata Pinto ;Não-binário;Júnior;2025-03-01;;4135,36;0,04;40;3;200,0;14;18;4,9;True;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+182;Carla Oliveira ;Não-binário;Pleno;2021-09-27;2023-09-19;8360,28;0,17;30;4;502,0;31;3;3,8;False;Ativo;Corporativo;300;Belo Horizonte;MG;504
+183;Elena Rodrigues ;Feminino;Júnior;2025-12-19;;3517,03;0,02;20;1;100,0;68;43;2,0;True;Desligado;Trabalhista;200;Salvador;BA;501
+184;Isabela Carvalho ;Masculino;Sócio;2017-11-15;2020-09-12;21969,18;0,51;10;3;;30;7;3,9;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+185;Diego Santos ;Não-binário;Sócio;2014-07-24;2021-06-14;19956,41;0,5;30;1;;17;3;4,2;True;Ativo;Corporativo;300;Salvador;BA;501
+186;Hugo Ribeiro ;Masculino;Pleno;2022-05-02;;6459,81;0,12;40;2;100,0;28;3;4,9;False;Desligado;Tributário;400;São Paulo;SP;502
+187;Kamila Pereira ;Masculino;Pleno;2020-06-25;;5523,91;0,17;40;3;200,0;30;17;5,0;False;Desligado;Tributário;400;Rio de Janeiro;RJ;503
+188;Natan Alves ;Feminino;Pleno;2020-02-18;;6539,27;0,2;20;2;200,0;68;58;1,4;False;Desligado;Trabalhista;200;São Paulo;SP;502
+189;Bruno Souza ;Masculino;Júnior;2024-05-25;;4567,48;0,07;20;4;501,0;68;37;1,8;False;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+190;Tatiana Mendes ;Feminino;Sênior;2020-03-08;2023-03-08;10565,47;0,32;20;4;200,0;59;43;1,3;False;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+191;Diego Santos ;Feminino;Júnior;2024-06-17;;4174,35;0,07;20;1;502,0;53;38;;False;Ativo;Trabalhista;200;Salvador;BA;501
+192;Kamila Pereira ;Feminino;Júnior;2024-05-31;;3636,82;0,0;30;1;501,0;24;16;4,2;False;Ativo;Corporativo;300;Salvador;BA;501
+193;Diego Santos ;Masculino;Júnior;2024-05-23;;3682,18;0,1;20;1;501,0;65;55;1,1;False;Desligado;Trabalhista;200;Salvador;BA;501
+194;Carla Oliveira ;Feminino;Pleno;2021-02-08;;6830,29;0,1;30;1;400,0;13;7;4,9;True;Desligado;Corporativo;300;Salvador;BA;501
+195;Mariana Rocha ;Feminino;Pleno;2023-10-31;;6561,83;0,1;40;4;300,0;31;21;3,6;True;Ativo;Tributário;400;Belo Horizonte;MG;504
+196;Pedro Gomes ;Não-binário;Sênior;2017-05-05;2020-05-04;10397,56;0,27;40;4;300,0;12;14;4,6;False;Ativo;Tributário;400;Belo Horizonte;MG;504
+197;Tatiana Mendes ;Masculino;Sênior;2019-10-26;2024-10-24;10934,95;0,21;40;4;200,0;23;20;5,0;False;Ativo;Tributário;400;Belo Horizonte;MG;504
+198;Hugo Ribeiro ;Não-binário;Sênior;2018-06-30;2021-06-29;12090,61;0,31;10;2;502,0;19;20;3,8;True;Desligado;Civil;100;São Paulo;SP;502
+199;Lucas Martins ;Não-binário;Júnior;2025-08-04;;4345,41;0,07;30;1;501,0;13;4;3,3;True;Ativo;Corporativo;300;Salvador;BA;501
+200;Pedro Gomes ;Não-binário;Pleno;2020-01-02;;7342,4;0,1;20;1;200,0;49;53;2,0;True;Desligado;Trabalhista;200;Salvador;BA;501
+201;Lucas Martins ;Feminino;Pleno;2023-12-13;2025-11-16;5803,1;0,2;10;3;501,0;32;12;3,5;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+202;Tatiana Mendes ;Não-binário;Pleno;2020-12-25;;7701,98;0,19;30;2;501,0;17;21;3,8;False;Desligado;Corporativo;300;São Paulo;SP;502
+203;Elena Rodrigues ;Masculino;Pleno;2021-11-09;2022-12-18;8447,14;0,17;20;1;100,0;53;41;1,3;True;Ativo;Trabalhista;200;Salvador;BA;501
+204;Ana Silva ;Feminino;Pleno;2020-04-08;;7697,75;0,15;30;3;501,0;24;5;4,7;False;Desligado;Corporativo;300;Rio de Janeiro;RJ;503
+205;Carla Oliveira ;Masculino;Sócio;2012-05-16;2018-06-01;20734,47;0,47;20;2;;47;45;1,8;False;Ativo;Trabalhista;200;São Paulo;SP;502
+206;Felipe Costa ;Masculino;Sênior;2020-05-28;2026-05-27;10424,98;0,28;40;1;400,0;21;9;3,4;False;Desligado;Tributário;400;Salvador;BA;501
+207;Lucas Martins ;Feminino;Júnior;2024-01-04;;4141,41;0,03;40;2;100,0;17;22;3,7;False;Ativo;Tributário;400;São Paulo;SP;502
+208;Mariana Rocha ;Masculino;Júnior;2025-04-27;;4233,65;0,05;40;1;400,0;17;16;3,3;False;Ativo;Tributário;400;Salvador;BA;501
+209;Isabela Carvalho ;Feminino;Pleno;2023-03-01;2024-03-31;7589,41;0,19;40;3;501,0;29;3;4,7;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+210;Hugo Ribeiro ;Não-binário;Pleno;2022-09-02;2024-02-02;8208,33;0,11;40;4;200,0;17;7;;True;Ativo;Tributário;400;Belo Horizonte;MG;504
+211;Carla Oliveira ;Masculino;Sênior;2020-10-31;;10165,45;0,22;20;1;300,0;62;47;1,8;False;Ativo;Trabalhista;200;Salvador;BA;501
+212;Vitor Xavier ;Não-binário;Pleno;2023-04-18;;6758,78;0,11;40;1;300,0;15;11;4,8;False;Desligado;Tributário;400;Salvador;BA;501
+213;Pedro Gomes ;Masculino;Pleno;2023-03-17;;5612,4;0,1;40;3;400,0;22;9;3,3;False;Desligado;Tributário;400;Rio de Janeiro;RJ;503
+214;Kamila Pereira ;Feminino;Júnior;2024-11-06;;3966,42;0,07;30;3;501,0;22;10;4,5;True;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+215;Gabriela Almeida ;Masculino;Sênior;2021-08-15;;13402,35;0,25;10;2;501,0;34;18;3,9;False;Ativo;Civil;100;São Paulo;SP;502
+216;Gabriela Almeida ;Feminino;Júnior;2024-02-29;;3874,24;0,08;10;2;502,0;24;22;4,9;True;Ativo;Civil;100;São Paulo;SP;502
+217;Pedro Gomes ;Masculino;Júnior;2025-08-31;;4169,16;0,01;10;2;200,0;21;2;3,9;True;Ativo;Civil;100;São Paulo;SP;502
+218;Hugo Ribeiro ;Não-binário;Pleno;2023-10-19;2025-01-31;6728,52;0,12;20;2;200,0;50;54;2,1;False;Ativo;Trabalhista;200;São Paulo;SP;502
+219;Isabela Carvalho ;Não-binário;Sênior;2019-05-18;2025-05-16;10481,94;0,32;30;3;300,0;12;18;5,0;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+220;Diego Santos ;Não-binário;Pleno;2022-09-13;2023-10-15;6329,45;0,13;30;3;501,0;28;9;4,8;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+221;Elena Rodrigues ;Não-binário;Pleno;2024-01-17;;6992,12;0,1;40;3;300,0;34;20;4,7;True;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+222;Lucas Martins ;Não-binário;Sênior;2019-11-05;2024-11-03;13444,23;0,35;20;4;200,0;68;52;2,1;True;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+223;Lucas Martins ;Feminino;Júnior;2024-08-16;;4616,31;0,01;30;1;501,0;27;3;4,8;False;Ativo;Corporativo;300;Salvador;BA;501
+224;Renata Pinto ;Feminino;Júnior;2024-05-02;;4801,25;0,05;10;4;400,0;25;20;4,8;True;Ativo;Civil;100;Belo Horizonte;MG;504
+225;Felipe Costa ;Não-binário;Pleno;2024-05-14;2025-06-24;7393,1;0,14;20;3;400,0;50;53;2,1;True;Ativo;Trabalhista;200;Rio de Janeiro;RJ;503
+226;Natan Alves ;Não-binário;Júnior;2025-10-10;;4144,11;0,0;10;2;502,0;22;18;3,5;True;Ativo;Civil;100;São Paulo;SP;502
+227;Lucas Martins ;Feminino;Júnior;2024-11-15;;3693,4;0,07;10;2;300,0;35;18;4,3;True;Ativo;Civil;100;São Paulo;SP;502
+228;Pedro Gomes ;Masculino;Sênior;2019-01-06;2023-01-05;13154,04;0,24;40;2;300,0;30;18;3,5;True;Ativo;Tributário;400;São Paulo;SP;502
+229;Isabela Carvalho ;Não-binário;Sênior;2021-04-29;2024-04-28;9986,51;0,23;10;4;400,0;24;5;;False;Ativo;Civil;100;Belo Horizonte;MG;504
+230;Ana Silva ;Não-binário;Júnior;2024-11-04;;4131,31;0,08;20;2;100,0;68;54;1,2;True;Ativo;Trabalhista;200;São Paulo;SP;502
+231;Vitor Xavier ;Feminino;Júnior;2024-07-23;;4666,94;0,0;10;4;502,0;29;17;4,8;True;Ativo;Civil;100;Belo Horizonte;MG;504
+232;Ana Silva ;Feminino;Júnior;2024-01-14;;4507,45;0,01;40;3;502,0;35;5;4,8;True;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+233;Isabela Carvalho ;Masculino;Júnior;2025-04-20;;3575,12;0,01;20;4;200,0;48;36;1,0;True;Desligado;Trabalhista;200;Belo Horizonte;MG;504
+234;Olivia Barbosa ;Masculino;Pleno;2023-06-27;;7699,2;0,16;20;3;400,0;53;47;2,0;False;Ativo;Trabalhista;200;Rio de Janeiro;RJ;503
+235;Elena Rodrigues ;Feminino;Júnior;2025-12-13;;4589,62;0,1;40;2;300,0;26;7;4,3;False;Ativo;Tributário;400;São Paulo;SP;502
+236;Pedro Gomes ;Masculino;Pleno;2020-08-19;2022-03-17;5690,01;0,2;10;2;501,0;28;18;4,4;False;Ativo;Civil;100;São Paulo;SP;502
+237;Hugo Ribeiro ;Não-binário;Sênior;2019-09-14;2024-09-12;10168,95;0,21;10;4;400,0;17;18;4,7;True;Ativo;Civil;100;Belo Horizonte;MG;504
+238;Kamila Pereira ;Masculino;Sênior;2018-05-09;2023-05-08;10502,18;0,27;20;1;400,0;59;53;1,6;True;Ativo;Trabalhista;200;Salvador;BA;501
+239;Pedro Gomes ;Feminino;Júnior;2025-10-31;;3526,65;0,08;40;3;300,0;18;22;4,4;True;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+240;Olivia Barbosa ;Feminino;Júnior;2024-12-05;;4340,23;0,1;30;1;502,0;19;2;3,8;False;Ativo;Corporativo;300;Salvador;BA;501
+241;Diego Santos ;Não-binário;Júnior;2024-02-16;;4845,32;0,09;30;3;400,0;18;8;3,4;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+242;Kamila Pereira ;Feminino;Pleno;2020-08-08;2022-03-08;7399,72;0,2;20;4;100,0;61;39;2,3;True;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+243;Pedro Gomes ;Não-binário;Pleno;2022-11-07;;8230,54;0,16;10;4;501,0;31;21;4,8;False;Desligado;Civil;100;Belo Horizonte;MG;504
+244;Hugo Ribeiro ;Não-binário;Pleno;2021-07-14;2023-02-02;8411,47;0,18;40;4;200,0;34;19;4,3;False;Ativo;Tributário;400;Belo Horizonte;MG;504
+245;Lucas Martins ;Não-binário;Pleno;2023-10-09;2024-12-14;7450,26;0,11;20;3;502,0;62;50;1,8;True;Ativo;Trabalhista;200;Rio de Janeiro;RJ;503
+246;Ana Silva ;Masculino;Pleno;2022-12-06;2024-01-29;5935,98;0,2;40;3;300,0;16;3;4,4;True;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+247;Olivia Barbosa ;Masculino;Júnior;2024-04-14;;4424,16;0,08;20;1;100,0;67;44;2,0;True;Ativo;Trabalhista;200;Salvador;BA;501
+248;Kamila Pereira ;Masculino;Sócio;2012-08-08;2015-06-27;24883,56;0,49;40;4;;23;20;;False;Ativo;Tributário;400;Belo Horizonte;MG;504
+249;Olivia Barbosa ;Masculino;Sênior;2017-12-30;2020-12-29;11812,31;0,28;20;2;300,0;49;40;1,8;False;Ativo;Trabalhista;200;São Paulo;SP;502
+250;Elena Rodrigues ;Masculino;Júnior;2024-02-10;;3730,56;0,09;10;3;502,0;29;13;3,3;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+251;Renata Pinto ;Feminino;Pleno;2020-05-19;;5978,11;0,13;30;2;200,0;22;12;3,8;False;Desligado;Corporativo;300;São Paulo;SP;502
+252;Lucas Martins ;Feminino;Júnior;2025-04-01;;3860,52;0,01;40;1;300,0;24;10;4,2;True;Ativo;Tributário;400;Salvador;BA;501
+253;Renata Pinto ;Não-binário;Júnior;2025-04-01;;4230,21;0,08;10;3;200,0;29;2;4,3;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+254;Gabriela Almeida ;Feminino;Pleno;2023-01-06;2024-12-30;7724,13;0,1;20;4;100,0;67;45;1,1;False;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+255;Samuel Teixeira ;Masculino;Pleno;2020-05-24;2022-03-14;8232,96;0,15;10;2;502,0;24;5;4,2;True;Ativo;Civil;100;São Paulo;SP;502
+256;Carla Oliveira ;Não-binário;Júnior;2025-01-01;;4892,07;0,06;10;1;501,0;24;2;4,1;True;Ativo;Civil;100;Salvador;BA;501
+257;Mariana Rocha ;Não-binário;Júnior;2025-07-12;;3942,47;0,08;20;2;100,0;62;39;1,2;True;Ativo;Trabalhista;200;São Paulo;SP;502
+258;Gabriela Almeida ;Masculino;Júnior;2024-12-18;;3817,61;0,04;40;1;501,0;18;5;3,5;False;Ativo;Tributário;400;Salvador;BA;501
+259;Samuel Teixeira ;Não-binário;Júnior;2024-03-15;;3935,98;0,02;10;4;300,0;33;22;3,6;False;Ativo;Civil;100;Belo Horizonte;MG;504
+260;Pedro Gomes ;Masculino;Pleno;2022-07-11;;7478,27;0,15;10;2;200,0;17;2;3,8;True;Desligado;Civil;100;São Paulo;SP;502
+261;Elena Rodrigues ;Masculino;Pleno;2023-10-23;;8133,66;0,18;40;3;300,0;17;22;4,3;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+262;Carla Oliveira ;Masculino;Sênior;2021-01-29;2024-01-29;12342,32;0,32;20;2;501,0;46;52;1,4;True;Ativo;Trabalhista;200;São Paulo;SP;502
+263;Mariana Rocha ;Masculino;Sênior;2018-04-03;2023-04-02;9907,49;0,27;40;2;200,0;17;18;3,5;False;Desligado;Tributário;400;São Paulo;SP;502
+264;Pedro Gomes ;Não-binário;Pleno;2022-01-04;2023-01-24;6962,93;0,18;20;2;100,0;57;50;2,3;False;Ativo;Trabalhista;200;São Paulo;SP;502
+265;Renata Pinto ;Feminino;Júnior;2025-10-10;;4744,47;0,06;10;3;100,0;23;20;4,4;True;Ativo;Civil;100;Rio de Janeiro;RJ;503
+266;Renata Pinto ;Feminino;Júnior;2025-02-19;;4029,35;0,02;30;4;501,0;26;7;3,6;False;Ativo;Corporativo;300;Belo Horizonte;MG;504
+267;Felipe Costa ;Feminino;Júnior;2024-06-10;;4043,33;0,1;30;2;200,0;27;17;;True;Ativo;Corporativo;300;São Paulo;SP;502
+268;Bruno Souza ;Feminino;Pleno;2020-09-18;2022-07-08;5904,17;0,12;40;1;501,0;17;18;4,9;False;Ativo;Tributário;400;Salvador;BA;501
+269;Gabriela Almeida ;Feminino;Júnior;2025-04-04;;4409,79;0,02;10;3;502,0;31;18;3,7;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+270;Tatiana Mendes ;Não-binário;Pleno;2020-05-20;2021-09-14;5896,64;0,12;30;4;501,0;15;7;4,1;True;Ativo;Corporativo;300;Belo Horizonte;MG;504
+271;Pedro Gomes ;Feminino;Júnior;2025-11-06;;3695,49;0,06;10;1;400,0;23;3;4,5;True;Ativo;Civil;100;Salvador;BA;501
+272;Lucas Martins ;Masculino;Sócio;2013-02-04;2020-08-08;24872,43;0,44;20;4;;45;57;2,0;True;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+273;Ana Silva ;Não-binário;Pleno;2022-02-07;2024-01-08;7912,86;0,14;10;1;300,0;25;20;3,9;False;Ativo;Civil;100;Salvador;BA;501
+274;Samuel Teixeira ;Masculino;Sênior;2021-05-25;;11676,92;0,31;40;2;400,0;33;5;4,5;False;Ativo;Tributário;400;São Paulo;SP;502
+275;Renata Pinto ;Feminino;Júnior;2025-02-14;;4679,12;0,1;20;1;400,0;45;37;2,2;False;Ativo;Trabalhista;200;Salvador;BA;501
+276;Isabela Carvalho ;Feminino;Pleno;2021-03-30;;7327,09;0,19;40;1;100,0;17;22;4,1;True;Desligado;Tributário;400;Salvador;BA;501
+277;Bruno Souza ;Feminino;Pleno;2024-05-24;;7047,44;0,13;20;3;300,0;45;40;1,1;True;Ativo;Trabalhista;200;Rio de Janeiro;RJ;503
+278;Mariana Rocha ;Não-binário;Júnior;2025-02-19;;4379,12;0,09;40;3;300,0;23;13;4,9;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+279;Mariana Rocha ;Masculino;Pleno;2023-03-23;;6025,1;0,15;20;2;501,0;61;43;2,2;True;Desligado;Trabalhista;200;São Paulo;SP;502
+280;Tatiana Mendes ;Masculino;Sênior;2019-09-18;2023-09-17;11564,82;0,2;30;4;200,0;20;4;3,9;True;Ativo;Corporativo;300;Belo Horizonte;MG;504
+281;Lucas Martins ;Masculino;Júnior;2025-06-12;;4303,48;0,08;20;3;200,0;50;50;1,4;False;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+282;Gabriela Almeida ;Não-binário;Pleno;2022-10-18;2024-01-28;6226,17;0,12;30;2;502,0;15;4;4,4;False;Ativo;Corporativo;300;São Paulo;SP;502
+283;Bruno Souza ;Não-binário;Júnior;2025-05-08;;4056,79;0,02;40;1;501,0;28;10;3,9;False;Ativo;Tributário;400;Salvador;BA;501
+284;Natan Alves ;Não-binário;Júnior;2025-05-04;;4909,48;0,08;20;1;100,0;59;45;2,0;False;Ativo;Trabalhista;200;Salvador;BA;501
+285;Diego Santos ;Não-binário;Júnior;2024-11-29;;4042,4;0,05;20;4;200,0;56;40;1,7;False;Desligado;Trabalhista;200;Belo Horizonte;MG;504
+286;Mariana Rocha ;Masculino;Júnior;2024-10-13;;4176,09;0,08;40;3;502,0;25;14;;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+287;Felipe Costa ;Feminino;Júnior;2025-03-07;;4249,4;0,04;20;4;100,0;62;53;1,1;False;Desligado;Trabalhista;200;Belo Horizonte;MG;504
+288;Isabela Carvalho ;Feminino;Pleno;2022-09-02;2024-07-20;7733,78;0,15;20;1;502,0;58;38;1,5;False;Ativo;Trabalhista;200;Salvador;BA;501
+289;Lucas Martins ;Masculino;Pleno;2021-10-27;2023-10-06;7824,23;0,17;20;2;300,0;49;40;1,9;True;Ativo;Trabalhista;200;São Paulo;SP;502
+290;Carla Oliveira ;Feminino;Pleno;2020-11-27;;6440,45;0,14;40;4;400,0;23;20;4,1;False;Desligado;Tributário;400;Belo Horizonte;MG;504
+291;Ana Silva ;Feminino;Sênior;2017-09-14;2021-09-13;12653,14;0,32;40;2;100,0;14;17;4,2;True;Ativo;Tributário;400;São Paulo;SP;502
+292;Isabela Carvalho ;Feminino;Júnior;2025-09-24;;3732,91;0,1;40;1;200,0;16;6;4,1;True;Ativo;Tributário;400;Salvador;BA;501
+293;Lucas Martins ;Não-binário;Pleno;2021-10-28;2023-06-28;8112,69;0,19;10;1;501,0;26;22;4,5;False;Ativo;Civil;100;Salvador;BA;501
+294;Pedro Gomes ;Masculino;Sênior;2020-01-11;2024-01-10;11146,02;0,2;40;3;501,0;16;13;3,7;True;Desligado;Tributário;400;Rio de Janeiro;RJ;503
+295;João Lima ;Masculino;Sênior;2017-01-19;2023-01-18;13085,45;0,33;10;4;502,0;24;9;3,5;False;Ativo;Civil;100;Belo Horizonte;MG;504
+296;Isabela Carvalho ;Feminino;Júnior;2024-03-22;;4133,36;0,08;40;4;100,0;20;15;3,5;True;Ativo;Tributário;400;Belo Horizonte;MG;504
+297;Diego Santos ;Masculino;Sênior;2020-07-28;;12302,39;0,24;20;2;300,0;45;40;2,4;True;Ativo;Trabalhista;200;São Paulo;SP;502
+298;Olivia Barbosa ;Não-binário;Pleno;2024-01-29;;5770,59;0,17;30;2;200,0;26;3;3,8;False;Ativo;Corporativo;300;São Paulo;SP;502
+299;Carla Oliveira ;Masculino;Sênior;2020-01-18;2026-01-16;10625,36;0,23;10;3;100,0;26;9;4,5;True;Ativo;Civil;100;Rio de Janeiro;RJ;503
+300;Diego Santos ;Não-binário;Júnior;2025-06-17;;4499,01;0,0;20;4;300,0;68;52;1,7;False;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+301;Lucas Martins ;Feminino;Pleno;2020-04-16;;6153,36;0,12;40;3;200,0;30;5;3,9;False;Desligado;Tributário;400;Rio de Janeiro;RJ;503
+302;Pedro Gomes ;Não-binário;Sênior;2020-11-10;2024-11-09;10209,64;0,3;10;1;502,0;13;13;4,4;False;Ativo;Civil;100;Salvador;BA;501
+303;Hugo Ribeiro ;Masculino;Pleno;2021-10-10;;7865,69;0,1;10;2;100,0;23;6;3,7;True;Desligado;Civil;100;São Paulo;SP;502
+304;João Lima ;Não-binário;Sênior;2020-01-17;2026-01-15;11064,49;0,25;40;4;300,0;16;16;3,7;False;Desligado;Tributário;400;Belo Horizonte;MG;504
+305;Renata Pinto ;Feminino;Pleno;2022-02-15;;8148,8;0,15;30;4;200,0;33;19;;False;Desligado;Corporativo;300;Belo Horizonte;MG;504
+306;João Lima ;Não-binário;Júnior;2024-11-26;;4114,71;0,0;40;2;100,0;18;5;4,1;False;Ativo;Tributário;400;São Paulo;SP;502
+307;Pedro Gomes ;Não-binário;Pleno;2022-12-12;;7270,9;0,13;10;4;502,0;27;4;4,0;False;Desligado;Civil;100;Belo Horizonte;MG;504
+308;Natan Alves ;Não-binário;Sênior;2021-08-11;;12276,2;0,29;10;3;200,0;28;5;3,4;False;Desligado;Civil;100;Rio de Janeiro;RJ;503
+309;Renata Pinto ;Feminino;Júnior;2025-11-03;;3873,14;0,09;40;2;400,0;23;16;4,5;False;Ativo;Tributário;400;São Paulo;SP;502
+310;Samuel Teixeira ;Feminino;Pleno;2022-04-02;2023-12-16;5974,53;0,18;10;2;400,0;23;15;4,6;False;Ativo;Civil;100;São Paulo;SP;502
+311;Samuel Teixeira ;Não-binário;Pleno;2021-03-14;;7150,72;0,16;30;2;501,0;35;3;5,0;False;Desligado;Corporativo;300;São Paulo;SP;502
+312;Ana Silva ;Masculino;Pleno;2021-09-07;2022-12-29;6444,71;0,11;10;2;300,0;26;13;3,5;True;Ativo;Civil;100;São Paulo;SP;502
+313;Isabela Carvalho ;Feminino;Pleno;2021-09-07;2022-10-24;7207,19;0,12;30;2;100,0;34;20;4,7;True;Ativo;Corporativo;300;São Paulo;SP;502
+314;Tatiana Mendes ;Não-binário;Júnior;2025-01-25;;3617,72;0,03;30;1;100,0;35;22;4,7;False;Ativo;Corporativo;300;Salvador;BA;501
+315;Renata Pinto ;Masculino;Sócio;2012-06-17;2018-10-11;19766,38;0,36;40;1;;30;18;3,4;True;Ativo;Tributário;400;Salvador;BA;501
+316;Elena Rodrigues ;Masculino;Pleno;2020-09-27;;6927,56;0,16;40;3;400,0;25;6;4,6;False;Desligado;Tributário;400;Rio de Janeiro;RJ;503
+317;Tatiana Mendes ;Masculino;Júnior;2024-07-19;;4341,75;0,1;20;4;400,0;63;37;1,2;True;Desligado;Trabalhista;200;Belo Horizonte;MG;504
+318;Gabriela Almeida ;Masculino;Júnior;2024-11-24;;4016,79;0,02;40;3;200,0;26;3;4,9;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+319;Carla Oliveira ;Feminino;Júnior;2024-04-25;;4609,37;0,01;20;3;300,0;54;49;1,7;True;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+320;Samuel Teixeira ;Feminino;Pleno;2022-12-07;;7146,4;0,19;20;2;100,0;61;36;1,4;True;Desligado;Trabalhista;200;São Paulo;SP;502
+321;Vitor Xavier ;Não-binário;Pleno;2021-07-09;2022-08-05;8335,53;0,1;30;2;400,0;32;14;3,6;False;Ativo;Corporativo;300;São Paulo;SP;502
+322;Vitor Xavier ;Masculino;Júnior;2025-06-28;;3632,03;0,08;10;3;502,0;21;12;4,1;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+323;Lucas Martins ;Masculino;Júnior;2024-12-29;;4437,85;0,0;20;1;300,0;62;43;1,3;False;Desligado;Trabalhista;200;Salvador;BA;501
+324;Mariana Rocha ;Feminino;Pleno;2022-12-02;2024-11-13;7376,57;0,14;40;2;200,0;22;16;;False;Ativo;Tributário;400;São Paulo;SP;502
+325;João Lima ;Feminino;Júnior;2025-12-06;;4557,7;0,01;20;2;100,0;62;52;2,3;True;Desligado;Trabalhista;200;São Paulo;SP;502
+326;Ana Silva ;Feminino;Júnior;2024-11-22;;4820,2;0,03;20;3;501,0;48;39;1,3;False;Ativo;Trabalhista;200;Rio de Janeiro;RJ;503
+327;Hugo Ribeiro ;Não-binário;Pleno;2021-04-17;2023-04-03;5738,43;0,2;30;2;200,0;17;14;4,1;False;Ativo;Corporativo;300;São Paulo;SP;502
+328;Bruno Souza ;Feminino;Júnior;2025-02-22;;4646,81;0,02;20;2;300,0;59;54;1,7;False;Desligado;Trabalhista;200;São Paulo;SP;502
+329;Mariana Rocha ;Masculino;Pleno;2024-05-08;;7706,0;0,18;40;2;100,0;26;16;4,7;True;Ativo;Tributário;400;São Paulo;SP;502
+330;Bruno Souza ;Não-binário;Júnior;2025-07-25;;4081,1;0,04;20;4;501,0;59;40;1,6;False;Desligado;Trabalhista;200;Belo Horizonte;MG;504
+331;Olivia Barbosa ;Masculino;Pleno;2020-07-04;2022-03-17;7836,19;0,16;10;2;501,0;26;2;3,5;False;Ativo;Civil;100;São Paulo;SP;502
+332;Isabela Carvalho ;Feminino;Júnior;2024-11-27;;4537,58;0,07;20;4;502,0;65;46;1,1;True;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+333;Samuel Teixeira ;Masculino;Sênior;2019-02-19;2022-02-18;12044,71;0,25;40;2;300,0;34;3;4,0;True;Ativo;Tributário;400;São Paulo;SP;502
+334;Felipe Costa ;Não-binário;Júnior;2024-04-30;;4847,81;0,07;40;3;400,0;29;2;4,3;True;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+335;Pedro Gomes ;Não-binário;Pleno;2022-07-18;2024-02-12;7303,65;0,1;20;2;100,0;49;36;1,9;True;Ativo;Trabalhista;200;São Paulo;SP;502
+336;Tatiana Mendes ;Não-binário;Pleno;2023-05-20;2024-10-18;5763,11;0,19;20;1;501,0;67;57;1,8;False;Ativo;Trabalhista;200;Salvador;BA;501
+337;Tatiana Mendes ;Não-binário;Júnior;2025-01-03;;4897,22;0,08;20;4;100,0;47;44;1,7;True;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+338;Natan Alves ;Não-binário;Pleno;2022-12-10;;6127,15;0,17;30;3;300,0;34;11;4,0;False;Desligado;Corporativo;300;Rio de Janeiro;RJ;503
+339;Vitor Xavier ;Feminino;Júnior;2025-07-30;;4244,6;0,03;30;3;502,0;12;5;3,2;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+340;Natan Alves ;Não-binário;Júnior;2025-02-27;;3568,24;0,04;10;2;501,0;14;11;3,7;True;Ativo;Civil;100;São Paulo;SP;502
+341;Kamila Pereira ;Feminino;Sênior;2018-12-01;2024-11-29;9631,03;0,3;30;1;400,0;27;3;4,4;True;Ativo;Corporativo;300;Salvador;BA;501
+342;Kamila Pereira ;Não-binário;Júnior;2025-04-18;;4675,98;0,08;20;4;300,0;45;41;1,8;True;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+343;Isabela Carvalho ;Feminino;Pleno;2020-03-04;;6625,72;0,12;30;1;300,0;15;11;;False;Desligado;Corporativo;300;Salvador;BA;501
+344;Carla Oliveira ;Masculino;Sênior;2019-10-15;2023-10-14;10861,83;0,23;10;3;100,0;18;4;4,0;True;Ativo;Civil;100;Rio de Janeiro;RJ;503
+345;Kamila Pereira ;Feminino;Júnior;2025-05-10;;4598,66;0,0;40;2;501,0;26;14;4,5;False;Ativo;Tributário;400;São Paulo;SP;502
+346;Bruno Souza ;Masculino;Júnior;2025-12-04;;4772,19;0,09;10;1;300,0;21;22;4,8;False;Ativo;Civil;100;Salvador;BA;501
+347;Isabela Carvalho ;Masculino;Pleno;2022-12-26;;6823,35;0,1;20;2;501,0;62;51;1,1;False;Desligado;Trabalhista;200;São Paulo;SP;502
+348;Elena Rodrigues ;Masculino;Pleno;2023-12-13;;7222,25;0,1;30;3;100,0;12;17;4,8;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+349;Carla Oliveira ;Feminino;Júnior;2025-03-12;;4087,88;0,05;10;4;400,0;18;19;3,3;False;Ativo;Civil;100;Belo Horizonte;MG;504
+350;Olivia Barbosa ;Não-binário;Júnior;2024-04-09;;4183,38;0,09;20;1;502,0;53;46;1,5;False;Desligado;Trabalhista;200;Salvador;BA;501
+351;Pedro Gomes ;Masculino;Pleno;2020-03-02;2021-04-04;6554,32;0,18;30;3;502,0;24;5;3,8;True;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+352;Olivia Barbosa ;Não-binário;Pleno;2022-03-31;;6215,73;0,11;10;3;400,0;18;20;4,0;True;Desligado;Civil;100;Rio de Janeiro;RJ;503
+353;Carla Oliveira ;Feminino;Júnior;2025-12-29;;4361,28;0,02;30;2;100,0;21;14;3,3;False;Ativo;Corporativo;300;São Paulo;SP;502
+354;Bruno Souza ;Masculino;Sócio;2013-01-05;2018-03-11;23089,06;0,35;40;3;;26;19;3,7;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+355;Kamila Pereira ;Feminino;Júnior;2024-11-02;;4355,41;0,09;40;2;400,0;12;21;5,0;True;Ativo;Tributário;400;São Paulo;SP;502
+356;Lucas Martins ;Feminino;Júnior;2025-07-16;;4951,85;0,03;20;3;502,0;58;57;1,8;True;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+357;Mariana Rocha ;Masculino;Pleno;2022-06-10;2024-03-15;6020,23;0,12;30;4;100,0;33;6;3,4;False;Ativo;Corporativo;300;Belo Horizonte;MG;504
+358;Pedro Gomes ;Não-binário;Pleno;2023-09-09;;8470,65;0,19;10;2;400,0;31;7;4,0;True;Ativo;Civil;100;São Paulo;SP;502
+359;Hugo Ribeiro ;Masculino;Júnior;2024-07-09;;4137,16;0,08;40;4;100,0;30;13;3,3;True;Ativo;Tributário;400;Belo Horizonte;MG;504
+360;Tatiana Mendes ;Feminino;Sênior;2019-09-14;2022-09-13;13926,11;0,34;40;3;400,0;28;21;3,4;False;Desligado;Tributário;400;Rio de Janeiro;RJ;503
+361;Bruno Souza ;Não-binário;Pleno;2021-12-04;;5532,35;0,16;10;3;502,0;21;11;3,5;True;Desligado;Civil;100;Rio de Janeiro;RJ;503
+362;Pedro Gomes ;Feminino;Sênior;2020-03-30;2024-03-29;10812,89;0,29;30;3;300,0;16;18;;True;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+363;Isabela Carvalho ;Não-binário;Júnior;2024-10-08;;4786,79;0,07;30;2;502,0;23;7;3,7;True;Ativo;Corporativo;300;São Paulo;SP;502
+364;Renata Pinto ;Feminino;Júnior;2024-02-03;;4014,27;0,06;20;4;502,0;52;56;1,6;True;Desligado;Trabalhista;200;Belo Horizonte;MG;504
+365;Lucas Martins ;Não-binário;Pleno;2020-04-21;2022-03-15;7958,59;0,17;20;2;400,0;52;47;2,0;True;Ativo;Trabalhista;200;São Paulo;SP;502
+366;Renata Pinto ;Feminino;Júnior;2025-03-21;;3517,79;0,08;40;3;400,0;32;13;4,9;True;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+367;Isabela Carvalho ;Masculino;Sênior;2021-07-02;2024-07-01;11574,99;0,26;30;3;100,0;33;7;3,8;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+368;Natan Alves ;Feminino;Júnior;2024-04-10;;4287,9;0,0;10;1;501,0;31;4;3,3;False;Ativo;Civil;100;Salvador;BA;501
+369;Diego Santos ;Não-binário;Sênior;2017-06-26;2021-06-25;12415,58;0,23;20;1;100,0;54;49;1,9;True;Ativo;Trabalhista;200;Salvador;BA;501
+370;Kamila Pereira ;Masculino;Júnior;2024-09-20;;3742,95;0,04;40;3;200,0;17;16;3,3;True;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+371;Pedro Gomes ;Não-binário;Pleno;2020-08-10;2021-10-22;6793,76;0,11;40;2;300,0;14;4;4,2;False;Ativo;Tributário;400;São Paulo;SP;502
+372;Elena Rodrigues ;Masculino;Pleno;2023-08-30;2025-07-22;5613,51;0,19;40;1;400,0;28;17;4,1;False;Ativo;Tributário;400;Salvador;BA;501
+373;Mariana Rocha ;Feminino;Júnior;2025-12-06;;4726,96;0,04;10;2;502,0;24;3;4,3;True;Ativo;Civil;100;São Paulo;SP;502
+374;Kamila Pereira ;Não-binário;Pleno;2020-06-13;;7781,36;0,16;10;3;100,0;18;11;4,5;False;Desligado;Civil;100;Rio de Janeiro;RJ;503
+375;Olivia Barbosa ;Feminino;Júnior;2024-07-13;;3709,91;0,08;30;4;400,0;32;11;4,1;True;Ativo;Corporativo;300;Belo Horizonte;MG;504
+376;Bruno Souza ;Masculino;Sênior;2018-11-23;2021-11-22;12442,32;0,24;10;1;400,0;14;3;4,5;False;Ativo;Civil;100;Salvador;BA;501
+377;Bruno Souza ;Não-binário;Júnior;2024-09-05;;4551,95;0,09;10;4;100,0;17;20;3,3;False;Ativo;Civil;100;Belo Horizonte;MG;504
+378;Vitor Xavier ;Não-binário;Júnior;2024-08-13;;3594,67;0,1;10;4;200,0;30;19;3,4;True;Ativo;Civil;100;Belo Horizonte;MG;504
+379;Carla Oliveira ;Masculino;Sócio;2013-05-09;2019-02-28;22427,26;0,49;10;2;;16;5;4,6;True;Ativo;Civil;100;São Paulo;SP;502
+380;Pedro Gomes ;Feminino;Sênior;2017-06-15;2020-06-14;12680,34;0,33;40;2;501,0;18;6;4,4;True;Ativo;Tributário;400;São Paulo;SP;502
+381;Felipe Costa ;Feminino;Pleno;2023-06-04;;7288,82;0,15;40;4;100,0;12;19;;False;Ativo;Tributário;400;Belo Horizonte;MG;504
+382;Renata Pinto ;Não-binário;Pleno;2021-03-25;;7379,39;0,2;10;3;100,0;27;7;3,5;False;Desligado;Civil;100;Rio de Janeiro;RJ;503
+383;Gabriela Almeida ;Masculino;Sênior;2019-06-10;2024-06-08;12912,84;0,25;10;3;200,0;27;18;3,4;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+384;Gabriela Almeida ;Masculino;Júnior;2025-11-24;;4847,56;0,06;40;3;400,0;19;4;4,0;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+385;Gabriela Almeida ;Feminino;Sênior;2020-06-02;2026-06-01;11559,83;0,28;10;4;100,0;16;3;4,4;False;Ativo;Civil;100;Belo Horizonte;MG;504
+386;Olivia Barbosa ;Feminino;Sênior;2019-07-29;2025-07-27;13488,84;0,25;30;2;501,0;19;4;3,9;False;Ativo;Corporativo;300;São Paulo;SP;502
+387;Pedro Gomes ;Não-binário;Sênior;2021-09-11;;12812,8;0,33;40;2;100,0;30;6;4,8;False;Ativo;Tributário;400;São Paulo;SP;502
+388;Pedro Gomes ;Feminino;Júnior;2025-05-31;;3550,43;0,03;40;1;502,0;14;19;4,6;False;Ativo;Tributário;400;Salvador;BA;501
+389;Lucas Martins ;Feminino;Sênior;2018-08-29;2022-08-28;11659,02;0,2;40;2;300,0;16;14;3,5;False;Desligado;Tributário;400;São Paulo;SP;502
+390;Carla Oliveira ;Não-binário;Pleno;2022-02-27;;6498,72;0,2;40;1;100,0;31;12;4,5;True;Desligado;Tributário;400;Salvador;BA;501
+391;Mariana Rocha ;Feminino;Pleno;2022-01-18;2023-09-13;6596,71;0,12;30;1;400,0;19;19;3,4;False;Ativo;Corporativo;300;Salvador;BA;501
+392;Lucas Martins ;Masculino;Júnior;2024-09-30;;4255,35;0,08;20;2;502,0;48;50;2,0;True;Ativo;Trabalhista;200;São Paulo;SP;502
+393;Lucas Martins ;Não-binário;Pleno;2023-10-10;2025-09-28;8322,63;0,11;30;4;100,0;17;11;4,9;False;Ativo;Corporativo;300;Belo Horizonte;MG;504
+394;Diego Santos ;Masculino;Júnior;2025-12-14;;3721,93;0,1;10;2;400,0;29;6;4,1;True;Ativo;Civil;100;São Paulo;SP;502
+395;Gabriela Almeida ;Masculino;Pleno;2020-05-08;;7905,97;0,19;40;1;400,0;32;22;4,6;True;Desligado;Tributário;400;Salvador;BA;501
+396;Tatiana Mendes ;Masculino;Pleno;2020-09-27;;6419,49;0,1;40;4;200,0;23;11;4,0;False;Desligado;Tributário;400;Belo Horizonte;MG;504
+397;Felipe Costa ;Feminino;Júnior;2025-12-26;;4539,29;0,02;20;3;200,0;59;43;1,5;False;Ativo;Trabalhista;200;Rio de Janeiro;RJ;503
+398;Elena Rodrigues ;Masculino;Júnior;2025-01-16;;4172,64;0,02;10;3;502,0;26;12;3,5;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+399;João Lima ;Masculino;Pleno;2024-03-24;;7221,18;0,11;30;3;100,0;13;6;4,4;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+400;Vitor Xavier ;Masculino;Sócio;2014-06-21;2019-09-16;19561,2;0,51;30;1;;12;4;;True;Ativo;Corporativo;300;Salvador;BA;501
+401;Mariana Rocha ;Não-binário;Pleno;2021-02-02;;7309,52;0,12;40;1;300,0;23;14;3,9;False;Desligado;Tributário;400;Salvador;BA;501
+402;Olivia Barbosa ;Masculino;Pleno;2023-02-22;;7683,56;0,12;30;3;501,0;35;15;3,5;False;Desligado;Corporativo;300;Rio de Janeiro;RJ;503
+403;João Lima ;Feminino;Pleno;2022-08-30;;7075,9;0,11;10;2;400,0;25;22;4,8;False;Desligado;Civil;100;São Paulo;SP;502
+404;Tatiana Mendes ;Não-binário;Pleno;2024-03-26;2025-06-04;7996,85;0,17;20;4;100,0;68;49;1,3;True;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+405;Pedro Gomes ;Masculino;Pleno;2020-09-11;2022-08-11;6363,07;0,1;20;3;100,0;53;50;2,4;True;Ativo;Trabalhista;200;Rio de Janeiro;RJ;503
+406;Natan Alves ;Não-binário;Júnior;2024-09-21;;4441,99;0,02;30;4;400,0;30;3;3,5;True;Ativo;Corporativo;300;Belo Horizonte;MG;504
+407;Bruno Souza ;Feminino;Júnior;2024-10-06;;4041,75;0,03;20;3;501,0;65;40;2,1;False;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+408;João Lima ;Masculino;Pleno;2021-07-09;;7565,04;0,12;20;3;400,0;54;46;2,1;True;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+409;Gabriela Almeida ;Feminino;Sênior;2017-11-13;2021-11-12;12013,95;0,23;30;2;100,0;14;5;4,7;True;Ativo;Corporativo;300;São Paulo;SP;502
+410;Lucas Martins ;Masculino;Pleno;2020-10-11;;8169,18;0,14;40;3;502,0;35;5;3,6;False;Desligado;Tributário;400;Rio de Janeiro;RJ;503
+411;Elena Rodrigues ;Masculino;Pleno;2021-03-05;;5735,81;0,17;20;2;502,0;46;41;1,2;True;Desligado;Trabalhista;200;São Paulo;SP;502
+412;Isabela Carvalho ;Feminino;Sócio;2012-06-26;2015-12-19;18990,35;0,54;10;4;;17;13;3,3;True;Ativo;Civil;100;Belo Horizonte;MG;504
+413;Lucas Martins ;Não-binário;Sênior;2018-12-23;2022-12-22;12258,3;0,23;20;3;300,0;61;41;2,0;False;Ativo;Trabalhista;200;Rio de Janeiro;RJ;503
+414;Diego Santos ;Não-binário;Júnior;2024-08-07;;4880,72;0,01;20;1;400,0;50;46;2,4;True;Ativo;Trabalhista;200;Salvador;BA;501
+415;Diego Santos ;Masculino;Júnior;2024-11-17;;3685,42;0,05;20;2;400,0;60;38;1,5;False;Ativo;Trabalhista;200;São Paulo;SP;502
+416;Samuel Teixeira ;Feminino;Júnior;2025-02-21;;3935,88;0,0;30;4;400,0;33;17;4,4;True;Ativo;Corporativo;300;Belo Horizonte;MG;504
+417;Elena Rodrigues ;Feminino;Sênior;2019-03-20;2025-03-18;12836,44;0,22;40;1;400,0;22;8;4,3;False;Desligado;Tributário;400;Salvador;BA;501
+418;Pedro Gomes ;Masculino;Sócio;2015-02-14;2021-11-10;24407,87;0,47;10;2;;31;14;5,0;True;Ativo;Civil;100;São Paulo;SP;502
+419;Diego Santos ;Masculino;Pleno;2020-09-07;;6991,82;0,11;30;2;400,0;33;2;;False;Desligado;Corporativo;300;São Paulo;SP;502
+420;Vitor Xavier ;Masculino;Júnior;2025-09-30;;3644,5;0,1;30;2;501,0;27;17;4,1;False;Ativo;Corporativo;300;São Paulo;SP;502
+421;Natan Alves ;Feminino;Júnior;2024-05-01;;4075,44;0,1;30;1;200,0;21;7;4,1;True;Ativo;Corporativo;300;Salvador;BA;501
+422;Diego Santos ;Masculino;Pleno;2023-03-11;;7480,24;0,18;30;4;400,0;24;10;4,1;False;Desligado;Corporativo;300;Belo Horizonte;MG;504
+423;Bruno Souza ;Masculino;Júnior;2024-01-29;;4385,7;0,05;30;3;300,0;24;5;4,0;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+424;Hugo Ribeiro ;Feminino;Júnior;2024-09-10;;3851,93;0,02;40;3;400,0;12;19;3,8;True;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+425;Ana Silva ;Masculino;Sócio;2017-04-07;2021-08-26;20579,37;0,38;40;4;;18;12;4,1;False;Ativo;Tributário;400;Belo Horizonte;MG;504
+426;João Lima ;Não-binário;Pleno;2022-01-14;;6105,28;0,14;30;2;400,0;13;11;5,0;False;Desligado;Corporativo;300;São Paulo;SP;502
+427;Tatiana Mendes ;Não-binário;Pleno;2020-07-13;2022-05-12;5701,81;0,11;20;1;400,0;54;51;2,1;False;Ativo;Trabalhista;200;Salvador;BA;501
+428;Mariana Rocha ;Masculino;Pleno;2021-05-29;2023-04-13;7514,68;0,19;30;2;502,0;18;16;3,7;False;Ativo;Corporativo;300;São Paulo;SP;502
+429;Gabriela Almeida ;Não-binário;Júnior;2025-01-08;;4193,73;0,01;40;1;300,0;32;8;4,7;True;Ativo;Tributário;400;Salvador;BA;501
+430;Vitor Xavier ;Masculino;Júnior;2024-08-29;;4108,8;0,08;30;2;100,0;25;15;4,4;False;Ativo;Corporativo;300;São Paulo;SP;502
+431;Elena Rodrigues ;Masculino;Júnior;2024-01-30;;3887,6;0,0;20;2;100,0;47;45;1,8;False;Desligado;Trabalhista;200;São Paulo;SP;502
+432;Carla Oliveira ;Não-binário;Júnior;2025-02-10;;4914,74;0,1;40;3;100,0;30;18;3,7;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+433;Kamila Pereira ;Masculino;Sênior;2021-09-01;;13709,75;0,25;20;1;501,0;59;48;1,4;False;Ativo;Trabalhista;200;Salvador;BA;501
+434;Lucas Martins ;Não-binário;Pleno;2023-12-03;2025-01-28;6771,34;0,17;10;4;501,0;21;2;4,4;False;Ativo;Civil;100;Belo Horizonte;MG;504
+435;Hugo Ribeiro ;Não-binário;Pleno;2021-06-02;;6427,81;0,17;10;1;300,0;12;14;4,9;False;Desligado;Civil;100;Salvador;BA;501
+436;João Lima ;Feminino;Pleno;2021-03-06;;5980,68;0,1;30;1;400,0;14;17;4,0;False;Desligado;Corporativo;300;Salvador;BA;501
+437;Felipe Costa ;Feminino;Pleno;2023-12-01;;5699,1;0,17;30;4;502,0;13;22;4,4;False;Ativo;Corporativo;300;Belo Horizonte;MG;504
+438;Mariana Rocha ;Feminino;Pleno;2021-02-13;2022-12-31;7227,43;0,19;40;2;502,0;25;12;;False;Ativo;Tributário;400;São Paulo;SP;502
+439;Tatiana Mendes ;Feminino;Sênior;2021-08-21;;11365,23;0,27;20;3;200,0;62;55;1,9;False;Ativo;Trabalhista;200;Rio de Janeiro;RJ;503
+440;Isabela Carvalho ;Feminino;Júnior;2025-12-19;;4777,75;0,02;10;4;501,0;30;5;3,2;True;Ativo;Civil;100;Belo Horizonte;MG;504
+441;Pedro Gomes ;Não-binário;Pleno;2020-08-30;2021-12-22;6071,63;0,16;40;4;300,0;25;8;4,3;False;Ativo;Tributário;400;Belo Horizonte;MG;504
+442;Natan Alves ;Feminino;Pleno;2020-10-25;;8428,38;0,19;20;4;400,0;65;49;1,1;True;Desligado;Trabalhista;200;Belo Horizonte;MG;504
+443;Mariana Rocha ;Não-binário;Júnior;2025-12-04;;3818,33;0,0;20;3;400,0;46;45;2,3;False;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+444;Isabela Carvalho ;Feminino;Pleno;2022-10-30;2024-09-11;8432,57;0,19;30;1;300,0;20;7;4,1;False;Ativo;Corporativo;300;Salvador;BA;501
+445;Kamila Pereira ;Feminino;Pleno;2023-12-25;;5925,39;0,14;40;2;300,0;25;11;4,8;True;Ativo;Tributário;400;São Paulo;SP;502
+446;Felipe Costa ;Masculino;Sênior;2018-10-09;2024-10-07;13338,65;0,21;30;3;400,0;13;9;3,5;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+447;Olivia Barbosa ;Não-binário;Júnior;2025-03-22;;3674,04;0,07;30;2;100,0;15;6;3,4;False;Ativo;Corporativo;300;São Paulo;SP;502
+448;Felipe Costa ;Feminino;Sênior;2021-03-16;2026-03-15;10455,78;0,25;20;3;300,0;52;50;1,9;False;Ativo;Trabalhista;200;Rio de Janeiro;RJ;503
+449;Diego Santos ;Não-binário;Pleno;2022-03-18;2023-09-25;8353,66;0,2;10;3;501,0;26;22;4,9;True;Ativo;Civil;100;Rio de Janeiro;RJ;503
+450;Vitor Xavier ;Feminino;Pleno;2022-07-16;2023-12-29;8499,46;0,1;10;3;502,0;21;12;4,6;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+451;Mariana Rocha ;Feminino;Júnior;2024-09-18;;3767,02;0,06;10;4;502,0;21;22;4,6;False;Ativo;Civil;100;Belo Horizonte;MG;504
+452;Pedro Gomes ;Masculino;Júnior;2025-03-18;;4603,83;0,08;20;1;400,0;51;50;1,6;False;Desligado;Trabalhista;200;Salvador;BA;501
+453;Vitor Xavier ;Não-binário;Sênior;2019-05-17;2022-05-16;12262,41;0,22;40;3;502,0;22;16;4,4;True;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+454;Renata Pinto ;Não-binário;Pleno;2020-06-20;2021-11-15;5737,55;0,13;20;4;501,0;58;44;1,8;True;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+455;Diego Santos ;Não-binário;Júnior;2025-06-06;;4137,37;0,09;10;1;502,0;14;18;3,2;False;Ativo;Civil;100;Salvador;BA;501
+456;Mariana Rocha ;Feminino;Pleno;2020-04-02;;8130,27;0,19;40;2;100,0;22;7;3,6;False;Desligado;Tributário;400;São Paulo;SP;502
+457;Samuel Teixeira ;Masculino;Júnior;2024-01-19;;3508,77;0,09;30;1;502,0;31;13;;False;Ativo;Corporativo;300;Salvador;BA;501
+458;Elena Rodrigues ;Feminino;Júnior;2024-05-18;;3520,81;0,1;40;3;502,0;16;22;3,6;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+459;Olivia Barbosa ;Masculino;Júnior;2024-05-31;;4210,98;0,0;20;1;300,0;59;53;1,3;False;Desligado;Trabalhista;200;Salvador;BA;501
+460;Ana Silva ;Masculino;Júnior;2024-04-15;;4445,61;0,07;40;1;502,0;24;17;4,1;True;Ativo;Tributário;400;Salvador;BA;501
+461;Bruno Souza ;Não-binário;Pleno;2022-12-17;;7229,21;0,17;40;2;300,0;27;21;4,9;True;Desligado;Tributário;400;São Paulo;SP;502
+462;Felipe Costa ;Feminino;Sênior;2018-08-13;2022-08-12;11784,36;0,34;40;4;502,0;35;14;4,9;False;Ativo;Tributário;400;Belo Horizonte;MG;504
+463;Vitor Xavier ;Feminino;Sênior;2018-03-01;2023-02-28;11673,0;0,35;30;4;501,0;27;11;3,6;False;Ativo;Corporativo;300;Belo Horizonte;MG;504
+464;Isabela Carvalho ;Masculino;Pleno;2022-01-01;2023-12-13;7983,85;0,16;10;1;200,0;31;9;3,4;False;Ativo;Civil;100;Salvador;BA;501
+465;Lucas Martins ;Masculino;Pleno;2024-04-24;;8133,14;0,1;40;3;501,0;26;5;5,0;True;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+466;Diego Santos ;Não-binário;Júnior;2024-06-20;;4444,89;0,07;10;1;300,0;35;5;3,5;True;Ativo;Civil;100;Salvador;BA;501
+467;Gabriela Almeida ;Feminino;Pleno;2022-06-18;2024-01-16;5519,76;0,11;30;2;502,0;23;15;3,8;False;Ativo;Corporativo;300;São Paulo;SP;502
+468;Natan Alves ;Não-binário;Júnior;2024-08-21;;3706,99;0,07;20;2;501,0;49;35;2,0;True;Desligado;Trabalhista;200;São Paulo;SP;502
+469;Kamila Pereira ;Masculino;Sócio;2016-07-03;2021-12-29;18296,75;0,55;10;1;;32;18;5,0;False;Ativo;Civil;100;Salvador;BA;501
+470;Samuel Teixeira ;Não-binário;Pleno;2021-09-15;;6441,09;0,16;40;4;501,0;32;8;4,8;False;Desligado;Tributário;400;Belo Horizonte;MG;504
+471;Mariana Rocha ;Não-binário;Pleno;2024-05-07;2025-08-16;5752,84;0,13;40;3;300,0;28;19;3,8;True;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+472;Samuel Teixeira ;Feminino;Sênior;2020-04-28;2025-04-27;12769,29;0,21;20;1;100,0;65;51;1,5;False;Ativo;Trabalhista;200;Salvador;BA;501
+473;Tatiana Mendes ;Masculino;Pleno;2024-02-18;2025-02-19;8448,85;0,15;10;4;502,0;21;20;4,4;True;Ativo;Civil;100;Belo Horizonte;MG;504
+474;Kamila Pereira ;Feminino;Pleno;2022-11-23;;7968,53;0,11;40;2;400,0;13;15;4,8;True;Desligado;Tributário;400;São Paulo;SP;502
+475;Lucas Martins ;Feminino;Júnior;2025-11-24;;4289,38;0,06;20;4;400,0;59;57;2,3;False;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+476;Renata Pinto ;Feminino;Júnior;2024-05-10;;4227,15;0,07;40;2;501,0;27;3;;False;Ativo;Tributário;400;São Paulo;SP;502
+477;Natan Alves ;Não-binário;Júnior;2024-04-22;;3681,3;0,04;30;1;200,0;21;17;3,3;False;Ativo;Corporativo;300;Salvador;BA;501
+478;João Lima ;Feminino;Júnior;2024-10-17;;3823,37;0,06;20;4;400,0;60;53;1,4;True;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+479;Vitor Xavier ;Masculino;Pleno;2020-09-28;;7014,29;0,15;30;4;200,0;31;21;3,9;True;Desligado;Corporativo;300;Belo Horizonte;MG;504
+480;Bruno Souza ;Não-binário;Pleno;2023-10-05;;7707,74;0,18;40;3;200,0;15;22;4,2;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+481;Renata Pinto ;Masculino;Júnior;2024-01-20;;3680,42;0,07;10;2;400,0;14;19;4,3;False;Ativo;Civil;100;São Paulo;SP;502
+482;Kamila Pereira ;Feminino;Júnior;2025-03-23;;3770,76;0,08;10;4;300,0;17;11;3,5;True;Ativo;Civil;100;Belo Horizonte;MG;504
+483;Natan Alves ;Masculino;Sócio;2013-11-24;2016-12-18;18468,01;0,47;10;2;;25;12;3,7;True;Ativo;Civil;100;São Paulo;SP;502
+484;Hugo Ribeiro ;Feminino;Júnior;2025-09-03;;4379,04;0,05;10;1;400,0;26;19;3,9;False;Ativo;Civil;100;Salvador;BA;501
+485;Hugo Ribeiro ;Não-binário;Pleno;2020-02-08;;8390,42;0,14;10;4;502,0;25;16;3,4;True;Desligado;Civil;100;Belo Horizonte;MG;504
+486;Samuel Teixeira ;Masculino;Pleno;2020-12-10;;7112,61;0,1;20;2;200,0;64;44;1,9;True;Desligado;Trabalhista;200;São Paulo;SP;502
+487;Isabela Carvalho ;Masculino;Pleno;2023-05-09;2024-09-13;6640,46;0,1;10;1;300,0;35;19;4,2;True;Ativo;Civil;100;Salvador;BA;501
+488;Diego Santos ;Não-binário;Júnior;2024-05-23;;4587,61;0,05;10;4;502,0;32;10;5,0;True;Ativo;Civil;100;Belo Horizonte;MG;504
+489;Kamila Pereira ;Feminino;Pleno;2021-11-30;;8376,98;0,19;40;3;400,0;12;2;4,4;False;Desligado;Tributário;400;Rio de Janeiro;RJ;503
+490;Carla Oliveira ;Não-binário;Júnior;2025-10-26;;4476,9;0,06;40;4;502,0;31;13;3,9;True;Ativo;Tributário;400;Belo Horizonte;MG;504
+491;Lucas Martins ;Masculino;Júnior;2024-07-16;;4166,87;0,09;10;1;200,0;32;11;4,7;False;Ativo;Civil;100;Salvador;BA;501
+492;Bruno Souza ;Masculino;Sênior;2018-07-29;2024-07-27;10440,89;0,32;20;4;501,0;63;51;1,7;False;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+493;Tatiana Mendes ;Feminino;Júnior;2024-05-11;;4618,96;0,1;20;2;501,0;45;57;1,9;False;Desligado;Trabalhista;200;São Paulo;SP;502
+494;Natan Alves ;Feminino;Sênior;2020-08-05;2023-08-05;13299,54;0,34;30;4;200,0;28;3;4,8;False;Ativo;Corporativo;300;Belo Horizonte;MG;504
+495;Samuel Teixeira ;Masculino;Pleno;2022-07-08;;6675,58;0,16;10;3;300,0;19;8;;True;Desligado;Civil;100;Rio de Janeiro;RJ;503
+496;Pedro Gomes ;Feminino;Sênior;2019-06-04;2022-06-03;11004,36;0,35;10;1;200,0;13;12;4,1;False;Ativo;Civil;100;Salvador;BA;501
+497;Olivia Barbosa ;Feminino;Júnior;2025-08-15;;3687,24;0,07;10;4;400,0;13;11;4,3;False;Ativo;Civil;100;Belo Horizonte;MG;504
+498;Bruno Souza ;Não-binário;Pleno;2023-02-19;;8049,79;0,19;10;1;400,0;31;2;4,0;True;Desligado;Civil;100;Salvador;BA;501
+499;Ana Silva ;Masculino;Júnior;2025-04-09;;4275,82;0,02;40;1;400,0;32;18;3,7;True;Ativo;Tributário;400;Salvador;BA;501
+500;Hugo Ribeiro ;Feminino;Júnior;2024-05-20;;4695,54;0,09;40;4;300,0;29;6;3,5;False;Ativo;Tributário;400;Belo Horizonte;MG;504
+501;Ana Silva ;Masculino;Júnior;2025-06-14;;4379,66;0,05;30;3;200,0;18;8;4,4;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+502;Pedro Gomes ;Feminino;Júnior;2025-12-12;;4537,76;0,04;10;3;400,0;25;12;3,5;True;Ativo;Civil;100;Rio de Janeiro;RJ;503
+503;Ana Silva ;Feminino;Pleno;2023-08-01;;6190,82;0,13;10;4;100,0;17;2;3,9;False;Ativo;Civil;100;Belo Horizonte;MG;504
+504;Diego Santos ;Não-binário;Pleno;2020-10-18;;6083,21;0,13;30;1;300,0;21;7;3,6;True;Desligado;Corporativo;300;Salvador;BA;501
+505;Hugo Ribeiro ;Não-binário;Sócio;2014-01-01;2017-11-02;18167,95;0,39;20;3;;55;41;1,4;False;Ativo;Trabalhista;200;Rio de Janeiro;RJ;503
+506;Felipe Costa ;Masculino;Sênior;2019-12-16;2025-12-14;10149,95;0,26;20;3;400,0;67;46;1,4;False;Ativo;Trabalhista;200;Rio de Janeiro;RJ;503
+507;Tatiana Mendes ;Não-binário;Júnior;2024-07-12;;4781,65;0,08;20;1;100,0;63;50;1,3;True;Ativo;Trabalhista;200;Salvador;BA;501
+508;Renata Pinto ;Feminino;Júnior;2025-02-01;;4626,96;0,05;40;1;400,0;28;17;4,5;False;Ativo;Tributário;400;Salvador;BA;501
+509;Mariana Rocha ;Não-binário;Pleno;2023-07-30;;7251,95;0,13;40;3;400,0;18;11;4,0;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+510;Samuel Teixeira ;Masculino;Pleno;2020-06-22;2021-08-29;6385,14;0,18;20;3;400,0;55;48;1,6;False;Ativo;Trabalhista;200;Rio de Janeiro;RJ;503
+511;Kamila Pereira ;Masculino;Júnior;2024-10-06;;4073,56;0,08;40;3;300,0;28;19;4,4;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+512;Carla Oliveira ;Feminino;Pleno;2022-01-07;;6100,92;0,13;20;1;300,0;49;57;2,0;False;Desligado;Trabalhista;200;Salvador;BA;501
+513;Lucas Martins ;Masculino;Pleno;2024-05-22;;8337,45;0,2;10;3;502,0;16;14;3,6;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+514;Renata Pinto ;Feminino;Júnior;2025-08-24;;4678,96;0,06;20;4;400,0;67;48;;False;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+515;Tatiana Mendes ;Feminino;Sênior;2021-11-25;2025-11-24;11749,1;0,3;10;3;502,0;25;14;4,6;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+516;Ana Silva ;Não-binário;Pleno;2023-03-08;;8266,43;0,16;30;3;200,0;24;4;4,2;True;Desligado;Corporativo;300;Rio de Janeiro;RJ;503
+517;Tatiana Mendes ;Masculino;Sênior;2019-07-14;2024-07-12;11988,08;0,35;40;1;400,0;18;4;4,8;True;Desligado;Tributário;400;Salvador;BA;501
+518;João Lima ;Feminino;Júnior;2025-11-06;;4286,59;0,02;30;2;400,0;15;6;4,2;False;Ativo;Corporativo;300;São Paulo;SP;502
+519;Elena Rodrigues ;Feminino;Júnior;2024-07-29;;3964,64;0,03;10;4;100,0;28;16;3,7;False;Ativo;Civil;100;Belo Horizonte;MG;504
+520;Mariana Rocha ;Feminino;Júnior;2025-09-11;;4711,35;0,0;20;4;400,0;68;37;1,4;False;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+521;Vitor Xavier ;Masculino;Pleno;2020-12-24;;6038,73;0,19;30;3;200,0;24;3;3,6;True;Desligado;Corporativo;300;Rio de Janeiro;RJ;503
+522;Carla Oliveira ;Não-binário;Pleno;2023-11-30;2025-03-20;6733,83;0,11;30;3;300,0;22;15;4,0;True;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+523;Ana Silva ;Masculino;Sócio;2012-10-26;2020-09-25;21173,39;0,35;20;1;;55;56;2,0;True;Ativo;Trabalhista;200;Salvador;BA;501
+524;Carla Oliveira ;Feminino;Pleno;2023-01-28;2024-12-29;8350,06;0,1;40;4;501,0;15;7;3,7;False;Ativo;Tributário;400;Belo Horizonte;MG;504
+525;Ana Silva ;Feminino;Júnior;2025-11-24;;3909,88;0,0;40;2;502,0;32;18;4,4;False;Ativo;Tributário;400;São Paulo;SP;502
+526;João Lima ;Não-binário;Júnior;2025-03-30;;3578,62;0,03;10;4;100,0;14;2;4,0;True;Ativo;Civil;100;Belo Horizonte;MG;504
+527;Carla Oliveira ;Não-binário;Júnior;2024-08-13;;4938,12;0,08;30;2;502,0;15;12;3,8;True;Ativo;Corporativo;300;São Paulo;SP;502
+528;Mariana Rocha ;Não-binário;Júnior;2025-03-14;;3681,21;0,06;20;2;502,0;51;49;1,3;False;Ativo;Trabalhista;200;São Paulo;SP;502
+529;Carla Oliveira ;Feminino;Júnior;2024-08-11;;4116,65;0,01;30;3;502,0;31;12;5,0;True;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+530;Felipe Costa ;Masculino;Pleno;2023-07-25;;7562,88;0,1;40;2;502,0;30;16;3,9;True;Ativo;Tributário;400;São Paulo;SP;502
+531;Ana Silva ;Feminino;Júnior;2025-09-23;;4638,41;0,02;20;1;200,0;56;50;1,4;False;Ativo;Trabalhista;200;Salvador;BA;501
+532;Bruno Souza ;Não-binário;Pleno;2021-05-02;;7294,23;0,14;40;2;400,0;32;3;4,1;False;Desligado;Tributário;400;São Paulo;SP;502
+533;Kamila Pereira ;Feminino;Pleno;2021-12-02;;7117,94;0,19;30;1;502,0;28;12;;False;Desligado;Corporativo;300;Salvador;BA;501
+534;Carla Oliveira ;Masculino;Júnior;2024-07-16;;3578,16;0,08;10;1;300,0;14;15;4,5;True;Ativo;Civil;100;Salvador;BA;501
+535;Natan Alves ;Feminino;Júnior;2024-06-29;;4408,78;0,01;20;2;400,0;56;47;1,5;False;Ativo;Trabalhista;200;São Paulo;SP;502
+536;Vitor Xavier ;Não-binário;Sênior;2021-02-14;;13071,01;0,33;40;4;502,0;31;19;3,5;True;Ativo;Tributário;400;Belo Horizonte;MG;504
+537;Olivia Barbosa ;Masculino;Pleno;2021-09-18;;6625,44;0,13;20;3;501,0;51;35;1,0;True;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+538;Natan Alves ;Masculino;Pleno;2022-03-19;2023-09-26;6423,43;0,16;30;4;300,0;17;8;4,6;True;Ativo;Corporativo;300;Belo Horizonte;MG;504
+539;Lucas Martins ;Não-binário;Sócio;2012-08-24;2019-09-15;18276,06;0,46;30;4;;16;10;4,3;False;Ativo;Corporativo;300;Belo Horizonte;MG;504
+540;Vitor Xavier ;Feminino;Júnior;2025-08-15;;4927,67;0,09;20;3;400,0;47;51;2,3;False;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+541;João Lima ;Masculino;Sócio;2017-08-12;2021-11-04;21292,87;0,37;20;4;;56;39;1,4;False;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+542;João Lima ;Não-binário;Júnior;2024-01-07;;4980,54;0,04;20;4;300,0;68;48;1,2;False;Desligado;Trabalhista;200;Belo Horizonte;MG;504
+543;Pedro Gomes ;Feminino;Júnior;2024-07-05;;4253,92;0,03;20;2;501,0;53;48;1,6;True;Ativo;Trabalhista;200;São Paulo;SP;502
+544;João Lima ;Feminino;Pleno;2020-06-24;2022-01-03;5692,79;0,1;10;2;100,0;20;2;4,4;False;Ativo;Civil;100;São Paulo;SP;502
+545;Ana Silva ;Não-binário;Sênior;2019-02-09;2024-02-08;11016,63;0,3;10;2;100,0;23;14;3,9;False;Ativo;Civil;100;São Paulo;SP;502
+546;Ana Silva ;Feminino;Júnior;2025-04-12;;4805,81;0,04;30;3;501,0;34;9;3,9;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+547;Gabriela Almeida ;Não-binário;Júnior;2024-01-04;;4979,27;0,1;40;4;400,0;26;9;4,3;False;Ativo;Tributário;400;Belo Horizonte;MG;504
+548;Pedro Gomes ;Masculino;Sênior;2020-09-10;2023-09-10;10377,85;0,21;10;3;501,0;14;11;4,7;False;Desligado;Civil;100;Rio de Janeiro;RJ;503
+549;Diego Santos ;Masculino;Pleno;2022-09-14;;6222,7;0,16;40;2;300,0;17;12;4,8;False;Desligado;Tributário;400;São Paulo;SP;502
+550;Pedro Gomes ;Não-binário;Pleno;2023-10-05;2024-12-06;8268,21;0,19;20;3;502,0;47;55;1,5;False;Ativo;Trabalhista;200;Rio de Janeiro;RJ;503
+551;Hugo Ribeiro ;Feminino;Pleno;2021-06-14;;5763,04;0,19;40;4;501,0;16;12;4,9;True;Desligado;Tributário;400;Belo Horizonte;MG;504
+552;Tatiana Mendes ;Feminino;Pleno;2023-01-01;2024-04-07;8439,55;0,11;10;3;300,0;12;19;;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+553;Pedro Gomes ;Feminino;Júnior;2025-11-27;;4183,68;0,08;20;3;502,0;67;38;1,4;False;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+554;João Lima ;Masculino;Júnior;2025-12-22;;4949,74;0,02;40;2;502,0;27;14;3,7;False;Ativo;Tributário;400;São Paulo;SP;502
+555;Mariana Rocha ;Não-binário;Júnior;2024-12-11;;4133,66;0,03;20;1;200,0;67;52;1,6;False;Desligado;Trabalhista;200;Salvador;BA;501
+556;João Lima ;Não-binário;Pleno;2022-07-26;;7231,47;0,13;30;1;502,0;35;22;3,2;False;Desligado;Corporativo;300;Salvador;BA;501
+557;Natan Alves ;Masculino;Pleno;2023-10-23;2025-01-16;5788,14;0,18;10;2;200,0;22;20;4,0;False;Ativo;Civil;100;São Paulo;SP;502
+558;Diego Santos ;Feminino;Pleno;2021-05-08;;6408,07;0,17;40;2;400,0;24;10;4,3;False;Desligado;Tributário;400;São Paulo;SP;502
+559;Diego Santos ;Feminino;Júnior;2024-03-25;;3683,08;0,01;30;1;502,0;30;7;3,9;False;Ativo;Corporativo;300;Salvador;BA;501
+560;Elena Rodrigues ;Não-binário;Júnior;2024-04-11;;3987,84;0,08;40;3;501,0;29;18;4,1;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+561;Diego Santos ;Não-binário;Júnior;2024-07-04;;4793,01;0,02;10;2;100,0;30;8;4,4;True;Ativo;Civil;100;São Paulo;SP;502
+562;Diego Santos ;Feminino;Júnior;2025-06-02;;3947,87;0,0;30;1;400,0;28;11;4,4;True;Ativo;Corporativo;300;Salvador;BA;501
+563;Kamila Pereira ;Não-binário;Pleno;2022-12-06;2024-06-03;7031,77;0,1;20;4;200,0;49;44;2,2;False;Ativo;Trabalhista;200;Belo Horizonte;MG;504
+564;Lucas Martins ;Não-binário;Júnior;2024-10-11;;3692,74;0,07;20;2;502,0;47;43;1,9;True;Ativo;Trabalhista;200;São Paulo;SP;502
+565;Isabela Carvalho ;Feminino;Júnior;2025-10-10;;4545,2;0,02;20;2;501,0;55;48;1,5;False;Desligado;Trabalhista;200;São Paulo;SP;502
+566;Diego Santos ;Masculino;Pleno;2022-12-24;;7145,11;0,14;20;1;400,0;52;43;1,0;True;Desligado;Trabalhista;200;Salvador;BA;501
+567;Diego Santos ;Feminino;Pleno;2020-12-25;;8126,54;0,19;20;4;100,0;62;43;1,9;False;Desligado;Trabalhista;200;Belo Horizonte;MG;504
+568;Felipe Costa ;Masculino;Júnior;2024-12-19;;4709,13;0,02;20;3;502,0;53;35;2,0;True;Ativo;Trabalhista;200;Rio de Janeiro;RJ;503
+569;Mariana Rocha ;Feminino;Júnior;2025-08-04;;4603,13;0,02;20;2;501,0;59;46;2,1;False;Desligado;Trabalhista;200;São Paulo;SP;502
+570;Renata Pinto ;Masculino;Pleno;2024-01-11;;7942,07;0,15;30;3;200,0;32;4;3,3;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+571;Bruno Souza ;Não-binário;Pleno;2020-06-22;;7162,48;0,17;10;2;400,0;28;19;;True;Desligado;Civil;100;São Paulo;SP;502
+572;Ana Silva ;Não-binário;Júnior;2026-01-01;;4137,47;0,07;10;2;200,0;17;18;4,8;True;Ativo;Civil;100;São Paulo;SP;502
+573;Renata Pinto ;Feminino;Pleno;2021-12-24;;6768,17;0,2;10;3;400,0;29;5;3,7;True;Desligado;Civil;100;Rio de Janeiro;RJ;503
+574;Ana Silva ;Feminino;Sênior;2021-02-20;;13699,0;0,34;30;3;400,0;13;13;3,2;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+575;Diego Santos ;Masculino;Pleno;2020-01-11;2021-07-08;6058,47;0,11;30;3;400,0;28;6;3,9;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+576;Isabela Carvalho ;Não-binário;Júnior;2024-08-19;;4206,05;0,07;10;2;300,0;33;16;3,5;True;Ativo;Civil;100;São Paulo;SP;502
+577;Gabriela Almeida ;Masculino;Pleno;2020-08-14;;5620,77;0,2;40;1;400,0;27;10;3,4;False;Desligado;Tributário;400;Salvador;BA;501
+578;Mariana Rocha ;Masculino;Pleno;2022-10-24;;7725,68;0,12;40;2;502,0;23;18;3,2;False;Desligado;Tributário;400;São Paulo;SP;502
+579;Kamila Pereira ;Não-binário;Júnior;2025-03-15;;4964,66;0,03;20;1;200,0;64;39;2,0;True;Desligado;Trabalhista;200;Salvador;BA;501
+580;Isabela Carvalho ;Feminino;Júnior;2025-12-18;;3871,03;0,09;20;3;100,0;65;55;1,2;True;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+581;Isabela Carvalho ;Feminino;Pleno;2021-01-28;;6778,91;0,16;20;4;200,0;54;57;1,9;True;Desligado;Trabalhista;200;Belo Horizonte;MG;504
+582;Pedro Gomes ;Masculino;Pleno;2020-05-05;2022-01-21;5654,97;0,13;20;3;100,0;46;40;1,1;False;Ativo;Trabalhista;200;Rio de Janeiro;RJ;503
+583;Pedro Gomes ;Masculino;Pleno;2021-07-27;;5802,29;0,14;30;2;200,0;15;2;4,4;False;Desligado;Corporativo;300;São Paulo;SP;502
+584;Lucas Martins ;Não-binário;Júnior;2025-08-26;;4293,29;0,02;30;3;501,0;32;21;3,4;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+585;Olivia Barbosa ;Não-binário;Sênior;2017-07-22;2020-07-21;10856,64;0,24;20;2;300,0;51;48;1,8;False;Ativo;Trabalhista;200;São Paulo;SP;502
+586;Diego Santos ;Masculino;Sócio;2016-11-21;2019-10-26;24327,08;0,4;30;3;;13;20;3,3;True;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+587;Samuel Teixeira ;Masculino;Júnior;2025-06-09;;4957,31;0,04;20;4;501,0;51;40;1,0;False;Desligado;Trabalhista;200;Belo Horizonte;MG;504
+588;Olivia Barbosa ;Não-binário;Pleno;2022-10-28;;7075,22;0,12;20;1;100,0;46;52;1,3;True;Desligado;Trabalhista;200;Salvador;BA;501
+589;Isabela Carvalho ;Feminino;Júnior;2024-02-22;;4463,62;0,09;20;3;502,0;56;45;1,1;True;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+590;Vitor Xavier ;Masculino;Sênior;2018-08-27;2023-08-26;9546,84;0,25;30;2;502,0;29;20;;False;Ativo;Corporativo;300;São Paulo;SP;502
+591;Vitor Xavier ;Não-binário;Júnior;2025-07-18;;3809,24;0,07;40;3;400,0;19;15;3,9;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+592;Olivia Barbosa ;Feminino;Júnior;2024-07-08;;4723,4;0,04;10;4;502,0;17;7;4,7;False;Ativo;Civil;100;Belo Horizonte;MG;504
+593;Carla Oliveira ;Feminino;Júnior;2025-03-12;;3867,88;0,09;20;1;100,0;48;47;1,5;False;Desligado;Trabalhista;200;Salvador;BA;501
+594;Hugo Ribeiro ;Feminino;Júnior;2024-03-26;;3901,48;0,05;10;1;400,0;34;4;3,6;True;Ativo;Civil;100;Salvador;BA;501
+595;Kamila Pereira ;Masculino;Júnior;2025-05-05;;3731,77;0,01;40;2;400,0;29;11;3,4;False;Ativo;Tributário;400;São Paulo;SP;502
+596;Ana Silva ;Feminino;Pleno;2021-04-09;;5942,13;0,17;20;1;300,0;48;42;1,1;True;Desligado;Trabalhista;200;Salvador;BA;501
+597;Kamila Pereira ;Não-binário;Júnior;2024-05-01;;4040,74;0,08;30;1;400,0;22;21;3,5;False;Ativo;Corporativo;300;Salvador;BA;501
+598;João Lima ;Não-binário;Júnior;2024-12-22;;4813,1;0,02;20;3;400,0;65;39;1,4;True;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+599;Diego Santos ;Feminino;Pleno;2023-03-29;;7680,12;0,16;40;4;502,0;22;17;4,0;False;Desligado;Tributário;400;Belo Horizonte;MG;504
+600;Hugo Ribeiro ;Feminino;Pleno;2022-02-23;;6991,31;0,11;40;3;502,0;34;15;4,1;False;Desligado;Tributário;400;Rio de Janeiro;RJ;503
+601;Lucas Martins ;Feminino;Júnior;2024-01-03;;3804,92;0,05;20;1;200,0;56;39;1,4;False;Ativo;Trabalhista;200;Salvador;BA;501
+602;Hugo Ribeiro ;Feminino;Pleno;2020-04-24;2021-07-03;7587,34;0,1;40;2;501,0;33;20;3,3;True;Ativo;Tributário;400;São Paulo;SP;502
+603;Lucas Martins ;Feminino;Júnior;2024-05-24;;3618,49;0,02;20;1;300,0;68;51;2,0;True;Desligado;Trabalhista;200;Salvador;BA;501
+604;Kamila Pereira ;Não-binário;Júnior;2025-03-30;;4672,1;0,02;40;4;400,0;28;7;3,2;True;Ativo;Tributário;400;Belo Horizonte;MG;504
+605;Renata Pinto ;Não-binário;Júnior;2024-11-09;;4564,03;0,03;40;3;400,0;24;21;3,3;True;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+606;Olivia Barbosa ;Não-binário;Júnior;2025-05-03;;3969,78;0,04;20;1;501,0;48;38;1,1;False;Ativo;Trabalhista;200;Salvador;BA;501
+607;João Lima ;Feminino;Júnior;2024-06-15;;4312,35;0,03;30;1;100,0;32;3;3,6;False;Ativo;Corporativo;300;Salvador;BA;501
+608;Bruno Souza ;Feminino;Sênior;2018-10-07;2021-10-06;11104,92;0,26;10;4;502,0;35;13;5,0;False;Ativo;Civil;100;Belo Horizonte;MG;504
+609;Renata Pinto ;Masculino;Pleno;2020-07-25;2022-04-08;5950,56;0,14;10;3;502,0;16;16;;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+610;Elena Rodrigues ;Feminino;Sócio;2013-10-21;2021-12-11;22186,3;0,45;10;2;;21;13;4,3;False;Ativo;Civil;100;São Paulo;SP;502
+611;Mariana Rocha ;Não-binário;Pleno;2021-05-04;;7331,16;0,11;40;1;100,0;16;11;4,2;False;Desligado;Tributário;400;Salvador;BA;501
+612;Kamila Pereira ;Masculino;Júnior;2024-06-22;;4901,08;0,07;40;1;400,0;20;17;5,0;False;Ativo;Tributário;400;Salvador;BA;501
+613;Pedro Gomes ;Não-binário;Sênior;2017-03-23;2022-03-22;13356,5;0,34;20;1;502,0;64;45;1,5;False;Ativo;Trabalhista;200;Salvador;BA;501
+614;Bruno Souza ;Masculino;Júnior;2025-09-27;;4966,15;0,01;40;4;400,0;21;14;3,5;False;Ativo;Tributário;400;Belo Horizonte;MG;504
+615;Olivia Barbosa ;Masculino;Júnior;2025-11-16;;3640,25;0,02;10;2;400,0;35;5;4,9;False;Ativo;Civil;100;São Paulo;SP;502
+616;Kamila Pereira ;Masculino;Sênior;2017-05-13;2022-05-12;10456,86;0,28;40;2;200,0;29;6;4,9;False;Ativo;Tributário;400;São Paulo;SP;502
+617;Bruno Souza ;Não-binário;Pleno;2023-05-16;;5687,2;0,1;20;3;300,0;45;56;1,6;True;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+618;Carla Oliveira ;Feminino;Júnior;2024-10-07;;4107,6;0,04;20;1;400,0;50;36;1,1;False;Ativo;Trabalhista;200;Salvador;BA;501
+619;Gabriela Almeida ;Feminino;Sênior;2018-12-17;2024-12-15;13027,36;0,31;30;3;501,0;12;19;4,6;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+620;Tatiana Mendes ;Não-binário;Pleno;2023-06-16;;7492,19;0,12;20;1;100,0;49;50;2,2;True;Ativo;Trabalhista;200;Salvador;BA;501
+621;Ana Silva ;Não-binário;Pleno;2022-07-11;2023-09-13;7416,75;0,18;40;3;200,0;31;14;3,6;False;Ativo;Tributário;400;Rio de Janeiro;RJ;503
+622;Lucas Martins ;Masculino;Sênior;2017-02-03;2022-02-02;13404,91;0,34;20;1;400,0;56;46;2,2;True;Ativo;Trabalhista;200;Salvador;BA;501
+623;Olivia Barbosa ;Feminino;Júnior;2025-03-14;;4059,68;0,04;30;1;100,0;34;21;4,9;True;Ativo;Corporativo;300;Salvador;BA;501
+624;Ana Silva ;Feminino;Júnior;2025-09-23;;4898,75;0,07;10;1;502,0;28;20;4,7;True;Ativo;Civil;100;Salvador;BA;501
+625;Hugo Ribeiro ;Feminino;Sênior;2021-05-11;;13353,54;0,34;30;4;300,0;34;14;3,2;True;Ativo;Corporativo;300;Belo Horizonte;MG;504
+626;Isabela Carvalho ;Masculino;Pleno;2021-09-21;;7885,41;0,1;20;3;501,0;49;46;2,2;False;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+627;Tatiana Mendes ;Feminino;Júnior;2025-03-16;;3862,75;0,1;30;3;300,0;24;7;3,9;False;Ativo;Corporativo;300;Rio de Janeiro;RJ;503
+628;Diego Santos ;Feminino;Júnior;2025-12-28;;4701,76;0,02;20;4;100,0;55;41;;False;Desligado;Trabalhista;200;Belo Horizonte;MG;504
+629;Tatiana Mendes ;Não-binário;Júnior;2024-06-05;;3541,73;0,07;40;1;200,0;32;22;4,6;False;Ativo;Tributário;400;Salvador;BA;501
+630;Gabriela Almeida ;Masculino;Júnior;2025-07-02;;4760,69;0,01;20;2;501,0;49;55;1,0;True;Desligado;Trabalhista;200;São Paulo;SP;502
+631;Vitor Xavier ;Masculino;Sócio;2013-05-17;2017-04-24;18619,05;0,46;10;1;;27;2;3,9;False;Ativo;Civil;100;Salvador;BA;501
+632;Natan Alves ;Feminino;Pleno;2022-02-07;;7400,66;0,12;40;1;100,0;30;22;4,3;True;Desligado;Tributário;400;Salvador;BA;501
+633;Pedro Gomes ;Masculino;Júnior;2025-09-20;;4399,99;0,0;10;3;200,0;29;2;4,1;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+634;Gabriela Almeida ;Feminino;Júnior;2024-01-31;;3991,31;0,03;20;3;502,0;47;46;2,0;True;Desligado;Trabalhista;200;Rio de Janeiro;RJ;503
+635;Pedro Gomes ;Não-binário;Sênior;2019-06-13;2025-06-11;10390,44;0,32;30;4;200,0;30;11;3,5;False;Ativo;Corporativo;300;Belo Horizonte;MG;504
+636;Natan Alves ;Masculino;Júnior;2025-09-02;;4620,62;0,05;40;4;400,0;23;22;4,7;False;Ativo;Tributário;400;Belo Horizonte;MG;504
+637;Isabela Carvalho ;Não-binário;Sênior;2020-04-16;2026-04-15;12402,94;0,32;20;1;200,0;50;45;1,6;False;Ativo;Trabalhista;200;Salvador;BA;501
+638;Gabriela Almeida ;Feminino;Pleno;2023-09-07;2025-03-15;7838,54;0,13;30;2;501,0;30;12;4,8;False;Ativo;Corporativo;300;São Paulo;SP;502
+639;Vitor Xavier ;Masculino;Pleno;2021-03-10;2022-12-04;7182,88;0,2;10;4;100,0;22;12;3,6;True;Ativo;Civil;100;Belo Horizonte;MG;504
+640;Isabela Carvalho ;Feminino;Júnior;2025-03-07;;3678,89;0,0;40;4;400,0;32;20;5,0;True;Ativo;Tributário;400;Belo Horizonte;MG;504
+641;Bruno Souza ;Masculino;Júnior;2025-06-30;;4877,05;0,04;30;2;501,0;22;13;3,9;False;Ativo;Corporativo;300;São Paulo;SP;502
+642;Bruno Souza ;Não-binário;Pleno;2022-03-16;;8451,9;0,19;30;4;100,0;12;9;3,3;False;Desligado;Corporativo;300;Belo Horizonte;MG;504
+643;Natan Alves ;Masculino;Pleno;2021-04-08;;6073,48;0,1;20;1;300,0;46;38;1,1;False;Desligado;Trabalhista;200;Salvador;BA;501
+644;Vitor Xavier ;Masculino;Júnior;2025-01-23;;3904,87;0,09;10;3;100,0;25;22;4,0;False;Ativo;Civil;100;Rio de Janeiro;RJ;503
+645;Pedro Gomes ;Não-binário;Júnior;2024-10-14;;3982,87;0,08;20;4;200,0;52;56;1,9;False;Desligado;Trabalhista;200;Belo Horizonte;MG;504
+646;Bruno Souza ;Masculino;Júnior;2024-08-05;;3519,69;0,09;10;1;300,0;28;18;4,7;True;Ativo;Civil;100;Salvador;BA;501
+647;Diego Santos ;Não-binário;Pleno;2020-09-23;;6590,93;0,16;40;2;502,0;14;10;;True;Desligado;Tributário;400;São Paulo;SP;502
+648;Olivia Barbosa ;Feminino;Sócio;2013-03-14;2017-03-04;18228,69;0,51;30;1;;15;19;3,4;True;Ativo;Corporativo;300;Salvador;BA;501
+649;Mariana Rocha ;Feminino;Pleno;2022-10-25;;6501,22;0,16;40;2;501,0;21;8;3,9;True;Desligado;Tributário;400;São Paulo;SP;502
+650;Natan Alves ;Não-binário;Júnior;2024-04-21;;4521,74;0,04;30;4;300,0;19;4;4,2;True;Ativo;Corporativo;300;Belo Horizonte;MG;504
