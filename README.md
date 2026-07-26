@@ -26,8 +26,8 @@ Análise estratégica de dados para mapear as causas do *turnover* e propor aç�
 │   ├── filiais.csv                        
 │   └── funcionarios.csv                   
 ├── graficos/                              
-├── Nivelamento00_LACERDA_Guilherme.ipynb  
-├── Relatorio_Executivo.pdf                
+├── Nivelamento00_LACEDA_Guilherme.ipynb  
+├── relatorio _desafio00_guilherme-xavier.pdf                
 └── README.md
 ```
 
