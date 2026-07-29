@@ -1,4 +1,4 @@
-id_colaborador,nome,genero,nivel,data_admissao,data_promocao,salario_base,percentual_bonus,id_departamento,id_filial,id_reporta_a,processos_actifs,horas_extras_mes,score_satisfacao,home_office,status_atual,nome_departamento,id_chefe_departamento,cidade,estado,id_socio_diretor,Inativo,faixa_horas_extras
+id_colaborador,nome,genero,nivel,data_admissao,data_promocao,salario_base,percentual_bonus,id_departamento,id_filial,id_reporta_a,processos_actifs,horas_extras_mes,score_satisfacao,home_office,status_atual,nome_departamento,id_chefe_departamento,cidade,estado,id_socio_diretor,inativo,faixa_horas_extras
 1,Isabela Carvalho ,Não-binário,Júnior,2024-07-09,,"3834,82",0,10,1,501.0,14,8,,Presencial,Ativo,Civil,100,Salvador,BA,501,0,0-10
 2,Samuel Teixeira ,Não-binário,Pleno,2022-05-09,,"7267,8",15,10,2,300.0,16,8,4.9,Remoto,Desligado,Civil,100,São Paulo,SP,502,1,0-10
 3,Diego Santos ,Masculino,Júnior,2025-01-02,,"4771,24",1,10,1,501.0,29,11,4.7,Remoto,Ativo,Civil,100,Salvador,BA,501,0,11-20
