@@ -1,0 +1,651 @@
+id_colaborador,nome,genero,nivel,data_admissao,data_promocao,salario_base,percentual_bonus,id_departamento,id_filial,id_reporta_a,processos_actifs,horas_extras_mes,score_satisfacao,home_office,status_atual,nome_departamento,id_chefe_departamento,cidade,estado,id_socio_diretor,Inativo,faixa_horas_extras
+1,Isabela Carvalho ,Não-binário,Júnior,2024-07-09,,"3834,82",0,10,1,501.0,14,8,,Presencial,Ativo,Civil,100,Salvador,BA,501,0,0-10
+2,Samuel Teixeira ,Não-binário,Pleno,2022-05-09,,"7267,8",15,10,2,300.0,16,8,4.9,Remoto,Desligado,Civil,100,São Paulo,SP,502,1,0-10
+3,Diego Santos ,Masculino,Júnior,2025-01-02,,"4771,24",1,10,1,501.0,29,11,4.7,Remoto,Ativo,Civil,100,Salvador,BA,501,0,11-20
+4,Carla Oliveira ,Não-binário,Pleno,2020-04-03,,"7819,21",14,30,2,300.0,32,13,3.5,Presencial,Desligado,Corporativo,300,São Paulo,SP,502,1,11-20
+5,Carla Oliveira ,Não-binário,Júnior,2025-09-15,,"4452,47",5,20,3,300.0,46,42,2.2,Presencial,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,41+
+6,Gabriela Almeida ,Feminino,Júnior,2025-08-03,,"4814,55",4,40,3,501.0,16,9,4.5,Remoto,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,0-10
+7,Mariana Rocha ,Não-binário,Júnior,2025-01-05,,"3828,98",10,30,4,400.0,17,15,4.3,Remoto,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,11-20
+8,Isabela Carvalho ,Não-binário,Pleno,2023-07-02,,"5534,44",20,40,4,400.0,15,11,4.0,Remoto,Desligado,Tributário,400,Belo Horizonte,MG,504,1,11-20
+9,Felipe Costa ,Não-binário,Pleno,2022-11-05,2023-12-29,"6395,33",12,10,3,400.0,28,2,4.3,Remoto,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,0-10
+10,João Lima ,Masculino,Pleno,2021-05-05,,"8134,03",18,10,1,200.0,16,17,4.9,Presencial,Desligado,Civil,100,Salvador,BA,501,1,11-20
+11,Samuel Teixeira ,Feminino,Júnior,2025-12-07,,"3801,73",3,30,4,501.0,19,4,3.8,Presencial,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,0-10
+12,Carla Oliveira ,Feminino,Pleno,2023-12-20,2025-11-07,"5702,2",14,20,2,502.0,60,41,1.8,Presencial,Ativo,Trabalhista,200,São Paulo,SP,502,0,41+
+13,Natan Alves ,Masculino,Júnior,2024-07-13,,"3641,49",6,40,2,100.0,35,12,4.6,Remoto,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+14,Samuel Teixeira ,Feminino,Sênior,2019-07-08,2023-07-07,"10624,13",23,20,2,200.0,62,35,2.4,Presencial,Desligado,Trabalhista,200,São Paulo,SP,502,1,31-40
+15,Pedro Gomes ,Masculino,Pleno,2021-03-13,2022-10-04,"5993,91",16,20,4,200.0,66,57,1.7,Presencial,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+16,Tatiana Mendes ,Feminino,Júnior,2025-07-09,,"3591,44",8,30,2,100.0,14,7,3.3,Remoto,Ativo,Corporativo,300,São Paulo,SP,502,0,0-10
+17,Tatiana Mendes ,Feminino,Júnior,2024-09-09,,"4368,38",3,20,4,300.0,66,57,1.4,Presencial,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+18,João Lima ,Não-binário,Júnior,2025-04-13,,"3974,27",8,40,2,300.0,18,18,3.7,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+19,João Lima ,Masculino,Pleno,2020-11-19,,"7129,65",20,10,2,200.0,21,5,4.9,Presencial,Desligado,Civil,100,São Paulo,SP,502,1,0-10
+20,Samuel Teixeira ,Feminino,Júnior,2024-06-08,,"3908,52",7,30,1,400.0,20,3,,Presencial,Ativo,Corporativo,300,Salvador,BA,501,0,0-10
+21,Kamila Pereira ,Feminino,Pleno,2024-04-28,,"8439,39",11,30,1,300.0,34,6,4.2,Presencial,Ativo,Corporativo,300,Salvador,BA,501,0,0-10
+22,Bruno Souza ,Feminino,Pleno,2021-09-23,,"8299,26",20,20,4,501.0,66,38,1.5,Remoto,Desligado,Trabalhista,200,Belo Horizonte,MG,504,1,31-40
+23,Felipe Costa ,Feminino,Júnior,2024-06-30,,"4822,12",2,40,2,100.0,34,5,3.9,Remoto,Ativo,Tributário,400,São Paulo,SP,502,0,0-10
+24,Olivia Barbosa ,Feminino,Júnior,2024-12-24,,"3957,79",4,40,2,501.0,14,10,3.8,Remoto,Ativo,Tributário,400,São Paulo,SP,502,0,0-10
+25,Diego Santos ,Feminino,Júnior,2024-09-24,,"3767,85",6,40,3,501.0,31,18,3.4,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+26,Natan Alves ,Feminino,Júnior,2024-01-02,,"4279,88",1,20,3,502.0,66,45,1.9,Presencial,Ativo,Trabalhista,200,Rio de Janeiro,RJ,503,0,41+
+27,João Lima ,Não-binário,Júnior,2025-11-13,,"4112,59",2,10,3,501.0,31,20,3.7,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,11-20
+28,Gabriela Almeida ,Masculino,Júnior,2025-03-16,,"4678,64",10,10,3,502.0,14,11,4.1,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,11-20
+29,João Lima ,Feminino,Pleno,2021-05-04,2022-07-15,"5638,64",16,30,1,400.0,30,8,4.5,Remoto,Ativo,Corporativo,300,Salvador,BA,501,0,0-10
+30,Elena Rodrigues ,Feminino,Pleno,2023-09-05,,"8177,98",12,40,4,100.0,26,3,4.2,Presencial,Ativo,Tributário,400,Belo Horizonte,MG,504,0,0-10
+31,Renata Pinto ,Masculino,Sênior,2020-02-19,2025-02-17,"12256,94",33,40,2,200.0,17,17,4.0,Remoto,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+32,Hugo Ribeiro ,Não-binário,Júnior,2024-10-08,,"4159,81",2,30,4,502.0,19,14,4.4,Presencial,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,11-20
+33,Natan Alves ,Masculino,Pleno,2021-11-08,2023-08-12,"5686,8",19,20,1,300.0,60,35,2.3,Remoto,Ativo,Trabalhista,200,Salvador,BA,501,0,31-40
+34,Samuel Teixeira ,Não-binário,Júnior,2025-09-09,,"4846,72",10,40,4,200.0,24,7,4.7,Remoto,Ativo,Tributário,400,Belo Horizonte,MG,504,0,0-10
+35,Tatiana Mendes ,Não-binário,Pleno,2023-09-19,,"7428,25",16,10,4,400.0,18,16,3.8,Presencial,Ativo,Civil,100,Belo Horizonte,MG,504,0,11-20
+36,Carla Oliveira ,Masculino,Pleno,2022-08-21,2023-08-30,"5656,26",10,30,4,200.0,18,2,4.3,Presencial,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,0-10
+37,Diego Santos ,Não-binário,Pleno,2023-03-01,,"6895,1",12,20,4,300.0,48,53,1.0,Presencial,Desligado,Trabalhista,200,Belo Horizonte,MG,504,1,41+
+38,Gabriela Almeida ,Não-binário,Júnior,2024-03-18,,"4388,15",0,40,4,300.0,23,19,4.0,Presencial,Ativo,Tributário,400,Belo Horizonte,MG,504,0,11-20
+39,Natan Alves ,Feminino,Júnior,2025-05-16,,"3658,31",8,10,3,501.0,32,10,,Remoto,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,0-10
+40,Tatiana Mendes ,Masculino,Júnior,2024-10-01,,"3983,46",9,40,4,400.0,31,14,3.8,Remoto,Ativo,Tributário,400,Belo Horizonte,MG,504,0,11-20
+41,Gabriela Almeida ,Masculino,Sênior,2018-12-28,2023-12-27,"12655,33",26,30,2,200.0,35,15,4.1,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,11-20
+42,Ana Silva ,Masculino,Sócio,2013-01-16,2019-01-30,"22652,44",50,40,4,,22,13,4.5,Remoto,Ativo,Tributário,400,Belo Horizonte,MG,504,0,11-20
+43,Hugo Ribeiro ,Masculino,Pleno,2025-05-10,2024-01-15,"6446,64",13,30,3,501.0,20,20,5.0,Remoto,Desligado,Corporativo,300,Rio de Janeiro,RJ,503,1,11-20
+44,João Lima ,Feminino,Júnior,2024-08-20,,"4041,32",4,30,1,400.0,34,6,4.3,Remoto,Ativo,Corporativo,300,Salvador,BA,501,0,0-10
+45,João Lima ,Não-binário,Júnior,2025-04-25,,"4218,07",6,10,1,502.0,27,4,4.2,Presencial,Ativo,Civil,100,Salvador,BA,501,0,0-10
+46,Tatiana Mendes ,Feminino,Pleno,2021-09-14,,"6244,57",18,10,2,501.0,26,16,3.7,Presencial,Desligado,Civil,100,São Paulo,SP,502,1,11-20
+47,Vitor Xavier ,Não-binário,Pleno,2020-05-03,2022-03-11,"5797,7",12,40,3,100.0,17,19,3.3,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+48,Vitor Xavier ,Não-binário,Pleno,2022-08-20,,"6194,43",20,40,4,200.0,20,22,4.3,Presencial,Desligado,Tributário,400,Belo Horizonte,MG,504,1,21-30
+49,Hugo Ribeiro ,Não-binário,Júnior,2025-10-25,,"3723,48",1,40,1,300.0,26,11,4.5,Remoto,Ativo,Tributário,400,Salvador,BA,501,0,11-20
+50,Vitor Xavier ,Feminino,Júnior,2024-10-02,,"4834,13",4,40,4,200.0,30,3,4.6,Presencial,Ativo,Tributário,400,Belo Horizonte,MG,504,0,0-10
+51,Felipe Costa ,Masculino,Sênior,2020-04-13,2026-04-12,"9910,59",30,40,4,400.0,17,12,3.9,Remoto,Desligado,Tributário,400,Belo Horizonte,MG,504,1,11-20
+52,Bruno Souza ,Não-binário,Júnior,2025-04-10,,"3632,09",8,30,4,501.0,26,15,3.3,Presencial,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,11-20
+53,Olivia Barbosa ,Não-binário,Júnior,2024-02-22,,"3805,34",10,30,4,300.0,31,9,4.5,Remoto,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,0-10
+54,Hugo Ribeiro ,Feminino,Júnior,2024-04-26,,"4192,17",7,10,4,200.0,27,9,4.0,Presencial,Ativo,Civil,100,Belo Horizonte,MG,504,0,0-10
+55,Renata Pinto ,Não-binário,Júnior,2024-05-19,,"4796,04",4,40,2,501.0,35,11,4.7,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+56,Samuel Teixeira ,Masculino,Sênior,2019-09-19,2024-09-17,"11197,45",27,40,2,502.0,19,15,3.3,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+57,Elena Rodrigues ,Masculino,Sócio,2017-07-21,2020-05-23,"18802,92",49,40,4,,12,6,3.9,Remoto,Ativo,Tributário,400,Belo Horizonte,MG,504,0,0-10
+58,Isabela Carvalho ,Masculino,Pleno,2021-11-24,2023-10-09,"7449,51",15,20,1,100.0,67,50,,Remoto,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+59,João Lima ,Não-binário,Júnior,2024-08-20,,"4620,15",4,10,2,100.0,12,3,3.8,Presencial,Ativo,Civil,100,São Paulo,SP,502,0,0-10
+60,Natan Alves ,Masculino,Pleno,2020-10-25,2022-02-27,"7197,78",19,30,3,200.0,19,17,4.8,Remoto,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,11-20
+61,Isabela Carvalho ,Não-binário,Sênior,2019-07-31,2024-07-29,"11593,64",25,20,4,400.0,56,53,1.4,Remoto,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+62,Gabriela Almeida ,Masculino,Pleno,2022-02-26,,"5819,96",10,30,4,502.0,24,10,3.2,Remoto,Desligado,Corporativo,300,Belo Horizonte,MG,504,1,0-10
+63,Hugo Ribeiro ,Masculino,Sênior,2020-05-28,2025-05-27,"10627,82",23,10,4,100.0,13,11,4.6,Remoto,Ativo,Civil,100,Belo Horizonte,MG,504,0,11-20
+64,João Lima ,Feminino,Pleno,2021-10-31,2023-05-31,"5896,48",12,30,2,300.0,27,11,4.5,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,11-20
+65,Elena Rodrigues ,Feminino,Pleno,2024-03-24,,"8080,42",11,10,4,400.0,12,10,4.2,Remoto,Ativo,Civil,100,Belo Horizonte,MG,504,0,0-10
+66,Mariana Rocha ,Não-binário,Pleno,2023-07-31,2025-02-05,"6201,47",19,30,3,400.0,32,4,4.3,Remoto,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,0-10
+67,Elena Rodrigues ,Feminino,Júnior,2024-02-16,,"4919,39",7,30,4,502.0,23,19,4.0,Presencial,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,11-20
+68,Diego Santos ,Não-binário,Pleno,2022-09-29,2024-08-09,"8354,56",13,20,4,502.0,48,56,1.5,Presencial,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+69,Isabela Carvalho ,Masculino,Júnior,2024-07-13,,"4952,31",5,30,1,200.0,19,6,4.6,Presencial,Ativo,Corporativo,300,Salvador,BA,501,0,0-10
+70,Gabriela Almeida ,Não-binário,Júnior,2024-08-26,,"3992,84",4,10,2,100.0,17,5,4.4,Presencial,Ativo,Civil,100,São Paulo,SP,502,0,0-10
+71,Hugo Ribeiro ,Masculino,Pleno,2023-04-20,,"6022,74",11,20,1,100.0,59,46,1.7,Remoto,Desligado,Trabalhista,200,Salvador,BA,501,1,41+
+72,Bruno Souza ,Não-binário,Júnior,2025-11-05,,"4282,18",10,40,2,400.0,15,17,4.5,Remoto,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+73,Vitor Xavier ,Masculino,Sócio,2013-08-30,2016-07-10,"23697,22",47,10,1,,31,15,3.4,Presencial,Ativo,Civil,100,Salvador,BA,501,0,11-20
+74,Olivia Barbosa ,Masculino,Júnior,2024-08-21,,"4120,72",10,10,2,502.0,20,13,4.9,Presencial,Ativo,Civil,100,São Paulo,SP,502,0,11-20
+75,Carla Oliveira ,Feminino,Pleno,2020-07-09,,"7733,77",20,40,1,400.0,25,13,4.8,Presencial,Desligado,Tributário,400,Salvador,BA,501,1,11-20
+76,João Lima ,Não-binário,Júnior,2024-12-26,,"3655,4",5,10,3,400.0,15,10,4.2,Remoto,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,0-10
+77,Felipe Costa ,Feminino,Sênior,2018-07-14,2023-07-13,"10316,33",22,10,3,200.0,12,4,,Presencial,Desligado,Civil,100,Rio de Janeiro,RJ,503,1,0-10
+78,Kamila Pereira ,Masculino,Pleno,2020-11-18,2022-05-26,"6473,15",12,40,4,502.0,13,4,3.7,Presencial,Ativo,Tributário,400,Belo Horizonte,MG,504,0,0-10
+79,Olivia Barbosa ,Não-binário,Sênior,2019-04-29,2024-04-27,"11053,28",35,40,4,501.0,21,3,3.6,Presencial,Desligado,Tributário,400,Belo Horizonte,MG,504,1,0-10
+80,João Lima ,Feminino,Pleno,2021-03-08,2022-05-17,"6368,34",12,10,1,502.0,29,9,4.1,Remoto,Ativo,Civil,100,Salvador,BA,501,0,0-10
+81,Bruno Souza ,Masculino,Sócio,2016-11-21,2019-09-06,"21434,27",47,30,1,,24,2,4.9,Presencial,Ativo,Corporativo,300,Salvador,BA,501,0,0-10
+82,Lucas Martins ,Não-binário,Júnior,2024-03-31,,"4155,07",5,20,4,100.0,52,45,2.1,Presencial,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+83,Lucas Martins ,Masculino,Júnior,2025-10-22,,"4722,56",1,10,2,501.0,17,22,4.1,Remoto,Ativo,Civil,100,São Paulo,SP,502,0,21-30
+84,Kamila Pereira ,Não-binário,Pleno,2020-11-05,,"6906,76",15,40,3,100.0,14,11,4.0,Presencial,Desligado,Tributário,400,Rio de Janeiro,RJ,503,1,11-20
+85,Carla Oliveira ,Masculino,Júnior,2025-10-22,,"4796,38",9,10,3,400.0,32,8,3.8,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,0-10
+86,Diego Santos ,Masculino,Júnior,2024-12-17,,"4973,58",8,20,1,300.0,64,40,1.5,Presencial,Ativo,Trabalhista,200,Salvador,BA,501,0,31-40
+87,Vitor Xavier ,Masculino,Sênior,2017-04-18,2022-04-17,"12552,71",24,40,4,300.0,30,6,4.9,Presencial,Ativo,Tributário,400,Belo Horizonte,MG,504,0,0-10
+88,Carla Oliveira ,Não-binário,Pleno,2021-09-26,2023-07-09,"7874,99",20,40,2,300.0,25,18,3.9,Remoto,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+89,Kamila Pereira ,Feminino,Júnior,2025-05-12,,"3788,01",5,30,2,200.0,31,6,4.3,Remoto,Ativo,Corporativo,300,São Paulo,SP,502,0,0-10
+90,Vitor Xavier ,Não-binário,Sênior,2021-07-15,2025-07-14,"11139,35",29,20,2,400.0,62,42,1.4,Presencial,Ativo,Trabalhista,200,São Paulo,SP,502,0,41+
+91,Tatiana Mendes ,Não-binário,Pleno,2022-06-21,,"6345,32",19,20,3,300.0,53,36,1.9,Presencial,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,31-40
+92,Carla Oliveira ,Masculino,Pleno,2024-11-04,,"6847,96",17,10,1,501.0,12,15,3.3,Remoto,Ativo,Civil,100,Salvador,BA,501,0,11-20
+93,Carla Oliveira ,Masculino,Sênior,2019-02-07,2023-02-06,"13276,29",24,30,2,400.0,27,6,4.6,Remoto,Ativo,Corporativo,300,São Paulo,SP,502,0,0-10
+94,Ana Silva ,Feminino,Pleno,2021-06-08,2022-09-26,"7146,41",13,40,1,502.0,15,3,3.6,Presencial,Ativo,Tributário,400,Salvador,BA,501,0,0-10
+95,Pedro Gomes ,Feminino,Sênior,2020-05-07,2023-05-07,"12733,45",31,40,1,100.0,25,7,4.4,Remoto,Desligado,Tributário,400,Salvador,BA,501,1,0-10
+96,Samuel Teixeira ,Não-binário,Júnior,2025-06-03,,"4679,62",4,30,1,100.0,35,2,,Presencial,Ativo,Corporativo,300,Salvador,BA,501,0,0-10
+97,Diego Santos ,Não-binário,Júnior,2025-08-18,,"4602,78",7,30,2,200.0,34,17,4.3,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,11-20
+98,João Lima ,Feminino,Sênior,2018-02-17,2021-02-16,"10920,18",35,10,4,100.0,32,8,3.7,Remoto,Desligado,Civil,100,Belo Horizonte,MG,504,1,0-10
+99,Lucas Martins ,Feminino,Júnior,2025-03-23,,"4834,23",5,30,3,502.0,28,10,4.6,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,0-10
+100,Vitor Xavier ,Masculino,Pleno,2021-01-04,2022-10-10,"5807,79",12,40,1,300.0,23,16,3.3,Presencial,Ativo,Tributário,400,Salvador,BA,501,0,11-20
+101,Bruno Souza ,Não-binário,Sênior,2017-06-03,2023-06-02,"12557,35",34,40,3,300.0,14,9,4.6,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,0-10
+102,Bruno Souza ,Não-binário,Júnior,2025-09-11,,"3730,16",5,30,4,200.0,24,12,4.4,Presencial,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,11-20
+103,Felipe Costa ,Não-binário,Sócio,2017-08-06,2021-10-14,"20082,32",49,10,1,,34,17,3.6,Remoto,Ativo,Civil,100,Salvador,BA,501,0,11-20
+104,Felipe Costa ,Masculino,Pleno,2023-12-31,,"5763,37",11,20,1,200.0,62,44,2.2,Presencial,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+105,Hugo Ribeiro ,Não-binário,Pleno,2020-09-05,,"7876,2",17,20,3,100.0,49,54,2.2,Remoto,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,41+
+106,Pedro Gomes ,Não-binário,Júnior,2025-06-22,,"4116,19",7,30,4,501.0,33,18,3.8,Presencial,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,11-20
+107,Renata Pinto ,Masculino,Sênior,2021-11-14,2024-11-13,"10868,56",31,20,2,501.0,47,43,1.3,Presencial,Desligado,Trabalhista,200,São Paulo,SP,502,1,41+
+108,João Lima ,Não-binário,Júnior,2025-09-21,,"4300,22",9,30,2,501.0,35,21,3.8,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,21-30
+109,Bruno Souza ,Feminino,Pleno,2023-08-06,,"6293,97",17,10,1,300.0,29,11,4.4,Presencial,Ativo,Civil,100,Salvador,BA,501,0,11-20
+110,Mariana Rocha ,Não-binário,Pleno,2021-09-01,,"7565,84",15,40,2,300.0,16,12,4.8,Remoto,Desligado,Tributário,400,São Paulo,SP,502,1,11-20
+111,Lucas Martins ,Feminino,Júnior,2025-06-11,,"4342,48",0,30,4,400.0,21,14,4.8,Remoto,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,11-20
+112,Tatiana Mendes ,Masculino,Pleno,2024-01-16,2025-06-24,"5978,03",10,20,2,200.0,57,51,1.6,Presencial,Ativo,Trabalhista,200,São Paulo,SP,502,0,41+
+113,Bruno Souza ,Feminino,Pleno,2021-07-30,2023-04-09,"8028,55",16,20,3,400.0,53,58,1.5,Presencial,Ativo,Trabalhista,200,Rio de Janeiro,RJ,503,0,41+
+114,Bruno Souza ,Masculino,Júnior,2025-08-06,,"4342,73",10,30,1,100.0,31,5,3.4,Remoto,Ativo,Corporativo,300,Salvador,BA,501,0,0-10
+115,Samuel Teixeira ,Masculino,Sênior,2019-01-19,2023-01-18,"11750,35",30,40,3,501.0,26,6,,Remoto,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,0-10
+116,Kamila Pereira ,Não-binário,Pleno,2020-11-28,,"7349,5",19,20,3,502.0,60,35,1.5,Remoto,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,31-40
+117,João Lima ,Não-binário,Pleno,2024-01-25,2026-01-11,"7290,73",10,10,4,502.0,27,7,4.1,Remoto,Ativo,Civil,100,Belo Horizonte,MG,504,0,0-10
+118,Hugo Ribeiro ,Não-binário,Pleno,2020-03-05,,"7601,56",16,40,2,400.0,25,18,4.6,Presencial,Desligado,Tributário,400,São Paulo,SP,502,1,11-20
+119,Gabriela Almeida ,Não-binário,Pleno,2023-02-22,,"7486,68",18,10,2,502.0,29,13,4.4,Presencial,Desligado,Civil,100,São Paulo,SP,502,1,11-20
+120,Hugo Ribeiro ,Feminino,Júnior,2024-12-10,,"4337,13",5,30,4,502.0,27,13,4.2,Presencial,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,11-20
+121,Tatiana Mendes ,Feminino,Júnior,2025-11-23,,"4314,79",4,30,3,400.0,34,4,3.8,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,0-10
+122,Gabriela Almeida ,Feminino,Júnior,2025-07-05,,"3906,7",0,30,4,200.0,33,18,3.6,Remoto,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,11-20
+123,Kamila Pereira ,Masculino,Sócio,2017-04-18,2020-04-24,"25823,29",40,10,1,,27,22,3.6,Presencial,Ativo,Civil,100,Salvador,BA,501,0,21-30
+124,Bruno Souza ,Masculino,Sênior,2021-04-24,2024-04-23,"12824,09",25,30,3,200.0,13,14,4.6,Remoto,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,11-20
+125,João Lima ,Feminino,Júnior,2025-08-04,,"4404,17",8,30,1,100.0,26,10,3.5,Remoto,Ativo,Corporativo,300,Salvador,BA,501,0,0-10
+126,Olivia Barbosa ,Não-binário,Pleno,2023-08-20,,"6058,6",12,30,2,501.0,32,14,4.7,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,11-20
+127,Diego Santos ,Masculino,Júnior,2024-08-07,,"4972,53",4,30,1,501.0,22,11,4.2,Presencial,Ativo,Corporativo,300,Salvador,BA,501,0,11-20
+128,Lucas Martins ,Não-binário,Pleno,2023-11-19,,"7503,36",11,10,3,200.0,21,13,4.3,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,11-20
+129,Olivia Barbosa ,Feminino,Júnior,2025-09-12,,"4060,44",9,20,4,502.0,47,51,1.6,Remoto,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+130,Diego Santos ,Não-binário,Pleno,2020-05-06,2022-02-10,"6106,47",11,30,1,501.0,18,20,4.1,Remoto,Ativo,Corporativo,300,Salvador,BA,501,0,11-20
+131,Elena Rodrigues ,Masculino,Júnior,2025-06-09,,"4123,14",4,40,1,100.0,12,8,4.2,Remoto,Ativo,Tributário,400,Salvador,BA,501,0,0-10
+132,Carla Oliveira ,Não-binário,Pleno,2023-01-13,,"8303,75",16,40,3,502.0,16,22,5.0,Presencial,Desligado,Tributário,400,Rio de Janeiro,RJ,503,1,21-30
+133,Olivia Barbosa ,Masculino,Júnior,2025-01-21,,"4063,47",2,40,3,502.0,29,14,4.2,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+134,João Lima ,Feminino,Júnior,2025-04-19,,"4510,25",2,20,1,502.0,53,41,,Presencial,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+135,Natan Alves ,Não-binário,Júnior,2025-09-21,,"4649,08",9,10,1,100.0,33,3,3.6,Presencial,Ativo,Civil,100,Salvador,BA,501,0,0-10
+136,Samuel Teixeira ,Feminino,Pleno,2021-03-20,2022-04-17,"8480,45",19,40,4,200.0,33,12,3.6,Remoto,Ativo,Tributário,400,Belo Horizonte,MG,504,0,11-20
+137,Isabela Carvalho ,Masculino,Pleno,2020-05-04,,"7275,0",10,20,4,501.0,65,56,1.5,Presencial,Desligado,Trabalhista,200,Belo Horizonte,MG,504,1,41+
+138,Elena Rodrigues ,Masculino,Sênior,2018-09-07,2024-09-05,"10584,36",34,30,4,200.0,25,15,4.2,Remoto,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,11-20
+139,Gabriela Almeida ,Masculino,Sênior,2018-11-08,2021-11-07,"9916,09",21,40,2,100.0,33,21,4.3,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,21-30
+140,Gabriela Almeida ,Masculino,Sócio,2015-09-25,2020-03-02,"25696,62",38,20,2,,67,41,1.6,Presencial,Ativo,Trabalhista,200,São Paulo,SP,502,0,41+
+141,Mariana Rocha ,Masculino,Pleno,2022-12-08,,"6577,78",11,20,3,400.0,55,41,1.5,Presencial,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,41+
+142,Elena Rodrigues ,Não-binário,Pleno,2020-02-03,,"8304,27",15,10,2,400.0,24,20,4.7,Remoto,Desligado,Civil,100,São Paulo,SP,502,1,11-20
+143,Pedro Gomes ,Masculino,Sócio,2017-03-02,2020-05-17,"22372,37",40,30,3,,14,3,4.6,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,0-10
+144,Hugo Ribeiro ,Não-binário,Júnior,2024-03-10,,"4560,75",7,40,2,400.0,12,2,4.2,Remoto,Ativo,Tributário,400,São Paulo,SP,502,0,0-10
+145,Isabela Carvalho ,Não-binário,Júnior,2025-07-02,,"4966,22",8,10,1,501.0,16,9,3.5,Remoto,Ativo,Civil,100,Salvador,BA,501,0,0-10
+146,Mariana Rocha ,Masculino,Júnior,2024-03-21,,"4059,58",1,30,3,100.0,32,22,4.6,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,21-30
+147,Samuel Teixeira ,Masculino,Júnior,2025-05-02,,"3584,17",1,40,4,502.0,28,3,3.6,Remoto,Ativo,Tributário,400,Belo Horizonte,MG,504,0,0-10
+148,Carla Oliveira ,Feminino,Pleno,2023-02-11,2025-03-24,"7190,53",13,40,3,300.0,16,14,4.9,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+149,Mariana Rocha ,Não-binário,Júnior,2025-11-24,,"4844,79",1,20,2,300.0,58,42,2.2,Presencial,Ativo,Trabalhista,200,São Paulo,SP,502,0,41+
+150,Isabela Carvalho ,Feminino,Pleno,2024-05-23,,"6971,81",20,40,3,501.0,33,14,3.4,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+151,Carla Oliveira ,Não-binário,Pleno,2020-06-17,2021-11-01,"7635,03",11,30,2,300.0,12,11,4.0,Remoto,Ativo,Corporativo,300,São Paulo,SP,502,0,11-20
+152,Felipe Costa ,Feminino,Pleno,2022-06-01,,"7164,22",19,10,2,400.0,22,14,3.2,Presencial,Desligado,Civil,100,São Paulo,SP,502,1,11-20
+153,Samuel Teixeira ,Não-binário,Júnior,2024-09-05,,"4357,94",2,40,1,400.0,14,7,,Remoto,Ativo,Tributário,400,Salvador,BA,501,0,0-10
+154,Lucas Martins ,Feminino,Pleno,2021-05-30,2022-03-10,"6987,41",10,30,4,300.0,22,21,3.9,Presencial,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,21-30
+155,Vitor Xavier ,Masculino,Sócio,2013-11-07,2019-08-19,"20513,47",47,40,3,,27,20,4.6,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+156,Mariana Rocha ,Masculino,Sênior,2019-01-18,2022-01-17,"13987,69",20,30,4,100.0,26,11,4.7,Remoto,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,11-20
+157,João Lima ,Feminino,Sênior,2018-05-11,2023-05-10,"13050,85",35,40,4,502.0,29,18,4.9,Presencial,Ativo,Tributário,400,Belo Horizonte,MG,504,0,11-20
+158,Samuel Teixeira ,Masculino,Pleno,2023-05-01,,"5754,95",20,40,1,502.0,13,20,5.0,Remoto,Desligado,Tributário,400,Salvador,BA,501,1,11-20
+159,Diego Santos ,Masculino,Júnior,2024-01-11,,"3647,91",5,40,3,501.0,24,16,4.6,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+160,Pedro Gomes ,Feminino,Júnior,2024-04-17,,"3943,15",5,20,3,300.0,59,41,1.7,Presencial,Ativo,Trabalhista,200,Rio de Janeiro,RJ,503,0,41+
+161,Olivia Barbosa ,Masculino,Sócio,2015-07-30,2018-09-09,"24793,44",55,40,1,,35,9,4.1,Presencial,Ativo,Tributário,400,Salvador,BA,501,0,0-10
+162,Natan Alves ,Não-binário,Pleno,2022-04-08,,"6715,14",10,20,3,400.0,51,49,1.8,Remoto,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,41+
+163,Isabela Carvalho ,Feminino,Júnior,2025-12-21,,"4713,09",3,10,2,400.0,26,5,3.7,Presencial,Ativo,Civil,100,São Paulo,SP,502,0,0-10
+164,Mariana Rocha ,Não-binário,Pleno,2023-04-17,,"6555,95",20,30,4,100.0,22,5,3.6,Presencial,Desligado,Corporativo,300,Belo Horizonte,MG,504,1,0-10
+165,Elena Rodrigues ,Não-binário,Júnior,2025-06-07,,"4082,69",2,20,3,300.0,60,44,1.2,Remoto,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,41+
+166,Ana Silva ,Masculino,Pleno,2022-09-19,,"7945,65",20,40,1,100.0,25,16,4.1,Presencial,Desligado,Tributário,400,Salvador,BA,501,1,11-20
+167,Bruno Souza ,Masculino,Pleno,2021-07-16,2022-11-08,"6004,63",19,10,2,300.0,20,19,4.7,Remoto,Ativo,Civil,100,São Paulo,SP,502,0,11-20
+168,Gabriela Almeida ,Não-binário,Pleno,2022-05-20,,"7990,21",14,10,4,100.0,14,16,4.8,Remoto,Desligado,Civil,100,Belo Horizonte,MG,504,1,11-20
+169,Tatiana Mendes ,Não-binário,Júnior,2025-06-12,,"4025,95",0,20,2,501.0,63,46,1.7,Remoto,Desligado,Trabalhista,200,São Paulo,SP,502,1,41+
+170,João Lima ,Não-binário,Pleno,2021-08-15,,"8357,19",16,20,3,200.0,53,55,1.2,Remoto,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,41+
+171,Kamila Pereira ,Não-binário,Júnior,2024-09-10,,"4642,21",7,20,2,100.0,47,55,2.1,Remoto,Desligado,Trabalhista,200,São Paulo,SP,502,1,41+
+172,Lucas Martins ,Não-binário,Júnior,2025-04-10,,"4925,38",10,40,3,501.0,34,13,,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+173,Gabriela Almeida ,Masculino,Sócio,2017-07-19,2021-01-13,"19044,75",50,40,2,,13,5,4.3,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,0-10
+174,Felipe Costa ,Feminino,Pleno,2022-06-22,2024-02-10,"8374,1",12,40,1,100.0,14,22,3.8,Remoto,Ativo,Tributário,400,Salvador,BA,501,0,21-30
+175,Mariana Rocha ,Feminino,Pleno,2023-07-05,,"7598,32",13,30,2,501.0,14,6,4.3,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,0-10
+176,Kamila Pereira ,Feminino,Sênior,2021-01-08,2024-07-31,"10094,79",22,40,1,200.0,22,13,4.8,Presencial,Ativo,Tributário,400,Salvador,BA,501,0,11-20
+177,Elena Rodrigues ,Não-binário,Júnior,2024-03-11,,"4295,76",9,40,2,100.0,33,16,4.7,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+178,Tatiana Mendes ,Feminino,Júnior,2025-01-28,,"4027,3",8,10,2,300.0,31,21,4.5,Remoto,Ativo,Civil,100,São Paulo,SP,502,0,21-30
+179,Renata Pinto ,Feminino,Júnior,2025-09-13,,"4264,28",1,10,3,100.0,19,17,4.3,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,11-20
+180,Elena Rodrigues ,Masculino,Sênior,2019-03-04,2025-03-02,"12932,27",20,10,3,100.0,12,10,3.6,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,0-10
+181,Renata Pinto ,Não-binário,Júnior,2025-03-01,,"4135,36",4,40,3,200.0,14,18,4.9,Remoto,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+182,Carla Oliveira ,Não-binário,Pleno,2021-09-27,2023-09-19,"8360,28",17,30,4,502.0,31,3,3.8,Presencial,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,0-10
+183,Elena Rodrigues ,Feminino,Júnior,2025-12-19,,"3517,03",2,20,1,100.0,68,43,2.0,Remoto,Desligado,Trabalhista,200,Salvador,BA,501,1,41+
+184,Isabela Carvalho ,Masculino,Sócio,2017-11-15,2020-09-12,"21969,18",51,10,3,,30,7,3.9,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,0-10
+185,Diego Santos ,Não-binário,Sócio,2014-07-24,2021-06-14,"19956,41",50,30,1,,17,3,4.2,Remoto,Ativo,Corporativo,300,Salvador,BA,501,0,0-10
+186,Hugo Ribeiro ,Masculino,Pleno,2022-05-02,,"6459,81",12,40,2,100.0,28,3,4.9,Presencial,Desligado,Tributário,400,São Paulo,SP,502,1,0-10
+187,Kamila Pereira ,Masculino,Pleno,2020-06-25,,"5523,91",17,40,3,200.0,30,17,5.0,Presencial,Desligado,Tributário,400,Rio de Janeiro,RJ,503,1,11-20
+188,Natan Alves ,Feminino,Pleno,2020-02-18,,"6539,27",20,20,2,200.0,68,58,1.4,Presencial,Desligado,Trabalhista,200,São Paulo,SP,502,1,41+
+189,Bruno Souza ,Masculino,Júnior,2024-05-25,,"4567,48",7,20,4,501.0,68,37,1.8,Presencial,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,31-40
+190,Tatiana Mendes ,Feminino,Sênior,2020-08-03,2023-08-03,"10565,47",32,20,4,200.0,59,43,1.3,Presencial,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+191,Diego Santos ,Feminino,Júnior,2024-06-17,,"4174,35",7,20,1,502.0,53,38,,Presencial,Ativo,Trabalhista,200,Salvador,BA,501,0,31-40
+192,Kamila Pereira ,Feminino,Júnior,2024-05-31,,"3636,82",0,30,1,501.0,24,16,4.2,Presencial,Ativo,Corporativo,300,Salvador,BA,501,0,11-20
+193,Diego Santos ,Masculino,Júnior,2024-05-23,,"3682,18",10,20,1,501.0,65,55,1.1,Presencial,Desligado,Trabalhista,200,Salvador,BA,501,1,41+
+194,Carla Oliveira ,Feminino,Pleno,2021-02-08,,"6830,29",10,30,1,400.0,13,7,4.9,Remoto,Desligado,Corporativo,300,Salvador,BA,501,1,0-10
+195,Mariana Rocha ,Feminino,Pleno,2023-10-31,,"6561,83",10,40,4,300.0,31,21,3.6,Remoto,Ativo,Tributário,400,Belo Horizonte,MG,504,0,21-30
+196,Pedro Gomes ,Não-binário,Sênior,2017-05-05,2020-05-04,"10397,56",27,40,4,300.0,12,14,4.6,Presencial,Ativo,Tributário,400,Belo Horizonte,MG,504,0,11-20
+197,Tatiana Mendes ,Masculino,Sênior,2019-10-26,2024-10-24,"10934,95",21,40,4,200.0,23,20,5.0,Presencial,Ativo,Tributário,400,Belo Horizonte,MG,504,0,11-20
+198,Hugo Ribeiro ,Não-binário,Sênior,2018-06-30,2021-06-29,"12090,61",31,10,2,502.0,19,20,3.8,Remoto,Desligado,Civil,100,São Paulo,SP,502,1,11-20
+199,Lucas Martins ,Não-binário,Júnior,2025-08-04,,"4345,41",7,30,1,501.0,13,4,3.3,Remoto,Ativo,Corporativo,300,Salvador,BA,501,0,0-10
+200,Pedro Gomes ,Não-binário,Pleno,2020-01-02,,"7342,4",10,20,1,200.0,49,53,2.0,Remoto,Desligado,Trabalhista,200,Salvador,BA,501,1,41+
+201,Lucas Martins ,Feminino,Pleno,2023-12-13,2025-11-16,"5803,1",20,10,3,501.0,32,12,3.5,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,11-20
+202,Tatiana Mendes ,Não-binário,Pleno,2020-12-25,,"7701,98",19,30,2,501.0,17,21,3.8,Presencial,Desligado,Corporativo,300,São Paulo,SP,502,1,21-30
+203,Elena Rodrigues ,Masculino,Pleno,2021-11-09,2022-12-18,"8447,14",17,20,1,100.0,53,41,1.3,Remoto,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+204,Ana Silva ,Feminino,Pleno,2020-08-04,,"7697,75",15,30,3,501.0,24,5,4.7,Presencial,Desligado,Corporativo,300,Rio de Janeiro,RJ,503,1,0-10
+205,Carla Oliveira ,Masculino,Sócio,2012-05-16,2018-06-01,"20734,47",47,20,2,,47,45,1.8,Presencial,Ativo,Trabalhista,200,São Paulo,SP,502,0,41+
+206,Felipe Costa ,Masculino,Sênior,2020-05-28,2026-05-27,"10424,98",28,40,1,400.0,21,9,3.4,Presencial,Desligado,Tributário,400,Salvador,BA,501,1,0-10
+207,Lucas Martins ,Feminino,Júnior,2024-01-04,,"4141,41",3,40,2,100.0,17,22,3.7,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,21-30
+208,Mariana Rocha ,Masculino,Júnior,2025-04-27,,"4233,65",5,40,1,400.0,17,16,3.3,Presencial,Ativo,Tributário,400,Salvador,BA,501,0,11-20
+209,Isabela Carvalho ,Feminino,Pleno,2023-03-01,2024-03-31,"7589,41",19,40,3,501.0,29,3,4.7,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,0-10
+210,Hugo Ribeiro ,Não-binário,Pleno,2022-09-02,2024-02-02,"8208,33",11,40,4,200.0,17,7,,Remoto,Ativo,Tributário,400,Belo Horizonte,MG,504,0,0-10
+211,Carla Oliveira ,Masculino,Sênior,2020-10-31,,"10165,45",22,20,1,300.0,62,47,1.8,Presencial,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+212,Vitor Xavier ,Não-binário,Pleno,2023-04-18,,"6758,78",11,40,1,300.0,15,11,4.8,Presencial,Desligado,Tributário,400,Salvador,BA,501,1,11-20
+213,Pedro Gomes ,Masculino,Pleno,2023-03-17,,"5612,4",10,40,3,400.0,22,9,3.3,Presencial,Desligado,Tributário,400,Rio de Janeiro,RJ,503,1,0-10
+214,Kamila Pereira ,Feminino,Júnior,2024-11-06,,"3966,42",7,30,3,501.0,22,10,4.5,Remoto,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,0-10
+215,Gabriela Almeida ,Masculino,Sênior,2021-08-15,,"13402,35",25,10,2,501.0,34,18,3.9,Presencial,Ativo,Civil,100,São Paulo,SP,502,0,11-20
+216,Gabriela Almeida ,Feminino,Júnior,2024-02-29,,"3874,24",8,10,2,502.0,24,22,4.9,Remoto,Ativo,Civil,100,São Paulo,SP,502,0,21-30
+217,Pedro Gomes ,Masculino,Júnior,2025-08-31,,"4169,16",1,10,2,200.0,21,2,3.9,Remoto,Ativo,Civil,100,São Paulo,SP,502,0,0-10
+218,Hugo Ribeiro ,Não-binário,Pleno,2023-10-19,2025-01-31,"6728,52",12,20,2,200.0,50,54,2.1,Presencial,Ativo,Trabalhista,200,São Paulo,SP,502,0,41+
+219,Isabela Carvalho ,Não-binário,Sênior,2019-05-18,2025-05-16,"10481,94",32,30,3,300.0,12,18,5.0,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,11-20
+220,Diego Santos ,Não-binário,Pleno,2022-09-13,2023-10-15,"6329,45",13,30,3,501.0,28,9,4.8,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,0-10
+221,Elena Rodrigues ,Não-binário,Pleno,2024-01-17,,"6992,12",10,40,3,300.0,34,20,4.7,Remoto,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+222,Lucas Martins ,Não-binário,Sênior,2019-11-05,2024-11-03,"13444,23",35,20,4,200.0,68,52,2.1,Remoto,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+223,Lucas Martins ,Feminino,Júnior,2024-08-16,,"4616,31",1,30,1,501.0,27,3,4.8,Presencial,Ativo,Corporativo,300,Salvador,BA,501,0,0-10
+224,Renata Pinto ,Feminino,Júnior,2024-05-02,,"4801,25",5,10,4,400.0,25,20,4.8,Remoto,Ativo,Civil,100,Belo Horizonte,MG,504,0,11-20
+225,Felipe Costa ,Não-binário,Pleno,2024-05-14,2025-06-24,"7393,1",14,20,3,400.0,50,53,2.1,Remoto,Ativo,Trabalhista,200,Rio de Janeiro,RJ,503,0,41+
+226,Natan Alves ,Não-binário,Júnior,2025-10-10,,"4144,11",0,10,2,502.0,22,18,3.5,Remoto,Ativo,Civil,100,São Paulo,SP,502,0,11-20
+227,Lucas Martins ,Feminino,Júnior,2024-11-15,,"3693,4",7,10,2,300.0,35,18,4.3,Remoto,Ativo,Civil,100,São Paulo,SP,502,0,11-20
+228,Pedro Gomes ,Masculino,Sênior,2019-01-06,2023-01-05,"13154,04",24,40,2,300.0,30,18,3.5,Remoto,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+229,Isabela Carvalho ,Não-binário,Sênior,2021-04-29,2024-04-28,"9986,51",23,10,4,400.0,24,5,,Presencial,Ativo,Civil,100,Belo Horizonte,MG,504,0,0-10
+230,Ana Silva ,Não-binário,Júnior,2024-11-04,,"4131,31",8,20,2,100.0,68,54,1.2,Remoto,Ativo,Trabalhista,200,São Paulo,SP,502,0,41+
+231,Vitor Xavier ,Feminino,Júnior,2024-07-23,,"4666,94",0,10,4,502.0,29,17,4.8,Remoto,Ativo,Civil,100,Belo Horizonte,MG,504,0,11-20
+232,Ana Silva ,Feminino,Júnior,2024-01-14,,"4507,45",1,40,3,502.0,35,5,4.8,Remoto,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,0-10
+233,Isabela Carvalho ,Masculino,Júnior,2025-04-20,,"3575,12",1,20,4,200.0,48,36,1.0,Remoto,Desligado,Trabalhista,200,Belo Horizonte,MG,504,1,31-40
+234,Olivia Barbosa ,Masculino,Pleno,2023-06-27,,"7699,2",16,20,3,400.0,53,47,2.0,Presencial,Ativo,Trabalhista,200,Rio de Janeiro,RJ,503,0,41+
+235,Elena Rodrigues ,Feminino,Júnior,2025-12-13,,"4589,62",10,40,2,300.0,26,7,4.3,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,0-10
+236,Pedro Gomes ,Masculino,Pleno,2020-08-19,2022-03-17,"5690,01",20,10,2,501.0,28,18,4.4,Presencial,Ativo,Civil,100,São Paulo,SP,502,0,11-20
+237,Hugo Ribeiro ,Não-binário,Sênior,2019-09-14,2024-09-12,"10168,95",21,10,4,400.0,17,18,4.7,Remoto,Ativo,Civil,100,Belo Horizonte,MG,504,0,11-20
+238,Kamila Pereira ,Masculino,Sênior,2018-05-09,2023-05-08,"10502,18",27,20,1,400.0,59,53,1.6,Remoto,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+239,Pedro Gomes ,Feminino,Júnior,2025-10-31,,"3526,65",8,40,3,300.0,18,22,4.4,Remoto,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,21-30
+240,Olivia Barbosa ,Feminino,Júnior,2024-12-05,,"4340,23",10,30,1,502.0,19,2,3.8,Presencial,Ativo,Corporativo,300,Salvador,BA,501,0,0-10
+241,Diego Santos ,Não-binário,Júnior,2024-02-16,,"4845,32",9,30,3,400.0,18,8,3.4,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,0-10
+242,Kamila Pereira ,Feminino,Pleno,2020-08-08,2022-03-08,"7399,72",20,20,4,100.0,61,39,2.3,Remoto,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,31-40
+243,Pedro Gomes ,Não-binário,Pleno,2022-11-07,,"8230,54",16,10,4,501.0,31,21,4.8,Presencial,Desligado,Civil,100,Belo Horizonte,MG,504,1,21-30
+244,Hugo Ribeiro ,Não-binário,Pleno,2021-07-14,2023-02-02,"8411,47",18,40,4,200.0,34,19,4.3,Presencial,Ativo,Tributário,400,Belo Horizonte,MG,504,0,11-20
+245,Lucas Martins ,Não-binário,Pleno,2023-10-09,2024-12-14,"7450,26",11,20,3,502.0,62,50,1.8,Remoto,Ativo,Trabalhista,200,Rio de Janeiro,RJ,503,0,41+
+246,Ana Silva ,Masculino,Pleno,2022-06-12,2024-01-29,"5935,98",20,40,3,300.0,16,3,4.4,Remoto,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,0-10
+247,Olivia Barbosa ,Masculino,Júnior,2024-04-14,,"4424,16",8,20,1,100.0,67,44,2.0,Remoto,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+248,Kamila Pereira ,Masculino,Sócio,2012-08-08,2015-06-27,"24883,56",49,40,4,,23,20,,Presencial,Ativo,Tributário,400,Belo Horizonte,MG,504,0,11-20
+249,Olivia Barbosa ,Masculino,Sênior,2017-12-30,2020-12-29,"11812,31",28,20,2,300.0,49,40,1.8,Presencial,Ativo,Trabalhista,200,São Paulo,SP,502,0,31-40
+250,Elena Rodrigues ,Masculino,Júnior,2024-02-10,,"3730,56",9,10,3,502.0,29,13,3.3,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,11-20
+251,Renata Pinto ,Feminino,Pleno,2020-05-19,,"5978,11",13,30,2,200.0,22,12,3.8,Presencial,Desligado,Corporativo,300,São Paulo,SP,502,1,11-20
+252,Lucas Martins ,Feminino,Júnior,2025-04-01,,"3860,52",1,40,1,300.0,24,10,4.2,Remoto,Ativo,Tributário,400,Salvador,BA,501,0,0-10
+253,Renata Pinto ,Não-binário,Júnior,2025-01-04,,"4230,21",8,10,3,200.0,29,2,4.3,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,0-10
+254,Gabriela Almeida ,Feminino,Pleno,2023-01-06,2024-12-30,"7724,13",10,20,4,100.0,67,45,1.1,Presencial,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+255,Samuel Teixeira ,Masculino,Pleno,2020-05-24,2022-03-14,"8232,96",15,10,2,502.0,24,5,4.2,Remoto,Ativo,Civil,100,São Paulo,SP,502,0,0-10
+256,Carla Oliveira ,Não-binário,Júnior,2025-01-01,,"4892,07",6,10,1,501.0,24,2,4.1,Remoto,Ativo,Civil,100,Salvador,BA,501,0,0-10
+257,Mariana Rocha ,Não-binário,Júnior,2025-07-12,,"3942,47",8,20,2,100.0,62,39,1.2,Remoto,Ativo,Trabalhista,200,São Paulo,SP,502,0,31-40
+258,Gabriela Almeida ,Masculino,Júnior,2024-12-18,,"3817,61",4,40,1,501.0,18,5,3.5,Presencial,Ativo,Tributário,400,Salvador,BA,501,0,0-10
+259,Samuel Teixeira ,Não-binário,Júnior,2024-03-15,,"3935,98",2,10,4,300.0,33,22,3.6,Presencial,Ativo,Civil,100,Belo Horizonte,MG,504,0,21-30
+260,Pedro Gomes ,Masculino,Pleno,2022-11-07,,"7478,27",15,10,2,200.0,17,2,3.8,Remoto,Desligado,Civil,100,São Paulo,SP,502,1,0-10
+261,Elena Rodrigues ,Masculino,Pleno,2023-10-23,,"8133,66",18,40,3,300.0,17,22,4.3,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,21-30
+262,Carla Oliveira ,Masculino,Sênior,2021-01-29,2024-01-29,"12342,32",32,20,2,501.0,46,52,1.4,Remoto,Ativo,Trabalhista,200,São Paulo,SP,502,0,41+
+263,Mariana Rocha ,Masculino,Sênior,2018-04-03,2023-04-02,"9907,49",27,40,2,200.0,17,18,3.5,Presencial,Desligado,Tributário,400,São Paulo,SP,502,1,11-20
+264,Pedro Gomes ,Não-binário,Pleno,2022-01-04,2023-01-24,"6962,93",18,20,2,100.0,57,50,2.3,Presencial,Ativo,Trabalhista,200,São Paulo,SP,502,0,41+
+265,Renata Pinto ,Feminino,Júnior,2025-10-10,,"4744,47",6,10,3,100.0,23,20,4.4,Remoto,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,11-20
+266,Renata Pinto ,Feminino,Júnior,2025-02-19,,"4029,35",2,30,4,501.0,26,7,3.6,Presencial,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,0-10
+267,Felipe Costa ,Feminino,Júnior,2024-10-06,,"4043,33",10,30,2,200.0,27,17,,Remoto,Ativo,Corporativo,300,São Paulo,SP,502,0,11-20
+268,Bruno Souza ,Feminino,Pleno,2020-09-18,2022-07-08,"5904,17",12,40,1,501.0,17,18,4.9,Presencial,Ativo,Tributário,400,Salvador,BA,501,0,11-20
+269,Gabriela Almeida ,Feminino,Júnior,2025-04-04,,"4409,79",2,10,3,502.0,31,18,3.7,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,11-20
+270,Tatiana Mendes ,Não-binário,Pleno,2020-05-20,2021-09-14,"5896,64",12,30,4,501.0,15,7,4.1,Remoto,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,0-10
+271,Pedro Gomes ,Feminino,Júnior,2025-11-06,,"3695,49",6,10,1,400.0,23,3,4.5,Remoto,Ativo,Civil,100,Salvador,BA,501,0,0-10
+272,Lucas Martins ,Masculino,Sócio,2013-02-04,2020-08-08,"24872,43",44,20,4,,45,57,2.0,Remoto,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+273,Ana Silva ,Não-binário,Pleno,2022-02-07,2024-01-08,"7912,86",14,10,1,300.0,25,20,3.9,Presencial,Ativo,Civil,100,Salvador,BA,501,0,11-20
+274,Samuel Teixeira ,Masculino,Sênior,2021-05-25,,"11676,92",31,40,2,400.0,33,5,4.5,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,0-10
+275,Renata Pinto ,Feminino,Júnior,2025-02-14,,"4679,12",10,20,1,400.0,45,37,2.2,Presencial,Ativo,Trabalhista,200,Salvador,BA,501,0,31-40
+276,Isabela Carvalho ,Feminino,Pleno,2021-03-30,,"7327,09",19,40,1,100.0,17,22,4.1,Remoto,Desligado,Tributário,400,Salvador,BA,501,1,21-30
+277,Bruno Souza ,Feminino,Pleno,2024-05-24,,"7047,44",13,20,3,300.0,45,40,1.1,Remoto,Ativo,Trabalhista,200,Rio de Janeiro,RJ,503,0,31-40
+278,Mariana Rocha ,Não-binário,Júnior,2025-02-19,,"4379,12",9,40,3,300.0,23,13,4.9,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+279,Mariana Rocha ,Masculino,Pleno,2023-03-23,,"6025,1",15,20,2,501.0,61,43,2.2,Remoto,Desligado,Trabalhista,200,São Paulo,SP,502,1,41+
+280,Tatiana Mendes ,Masculino,Sênior,2019-09-18,2023-09-17,"11564,82",20,30,4,200.0,20,4,3.9,Remoto,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,0-10
+281,Lucas Martins ,Masculino,Júnior,2025-12-06,,"4303,48",8,20,3,200.0,50,50,1.4,Presencial,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,41+
+282,Gabriela Almeida ,Não-binário,Pleno,2022-10-18,2024-01-28,"6226,17",12,30,2,502.0,15,4,4.4,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,0-10
+283,Bruno Souza ,Não-binário,Júnior,2025-05-08,,"4056,79",2,40,1,501.0,28,10,3.9,Presencial,Ativo,Tributário,400,Salvador,BA,501,0,0-10
+284,Natan Alves ,Não-binário,Júnior,2025-05-04,,"4909,48",8,20,1,100.0,59,45,2.0,Presencial,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+285,Diego Santos ,Não-binário,Júnior,2024-11-29,,"4042,4",5,20,4,200.0,56,40,1.7,Presencial,Desligado,Trabalhista,200,Belo Horizonte,MG,504,1,31-40
+286,Mariana Rocha ,Masculino,Júnior,2024-10-13,,"4176,09",8,40,3,502.0,25,14,,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+287,Felipe Costa ,Feminino,Júnior,2025-03-07,,"4249,4",4,20,4,100.0,62,53,1.1,Presencial,Desligado,Trabalhista,200,Belo Horizonte,MG,504,1,41+
+288,Isabela Carvalho ,Feminino,Pleno,2022-02-09,2024-07-20,"7733,78",15,20,1,502.0,58,38,1.5,Presencial,Ativo,Trabalhista,200,Salvador,BA,501,0,31-40
+289,Lucas Martins ,Masculino,Pleno,2021-10-27,2023-06-10,"7824,23",17,20,2,300.0,49,40,1.9,Remoto,Ativo,Trabalhista,200,São Paulo,SP,502,0,31-40
+290,Carla Oliveira ,Feminino,Pleno,2020-11-27,,"6440,45",14,40,4,400.0,23,20,4.1,Presencial,Desligado,Tributário,400,Belo Horizonte,MG,504,1,11-20
+291,Ana Silva ,Feminino,Sênior,2017-09-14,2021-09-13,"12653,14",32,40,2,100.0,14,17,4.2,Remoto,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+292,Isabela Carvalho ,Feminino,Júnior,2025-09-24,,"3732,91",10,40,1,200.0,16,6,4.1,Remoto,Ativo,Tributário,400,Salvador,BA,501,0,0-10
+293,Lucas Martins ,Não-binário,Pleno,2021-10-28,2023-06-28,"8112,69",19,10,1,501.0,26,22,4.5,Presencial,Ativo,Civil,100,Salvador,BA,501,0,21-30
+294,Pedro Gomes ,Masculino,Sênior,2020-01-11,2024-01-10,"11146,02",20,40,3,501.0,16,13,3.7,Remoto,Desligado,Tributário,400,Rio de Janeiro,RJ,503,1,11-20
+295,João Lima ,Masculino,Sênior,2017-01-19,2023-01-18,"13085,45",33,10,4,502.0,24,9,3.5,Presencial,Ativo,Civil,100,Belo Horizonte,MG,504,0,0-10
+296,Isabela Carvalho ,Feminino,Júnior,2024-03-22,,"4133,36",8,40,4,100.0,20,15,3.5,Remoto,Ativo,Tributário,400,Belo Horizonte,MG,504,0,11-20
+297,Diego Santos ,Masculino,Sênior,2020-07-28,,"12302,39",24,20,2,300.0,45,40,2.4,Remoto,Ativo,Trabalhista,200,São Paulo,SP,502,0,31-40
+298,Olivia Barbosa ,Não-binário,Pleno,2024-01-29,,"5770,59",17,30,2,200.0,26,3,3.8,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,0-10
+299,Carla Oliveira ,Masculino,Sênior,2020-01-18,2026-01-16,"10625,36",23,10,3,100.0,26,9,4.5,Remoto,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,0-10
+300,Diego Santos ,Não-binário,Júnior,2025-06-17,,"4499,01",0,20,4,300.0,68,52,1.7,Presencial,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+301,Lucas Martins ,Feminino,Pleno,2020-04-16,,"6153,36",12,40,3,200.0,30,5,3.9,Presencial,Desligado,Tributário,400,Rio de Janeiro,RJ,503,1,0-10
+302,Pedro Gomes ,Não-binário,Sênior,2020-10-11,2024-11-09,"10209,64",30,10,1,502.0,13,13,4.4,Presencial,Ativo,Civil,100,Salvador,BA,501,0,11-20
+303,Hugo Ribeiro ,Masculino,Pleno,2021-10-10,,"7865,69",10,10,2,100.0,23,6,3.7,Remoto,Desligado,Civil,100,São Paulo,SP,502,1,0-10
+304,João Lima ,Não-binário,Sênior,2020-01-17,2026-01-15,"11064,49",25,40,4,300.0,16,16,3.7,Presencial,Desligado,Tributário,400,Belo Horizonte,MG,504,1,11-20
+305,Renata Pinto ,Feminino,Pleno,2022-02-15,,"8148,8",15,30,4,200.0,33,19,,Presencial,Desligado,Corporativo,300,Belo Horizonte,MG,504,1,11-20
+306,João Lima ,Não-binário,Júnior,2024-11-26,,"4114,71",0,40,2,100.0,18,5,4.1,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,0-10
+307,Pedro Gomes ,Não-binário,Pleno,2022-12-12,,"7270,9",13,10,4,502.0,27,4,4.0,Presencial,Desligado,Civil,100,Belo Horizonte,MG,504,1,0-10
+308,Natan Alves ,Não-binário,Sênior,2021-08-11,,"12276,2",29,10,3,200.0,28,5,3.4,Presencial,Desligado,Civil,100,Rio de Janeiro,RJ,503,1,0-10
+309,Renata Pinto ,Feminino,Júnior,2025-03-11,,"3873,14",9,40,2,400.0,23,16,4.5,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+310,Samuel Teixeira ,Feminino,Pleno,2022-04-02,2023-12-16,"5974,53",18,10,2,400.0,23,15,4.6,Presencial,Ativo,Civil,100,São Paulo,SP,502,0,11-20
+311,Samuel Teixeira ,Não-binário,Pleno,2021-03-14,,"7150,72",16,30,2,501.0,35,3,5.0,Presencial,Desligado,Corporativo,300,São Paulo,SP,502,1,0-10
+312,Ana Silva ,Masculino,Pleno,2021-09-07,2022-12-29,"6444,71",11,10,2,300.0,26,13,3.5,Remoto,Ativo,Civil,100,São Paulo,SP,502,0,11-20
+313,Isabela Carvalho ,Feminino,Pleno,2021-09-07,2022-10-24,"7207,19",12,30,2,100.0,34,20,4.7,Remoto,Ativo,Corporativo,300,São Paulo,SP,502,0,11-20
+314,Tatiana Mendes ,Não-binário,Júnior,2025-01-25,,"3617,72",3,30,1,100.0,35,22,4.7,Presencial,Ativo,Corporativo,300,Salvador,BA,501,0,21-30
+315,Renata Pinto ,Masculino,Sócio,2012-06-17,2018-10-11,"19766,38",36,40,1,,30,18,3.4,Remoto,Ativo,Tributário,400,Salvador,BA,501,0,11-20
+316,Elena Rodrigues ,Masculino,Pleno,2020-09-27,,"6927,56",16,40,3,400.0,25,6,4.6,Presencial,Desligado,Tributário,400,Rio de Janeiro,RJ,503,1,0-10
+317,Tatiana Mendes ,Masculino,Júnior,2024-07-19,,"4341,75",10,20,4,400.0,63,37,1.2,Remoto,Desligado,Trabalhista,200,Belo Horizonte,MG,504,1,31-40
+318,Gabriela Almeida ,Masculino,Júnior,2024-11-24,,"4016,79",2,40,3,200.0,26,3,4.9,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,0-10
+319,Carla Oliveira ,Feminino,Júnior,2024-04-25,,"4609,37",1,20,3,300.0,54,49,1.7,Remoto,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,41+
+320,Samuel Teixeira ,Feminino,Pleno,2022-12-07,,"7146,4",19,20,2,100.0,61,36,1.4,Remoto,Desligado,Trabalhista,200,São Paulo,SP,502,1,31-40
+321,Vitor Xavier ,Não-binário,Pleno,2021-07-09,2022-08-05,"8335,53",10,30,2,400.0,32,14,3.6,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,11-20
+322,Vitor Xavier ,Masculino,Júnior,2025-06-28,,"3632,03",8,10,3,502.0,21,12,4.1,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,11-20
+323,Lucas Martins ,Masculino,Júnior,2024-12-29,,"4437,85",0,20,1,300.0,62,43,1.3,Presencial,Desligado,Trabalhista,200,Salvador,BA,501,1,41+
+324,Mariana Rocha ,Feminino,Pleno,2022-12-02,2024-11-13,"7376,57",14,40,2,200.0,22,16,,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+325,João Lima ,Feminino,Júnior,2025-12-06,,"4557,7",1,20,2,100.0,62,52,2.3,Remoto,Desligado,Trabalhista,200,São Paulo,SP,502,1,41+
+326,Ana Silva ,Feminino,Júnior,2024-11-22,,"4820,2",3,20,3,501.0,48,39,1.3,Presencial,Ativo,Trabalhista,200,Rio de Janeiro,RJ,503,0,31-40
+327,Hugo Ribeiro ,Não-binário,Pleno,2021-04-17,2023-04-03,"5738,43",20,30,2,200.0,17,14,4.1,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,11-20
+328,Bruno Souza ,Feminino,Júnior,2025-02-22,,"4646,81",2,20,2,300.0,59,54,1.7,Presencial,Desligado,Trabalhista,200,São Paulo,SP,502,1,41+
+329,Mariana Rocha ,Masculino,Pleno,2024-05-08,,"7706,0",18,40,2,100.0,26,16,4.7,Remoto,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+330,Bruno Souza ,Não-binário,Júnior,2025-07-25,,"4081,1",4,20,4,501.0,59,40,1.6,Presencial,Desligado,Trabalhista,200,Belo Horizonte,MG,504,1,31-40
+331,Olivia Barbosa ,Masculino,Pleno,2020-07-04,2022-03-17,"7836,19",16,10,2,501.0,26,2,3.5,Presencial,Ativo,Civil,100,São Paulo,SP,502,0,0-10
+332,Isabela Carvalho ,Feminino,Júnior,2024-11-27,,"4537,58",7,20,4,502.0,65,46,1.1,Remoto,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+333,Samuel Teixeira ,Masculino,Sênior,2019-02-19,2022-02-18,"12044,71",25,40,2,300.0,34,3,4.0,Remoto,Ativo,Tributário,400,São Paulo,SP,502,0,0-10
+334,Felipe Costa ,Não-binário,Júnior,2024-04-30,,"4847,81",7,40,3,400.0,29,2,4.3,Remoto,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,0-10
+335,Pedro Gomes ,Não-binário,Pleno,2022-07-18,2024-02-12,"7303,65",10,20,2,100.0,49,36,1.9,Remoto,Ativo,Trabalhista,200,São Paulo,SP,502,0,31-40
+336,Tatiana Mendes ,Não-binário,Pleno,2023-05-20,2024-10-18,"5763,11",19,20,1,501.0,67,57,1.8,Presencial,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+337,Tatiana Mendes ,Não-binário,Júnior,2025-03-01,,"4897,22",8,20,4,100.0,47,44,1.7,Remoto,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+338,Natan Alves ,Não-binário,Pleno,2022-12-10,,"6127,15",17,30,3,300.0,34,11,4.0,Presencial,Desligado,Corporativo,300,Rio de Janeiro,RJ,503,1,11-20
+339,Vitor Xavier ,Feminino,Júnior,2025-07-30,,"4244,6",3,30,3,502.0,12,5,3.2,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,0-10
+340,Natan Alves ,Não-binário,Júnior,2025-02-27,,"3568,24",4,10,2,501.0,14,11,3.7,Remoto,Ativo,Civil,100,São Paulo,SP,502,0,11-20
+341,Kamila Pereira ,Feminino,Sênior,2018-12-01,2024-11-29,"9631,03",30,30,1,400.0,27,3,4.4,Remoto,Ativo,Corporativo,300,Salvador,BA,501,0,0-10
+342,Kamila Pereira ,Não-binário,Júnior,2025-04-18,,"4675,98",8,20,4,300.0,45,41,1.8,Remoto,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+343,Isabela Carvalho ,Feminino,Pleno,2020-03-04,,"6625,72",12,30,1,300.0,15,11,,Presencial,Desligado,Corporativo,300,Salvador,BA,501,1,11-20
+344,Carla Oliveira ,Masculino,Sênior,2019-10-15,2023-10-14,"10861,83",23,10,3,100.0,18,4,4.0,Remoto,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,0-10
+345,Kamila Pereira ,Feminino,Júnior,2025-05-10,,"4598,66",0,40,2,501.0,26,14,4.5,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+346,Bruno Souza ,Masculino,Júnior,2025-12-04,,"4772,19",9,10,1,300.0,21,22,4.8,Presencial,Ativo,Civil,100,Salvador,BA,501,0,21-30
+347,Isabela Carvalho ,Masculino,Pleno,2022-12-26,,"6823,35",10,20,2,501.0,62,51,1.1,Presencial,Desligado,Trabalhista,200,São Paulo,SP,502,1,41+
+348,Elena Rodrigues ,Masculino,Pleno,2023-12-13,,"7222,25",10,30,3,100.0,12,17,4.8,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,11-20
+349,Carla Oliveira ,Feminino,Júnior,2025-03-12,,"4087,88",5,10,4,400.0,18,19,3.3,Presencial,Ativo,Civil,100,Belo Horizonte,MG,504,0,11-20
+350,Olivia Barbosa ,Não-binário,Júnior,2024-04-09,,"4183,38",9,20,1,502.0,53,46,1.5,Presencial,Desligado,Trabalhista,200,Salvador,BA,501,1,41+
+351,Pedro Gomes ,Masculino,Pleno,2020-02-03,2021-04-04,"6554,32",18,30,3,502.0,24,5,3.8,Remoto,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,0-10
+352,Olivia Barbosa ,Não-binário,Pleno,2022-03-31,,"6215,73",11,10,3,400.0,18,20,4.0,Remoto,Desligado,Civil,100,Rio de Janeiro,RJ,503,1,11-20
+353,Carla Oliveira ,Feminino,Júnior,2025-12-29,,"4361,28",2,30,2,100.0,21,14,3.3,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,11-20
+354,Bruno Souza ,Masculino,Sócio,2013-01-05,2018-03-11,"23089,06",35,40,3,,26,19,3.7,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+355,Kamila Pereira ,Feminino,Júnior,2024-11-02,,"4355,41",9,40,2,400.0,12,21,5.0,Remoto,Ativo,Tributário,400,São Paulo,SP,502,0,21-30
+356,Lucas Martins ,Feminino,Júnior,2025-07-16,,"4951,85",3,20,3,502.0,58,57,1.8,Remoto,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,41+
+357,Mariana Rocha ,Masculino,Pleno,2022-06-10,2024-03-15,"6020,23",12,30,4,100.0,33,6,3.4,Presencial,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,0-10
+358,Pedro Gomes ,Não-binário,Pleno,2023-09-09,,"8470,65",19,10,2,400.0,31,7,4.0,Remoto,Ativo,Civil,100,São Paulo,SP,502,0,0-10
+359,Hugo Ribeiro ,Masculino,Júnior,2024-07-09,,"4137,16",8,40,4,100.0,30,13,3.3,Remoto,Ativo,Tributário,400,Belo Horizonte,MG,504,0,11-20
+360,Tatiana Mendes ,Feminino,Sênior,2019-09-14,2022-09-13,"13926,11",34,40,3,400.0,28,21,3.4,Presencial,Desligado,Tributário,400,Rio de Janeiro,RJ,503,1,21-30
+361,Bruno Souza ,Não-binário,Pleno,2021-12-04,,"5532,35",16,10,3,502.0,21,11,3.5,Remoto,Desligado,Civil,100,Rio de Janeiro,RJ,503,1,11-20
+362,Pedro Gomes ,Feminino,Sênior,2020-03-30,2024-03-29,"10812,89",29,30,3,300.0,16,18,,Remoto,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,11-20
+363,Isabela Carvalho ,Não-binário,Júnior,2024-10-08,,"4786,79",7,30,2,502.0,23,7,3.7,Remoto,Ativo,Corporativo,300,São Paulo,SP,502,0,0-10
+364,Renata Pinto ,Feminino,Júnior,2024-02-03,,"4014,27",6,20,4,502.0,52,56,1.6,Remoto,Desligado,Trabalhista,200,Belo Horizonte,MG,504,1,41+
+365,Lucas Martins ,Não-binário,Pleno,2020-04-21,2022-03-15,"7958,59",17,20,2,400.0,52,47,2.0,Remoto,Ativo,Trabalhista,200,São Paulo,SP,502,0,41+
+366,Renata Pinto ,Feminino,Júnior,2025-03-21,,"3517,79",8,40,3,400.0,32,13,4.9,Remoto,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+367,Isabela Carvalho ,Masculino,Sênior,2021-07-02,2024-07-01,"11574,99",26,30,3,100.0,33,7,3.8,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,0-10
+368,Natan Alves ,Feminino,Júnior,2024-04-10,,"4287,9",0,10,1,501.0,31,4,3.3,Presencial,Ativo,Civil,100,Salvador,BA,501,0,0-10
+369,Diego Santos ,Não-binário,Sênior,2017-06-26,2021-06-25,"12415,58",23,20,1,100.0,54,49,1.9,Remoto,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+370,Kamila Pereira ,Masculino,Júnior,2024-09-20,,"3742,95",4,40,3,200.0,17,16,3.3,Remoto,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+371,Pedro Gomes ,Não-binário,Pleno,2020-08-10,2021-10-22,"6793,76",11,40,2,300.0,14,4,4.2,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,0-10
+372,Elena Rodrigues ,Masculino,Pleno,2023-08-30,2025-07-22,"5613,51",19,40,1,400.0,28,17,4.1,Presencial,Ativo,Tributário,400,Salvador,BA,501,0,11-20
+373,Mariana Rocha ,Feminino,Júnior,2025-12-06,,"4726,96",4,10,2,502.0,24,3,4.3,Remoto,Ativo,Civil,100,São Paulo,SP,502,0,0-10
+374,Kamila Pereira ,Não-binário,Pleno,2020-06-13,,"7781,36",16,10,3,100.0,18,11,4.5,Presencial,Desligado,Civil,100,Rio de Janeiro,RJ,503,1,11-20
+375,Olivia Barbosa ,Feminino,Júnior,2024-07-13,,"3709,91",8,30,4,400.0,32,11,4.1,Remoto,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,11-20
+376,Bruno Souza ,Masculino,Sênior,2018-11-23,2021-11-22,"12442,32",24,10,1,400.0,14,3,4.5,Presencial,Ativo,Civil,100,Salvador,BA,501,0,0-10
+377,Bruno Souza ,Não-binário,Júnior,2024-09-05,,"4551,95",9,10,4,100.0,17,20,3.3,Presencial,Ativo,Civil,100,Belo Horizonte,MG,504,0,11-20
+378,Vitor Xavier ,Não-binário,Júnior,2024-08-13,,"3594,67",10,10,4,200.0,30,19,3.4,Remoto,Ativo,Civil,100,Belo Horizonte,MG,504,0,11-20
+379,Carla Oliveira ,Masculino,Sócio,2013-09-05,2019-02-28,"22427,26",49,10,2,,16,5,4.6,Remoto,Ativo,Civil,100,São Paulo,SP,502,0,0-10
+380,Pedro Gomes ,Feminino,Sênior,2017-06-15,2020-06-14,"12680,34",33,40,2,501.0,18,6,4.4,Remoto,Ativo,Tributário,400,São Paulo,SP,502,0,0-10
+381,Felipe Costa ,Feminino,Pleno,2023-06-04,,"7288,82",15,40,4,100.0,12,19,,Presencial,Ativo,Tributário,400,Belo Horizonte,MG,504,0,11-20
+382,Renata Pinto ,Não-binário,Pleno,2021-03-25,,"7379,39",20,10,3,100.0,27,7,3.5,Presencial,Desligado,Civil,100,Rio de Janeiro,RJ,503,1,0-10
+383,Gabriela Almeida ,Masculino,Sênior,2019-06-10,2024-06-08,"12912,84",25,10,3,200.0,27,18,3.4,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,11-20
+384,Gabriela Almeida ,Masculino,Júnior,2025-11-24,,"4847,56",6,40,3,400.0,19,4,4.0,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,0-10
+385,Gabriela Almeida ,Feminino,Sênior,2020-06-02,2026-06-01,"11559,83",28,10,4,100.0,16,3,4.4,Presencial,Ativo,Civil,100,Belo Horizonte,MG,504,0,0-10
+386,Olivia Barbosa ,Feminino,Sênior,2019-07-29,2025-07-27,"13488,84",25,30,2,501.0,19,4,3.9,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,0-10
+387,Pedro Gomes ,Não-binário,Sênior,2021-09-11,,"12812,8",33,40,2,100.0,30,6,4.8,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,0-10
+388,Pedro Gomes ,Feminino,Júnior,2025-05-31,,"3550,43",3,40,1,502.0,14,19,4.6,Presencial,Ativo,Tributário,400,Salvador,BA,501,0,11-20
+389,Lucas Martins ,Feminino,Sênior,2018-08-29,2022-08-28,"11659,02",20,40,2,300.0,16,14,3.5,Presencial,Desligado,Tributário,400,São Paulo,SP,502,1,11-20
+390,Carla Oliveira ,Não-binário,Pleno,2022-02-27,,"6498,72",20,40,1,100.0,31,12,4.5,Remoto,Desligado,Tributário,400,Salvador,BA,501,1,11-20
+391,Mariana Rocha ,Feminino,Pleno,2022-01-18,2023-09-13,"6596,71",12,30,1,400.0,19,19,3.4,Presencial,Ativo,Corporativo,300,Salvador,BA,501,0,11-20
+392,Lucas Martins ,Masculino,Júnior,2024-09-30,,"4255,35",8,20,2,502.0,48,50,2.0,Remoto,Ativo,Trabalhista,200,São Paulo,SP,502,0,41+
+393,Lucas Martins ,Não-binário,Pleno,2023-10-10,2025-09-28,"8322,63",11,30,4,100.0,17,11,4.9,Presencial,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,11-20
+394,Diego Santos ,Masculino,Júnior,2025-12-14,,"3721,93",10,10,2,400.0,29,6,4.1,Remoto,Ativo,Civil,100,São Paulo,SP,502,0,0-10
+395,Gabriela Almeida ,Masculino,Pleno,2020-05-08,,"7905,97",19,40,1,400.0,32,22,4.6,Remoto,Desligado,Tributário,400,Salvador,BA,501,1,21-30
+396,Tatiana Mendes ,Masculino,Pleno,2020-09-27,,"6419,49",10,40,4,200.0,23,11,4.0,Presencial,Desligado,Tributário,400,Belo Horizonte,MG,504,1,11-20
+397,Felipe Costa ,Feminino,Júnior,2025-12-26,,"4539,29",2,20,3,200.0,59,43,1.5,Presencial,Ativo,Trabalhista,200,Rio de Janeiro,RJ,503,0,41+
+398,Elena Rodrigues ,Masculino,Júnior,2025-01-16,,"4172,64",2,10,3,502.0,26,12,3.5,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,11-20
+399,João Lima ,Masculino,Pleno,2024-03-24,,"7221,18",11,30,3,100.0,13,6,4.4,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,0-10
+400,Vitor Xavier ,Masculino,Sócio,2014-06-21,2019-09-16,"19561,2",51,30,1,,12,4,,Remoto,Ativo,Corporativo,300,Salvador,BA,501,0,0-10
+401,Mariana Rocha ,Não-binário,Pleno,2021-02-02,,"7309,52",12,40,1,300.0,23,14,3.9,Presencial,Desligado,Tributário,400,Salvador,BA,501,1,11-20
+402,Olivia Barbosa ,Masculino,Pleno,2023-02-22,,"7683,56",12,30,3,501.0,35,15,3.5,Presencial,Desligado,Corporativo,300,Rio de Janeiro,RJ,503,1,11-20
+403,João Lima ,Feminino,Pleno,2022-08-30,,"7075,9",11,10,2,400.0,25,22,4.8,Presencial,Desligado,Civil,100,São Paulo,SP,502,1,21-30
+404,Tatiana Mendes ,Não-binário,Pleno,2024-03-26,2025-06-04,"7996,85",17,20,4,100.0,68,49,1.3,Remoto,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+405,Pedro Gomes ,Masculino,Pleno,2020-09-11,2022-08-11,"6363,07",10,20,3,100.0,53,50,2.4,Remoto,Ativo,Trabalhista,200,Rio de Janeiro,RJ,503,0,41+
+406,Natan Alves ,Não-binário,Júnior,2024-09-21,,"4441,99",2,30,4,400.0,30,3,3.5,Remoto,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,0-10
+407,Bruno Souza ,Feminino,Júnior,2024-06-10,,"4041,75",3,20,3,501.0,65,40,2.1,Presencial,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,31-40
+408,João Lima ,Masculino,Pleno,2021-07-09,,"7565,04",12,20,3,400.0,54,46,2.1,Remoto,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,41+
+409,Gabriela Almeida ,Feminino,Sênior,2017-11-13,2021-11-12,"12013,95",23,30,2,100.0,14,5,4.7,Remoto,Ativo,Corporativo,300,São Paulo,SP,502,0,0-10
+410,Lucas Martins ,Masculino,Pleno,2020-10-11,,"8169,18",14,40,3,502.0,35,5,3.6,Presencial,Desligado,Tributário,400,Rio de Janeiro,RJ,503,1,0-10
+411,Elena Rodrigues ,Masculino,Pleno,2021-03-05,,"5735,81",17,20,2,502.0,46,41,1.2,Remoto,Desligado,Trabalhista,200,São Paulo,SP,502,1,41+
+412,Isabela Carvalho ,Feminino,Sócio,2012-06-26,2015-12-19,"18990,35",54,10,4,,17,13,3.3,Remoto,Ativo,Civil,100,Belo Horizonte,MG,504,0,11-20
+413,Lucas Martins ,Não-binário,Sênior,2018-12-23,2022-12-22,"12258,3",23,20,3,300.0,61,41,2.0,Presencial,Ativo,Trabalhista,200,Rio de Janeiro,RJ,503,0,41+
+414,Diego Santos ,Não-binário,Júnior,2024-07-08,,"4880,72",1,20,1,400.0,50,46,2.4,Remoto,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+415,Diego Santos ,Masculino,Júnior,2024-11-17,,"3685,42",5,20,2,400.0,60,38,1.5,Presencial,Ativo,Trabalhista,200,São Paulo,SP,502,0,31-40
+416,Samuel Teixeira ,Feminino,Júnior,2025-02-21,,"3935,88",0,30,4,400.0,33,17,4.4,Remoto,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,11-20
+417,Elena Rodrigues ,Feminino,Sênior,2019-03-20,2025-03-18,"12836,44",22,40,1,400.0,22,8,4.3,Presencial,Desligado,Tributário,400,Salvador,BA,501,1,0-10
+418,Pedro Gomes ,Masculino,Sócio,2015-02-14,2021-11-10,"24407,87",47,10,2,,31,14,5.0,Remoto,Ativo,Civil,100,São Paulo,SP,502,0,11-20
+419,Diego Santos ,Masculino,Pleno,2020-09-07,,"6991,82",11,30,2,400.0,33,2,,Presencial,Desligado,Corporativo,300,São Paulo,SP,502,1,0-10
+420,Vitor Xavier ,Masculino,Júnior,2025-09-30,,"3644,5",10,30,2,501.0,27,17,4.1,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,11-20
+421,Natan Alves ,Feminino,Júnior,2024-01-05,,"4075,44",10,30,1,200.0,21,7,4.1,Remoto,Ativo,Corporativo,300,Salvador,BA,501,0,0-10
+422,Diego Santos ,Masculino,Pleno,2023-03-11,,"7480,24",18,30,4,400.0,24,10,4.1,Presencial,Desligado,Corporativo,300,Belo Horizonte,MG,504,1,0-10
+423,Bruno Souza ,Masculino,Júnior,2024-01-29,,"4385,7",5,30,3,300.0,24,5,4.0,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,0-10
+424,Hugo Ribeiro ,Feminino,Júnior,2024-09-10,,"3851,93",2,40,3,400.0,12,19,3.8,Remoto,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+425,Ana Silva ,Masculino,Sócio,2017-04-07,2021-08-26,"20579,37",38,40,4,,18,12,4.1,Presencial,Ativo,Tributário,400,Belo Horizonte,MG,504,0,11-20
+426,João Lima ,Não-binário,Pleno,2022-01-14,,"6105,28",14,30,2,400.0,13,11,5.0,Presencial,Desligado,Corporativo,300,São Paulo,SP,502,1,11-20
+427,Tatiana Mendes ,Não-binário,Pleno,2020-07-13,2022-05-12,"5701,81",11,20,1,400.0,54,51,2.1,Presencial,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+428,Mariana Rocha ,Masculino,Pleno,2021-05-29,2023-04-13,"7514,68",19,30,2,502.0,18,16,3.7,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,11-20
+429,Gabriela Almeida ,Não-binário,Júnior,2025-01-08,,"4193,73",1,40,1,300.0,32,8,4.7,Remoto,Ativo,Tributário,400,Salvador,BA,501,0,0-10
+430,Vitor Xavier ,Masculino,Júnior,2024-08-29,,"4108,8",8,30,2,100.0,25,15,4.4,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,11-20
+431,Elena Rodrigues ,Masculino,Júnior,2024-01-30,,"3887,6",0,20,2,100.0,47,45,1.8,Presencial,Desligado,Trabalhista,200,São Paulo,SP,502,1,41+
+432,Carla Oliveira ,Não-binário,Júnior,2025-02-10,,"4914,74",10,40,3,100.0,30,18,3.7,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+433,Kamila Pereira ,Masculino,Sênior,2021-09-01,,"13709,75",25,20,1,501.0,59,48,1.4,Presencial,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+434,Lucas Martins ,Não-binário,Pleno,2023-12-03,2025-01-28,"6771,34",17,10,4,501.0,21,2,4.4,Presencial,Ativo,Civil,100,Belo Horizonte,MG,504,0,0-10
+435,Hugo Ribeiro ,Não-binário,Pleno,2021-02-06,,"6427,81",17,10,1,300.0,12,14,4.9,Presencial,Desligado,Civil,100,Salvador,BA,501,1,11-20
+436,João Lima ,Feminino,Pleno,2021-03-06,,"5980,68",10,30,1,400.0,14,17,4.0,Presencial,Desligado,Corporativo,300,Salvador,BA,501,1,11-20
+437,Felipe Costa ,Feminino,Pleno,2023-12-01,,"5699,1",17,30,4,502.0,13,22,4.4,Presencial,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,21-30
+438,Mariana Rocha ,Feminino,Pleno,2021-02-13,2022-12-31,"7227,43",19,40,2,502.0,25,12,,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+439,Tatiana Mendes ,Feminino,Sênior,2021-08-21,,"11365,23",27,20,3,200.0,62,55,1.9,Presencial,Ativo,Trabalhista,200,Rio de Janeiro,RJ,503,0,41+
+440,Isabela Carvalho ,Feminino,Júnior,2025-12-19,,"4777,75",2,10,4,501.0,30,5,3.2,Remoto,Ativo,Civil,100,Belo Horizonte,MG,504,0,0-10
+441,Pedro Gomes ,Não-binário,Pleno,2020-08-30,2021-12-22,"6071,63",16,40,4,300.0,25,8,4.3,Presencial,Ativo,Tributário,400,Belo Horizonte,MG,504,0,0-10
+442,Natan Alves ,Feminino,Pleno,2020-10-25,,"8428,38",19,20,4,400.0,65,49,1.1,Remoto,Desligado,Trabalhista,200,Belo Horizonte,MG,504,1,41+
+443,Mariana Rocha ,Não-binário,Júnior,2025-12-04,,"3818,33",0,20,3,400.0,46,45,2.3,Presencial,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,41+
+444,Isabela Carvalho ,Feminino,Pleno,2022-10-30,2024-09-11,"8432,57",19,30,1,300.0,20,7,4.1,Presencial,Ativo,Corporativo,300,Salvador,BA,501,0,0-10
+445,Kamila Pereira ,Feminino,Pleno,2023-12-25,,"5925,39",14,40,2,300.0,25,11,4.8,Remoto,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+446,Felipe Costa ,Masculino,Sênior,2018-10-09,2024-10-07,"13338,65",21,30,3,400.0,13,9,3.5,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,0-10
+447,Olivia Barbosa ,Não-binário,Júnior,2025-03-22,,"3674,04",7,30,2,100.0,15,6,3.4,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,0-10
+448,Felipe Costa ,Feminino,Sênior,2021-03-16,2026-03-15,"10455,78",25,20,3,300.0,52,50,1.9,Presencial,Ativo,Trabalhista,200,Rio de Janeiro,RJ,503,0,41+
+449,Diego Santos ,Não-binário,Pleno,2022-03-18,2023-09-25,"8353,66",20,10,3,501.0,26,22,4.9,Remoto,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,21-30
+450,Vitor Xavier ,Feminino,Pleno,2022-07-16,2023-12-29,"8499,46",10,10,3,502.0,21,12,4.6,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,11-20
+451,Mariana Rocha ,Feminino,Júnior,2024-09-18,,"3767,02",6,10,4,502.0,21,22,4.6,Presencial,Ativo,Civil,100,Belo Horizonte,MG,504,0,21-30
+452,Pedro Gomes ,Masculino,Júnior,2025-03-18,,"4603,83",8,20,1,400.0,51,50,1.6,Presencial,Desligado,Trabalhista,200,Salvador,BA,501,1,41+
+453,Vitor Xavier ,Não-binário,Sênior,2019-05-17,2022-05-16,"12262,41",22,40,3,502.0,22,16,4.4,Remoto,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+454,Renata Pinto ,Não-binário,Pleno,2020-06-20,2021-11-15,"5737,55",13,20,4,501.0,58,44,1.8,Remoto,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+455,Diego Santos ,Não-binário,Júnior,2025-06-06,,"4137,37",9,10,1,502.0,14,18,3.2,Presencial,Ativo,Civil,100,Salvador,BA,501,0,11-20
+456,Mariana Rocha ,Feminino,Pleno,2020-02-04,,"8130,27",19,40,2,100.0,22,7,3.6,Presencial,Desligado,Tributário,400,São Paulo,SP,502,1,0-10
+457,Samuel Teixeira ,Masculino,Júnior,2024-01-19,,"3508,77",9,30,1,502.0,31,13,,Presencial,Ativo,Corporativo,300,Salvador,BA,501,0,11-20
+458,Elena Rodrigues ,Feminino,Júnior,2024-05-18,,"3520,81",10,40,3,502.0,16,22,3.6,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,21-30
+459,Olivia Barbosa ,Masculino,Júnior,2024-05-31,,"4210,98",0,20,1,300.0,59,53,1.3,Presencial,Desligado,Trabalhista,200,Salvador,BA,501,1,41+
+460,Ana Silva ,Masculino,Júnior,2024-04-15,,"4445,61",7,40,1,502.0,24,17,4.1,Remoto,Ativo,Tributário,400,Salvador,BA,501,0,11-20
+461,Bruno Souza ,Não-binário,Pleno,2022-12-17,,"7229,21",17,40,2,300.0,27,21,4.9,Remoto,Desligado,Tributário,400,São Paulo,SP,502,1,21-30
+462,Felipe Costa ,Feminino,Sênior,2018-08-13,2022-08-12,"11784,36",34,40,4,502.0,35,14,4.9,Presencial,Ativo,Tributário,400,Belo Horizonte,MG,504,0,11-20
+463,Vitor Xavier ,Feminino,Sênior,2018-01-03,2023-02-28,"11673,0",35,30,4,501.0,27,11,3.6,Presencial,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,11-20
+464,Isabela Carvalho ,Masculino,Pleno,2022-01-01,2023-12-13,"7983,85",16,10,1,200.0,31,9,3.4,Presencial,Ativo,Civil,100,Salvador,BA,501,0,0-10
+465,Lucas Martins ,Masculino,Pleno,2024-04-24,,"8133,14",10,40,3,501.0,26,5,5.0,Remoto,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,0-10
+466,Diego Santos ,Não-binário,Júnior,2024-06-20,,"4444,89",7,10,1,300.0,35,5,3.5,Remoto,Ativo,Civil,100,Salvador,BA,501,0,0-10
+467,Gabriela Almeida ,Feminino,Pleno,2022-06-18,2024-01-16,"5519,76",11,30,2,502.0,23,15,3.8,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,11-20
+468,Natan Alves ,Não-binário,Júnior,2024-08-21,,"3706,99",7,20,2,501.0,49,35,2.0,Remoto,Desligado,Trabalhista,200,São Paulo,SP,502,1,31-40
+469,Kamila Pereira ,Masculino,Sócio,2016-07-03,2021-12-29,"18296,75",55,10,1,,32,18,5.0,Presencial,Ativo,Civil,100,Salvador,BA,501,0,11-20
+470,Samuel Teixeira ,Não-binário,Pleno,2021-09-15,,"6441,09",16,40,4,501.0,32,8,4.8,Presencial,Desligado,Tributário,400,Belo Horizonte,MG,504,1,0-10
+471,Mariana Rocha ,Não-binário,Pleno,2024-05-07,2025-08-16,"5752,84",13,40,3,300.0,28,19,3.8,Remoto,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+472,Samuel Teixeira ,Feminino,Sênior,2020-04-28,2025-04-27,"12769,29",21,20,1,100.0,65,51,1.5,Presencial,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+473,Tatiana Mendes ,Masculino,Pleno,2024-02-18,2025-02-19,"8448,85",15,10,4,502.0,21,20,4.4,Remoto,Ativo,Civil,100,Belo Horizonte,MG,504,0,11-20
+474,Kamila Pereira ,Feminino,Pleno,2022-11-23,,"7968,53",11,40,2,400.0,13,15,4.8,Remoto,Desligado,Tributário,400,São Paulo,SP,502,1,11-20
+475,Lucas Martins ,Feminino,Júnior,2025-11-24,,"4289,38",6,20,4,400.0,59,57,2.3,Presencial,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+476,Renata Pinto ,Feminino,Júnior,2024-05-10,,"4227,15",7,40,2,501.0,27,3,,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,0-10
+477,Natan Alves ,Não-binário,Júnior,2024-04-22,,"3681,3",4,30,1,200.0,21,17,3.3,Presencial,Ativo,Corporativo,300,Salvador,BA,501,0,11-20
+478,João Lima ,Feminino,Júnior,2024-10-17,,"3823,37",6,20,4,400.0,60,53,1.4,Remoto,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+479,Vitor Xavier ,Masculino,Pleno,2020-09-28,,"7014,29",15,30,4,200.0,31,21,3.9,Remoto,Desligado,Corporativo,300,Belo Horizonte,MG,504,1,21-30
+480,Bruno Souza ,Não-binário,Pleno,2023-10-05,,"7707,74",18,40,3,200.0,15,22,4.2,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,21-30
+481,Renata Pinto ,Masculino,Júnior,2024-01-20,,"3680,42",7,10,2,400.0,14,19,4.3,Presencial,Ativo,Civil,100,São Paulo,SP,502,0,11-20
+482,Kamila Pereira ,Feminino,Júnior,2025-03-23,,"3770,76",8,10,4,300.0,17,11,3.5,Remoto,Ativo,Civil,100,Belo Horizonte,MG,504,0,11-20
+483,Natan Alves ,Masculino,Sócio,2013-11-24,2016-12-18,"18468,01",47,10,2,,25,12,3.7,Remoto,Ativo,Civil,100,São Paulo,SP,502,0,11-20
+484,Hugo Ribeiro ,Feminino,Júnior,2025-03-09,,"4379,04",5,10,1,400.0,26,19,3.9,Presencial,Ativo,Civil,100,Salvador,BA,501,0,11-20
+485,Hugo Ribeiro ,Não-binário,Pleno,2020-02-08,,"8390,42",14,10,4,502.0,25,16,3.4,Remoto,Desligado,Civil,100,Belo Horizonte,MG,504,1,11-20
+486,Samuel Teixeira ,Masculino,Pleno,2020-12-10,,"7112,61",10,20,2,200.0,64,44,1.9,Remoto,Desligado,Trabalhista,200,São Paulo,SP,502,1,41+
+487,Isabela Carvalho ,Masculino,Pleno,2023-05-09,2024-09-13,"6640,46",10,10,1,300.0,35,19,4.2,Remoto,Ativo,Civil,100,Salvador,BA,501,0,11-20
+488,Diego Santos ,Não-binário,Júnior,2024-05-23,,"4587,61",5,10,4,502.0,32,10,5.0,Remoto,Ativo,Civil,100,Belo Horizonte,MG,504,0,0-10
+489,Kamila Pereira ,Feminino,Pleno,2021-11-30,,"8376,98",19,40,3,400.0,12,2,4.4,Presencial,Desligado,Tributário,400,Rio de Janeiro,RJ,503,1,0-10
+490,Carla Oliveira ,Não-binário,Júnior,2025-10-26,,"4476,9",6,40,4,502.0,31,13,3.9,Remoto,Ativo,Tributário,400,Belo Horizonte,MG,504,0,11-20
+491,Lucas Martins ,Masculino,Júnior,2024-07-16,,"4166,87",9,10,1,200.0,32,11,4.7,Presencial,Ativo,Civil,100,Salvador,BA,501,0,11-20
+492,Bruno Souza ,Masculino,Sênior,2018-07-29,2024-07-27,"10440,89",32,20,4,501.0,63,51,1.7,Presencial,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+493,Tatiana Mendes ,Feminino,Júnior,2024-05-11,,"4618,96",10,20,2,501.0,45,57,1.9,Presencial,Desligado,Trabalhista,200,São Paulo,SP,502,1,41+
+494,Natan Alves ,Feminino,Sênior,2020-08-05,2023-08-05,"13299,54",34,30,4,200.0,28,3,4.8,Presencial,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,0-10
+495,Samuel Teixeira ,Masculino,Pleno,2022-07-08,,"6675,58",16,10,3,300.0,19,8,,Remoto,Desligado,Civil,100,Rio de Janeiro,RJ,503,1,0-10
+496,Pedro Gomes ,Feminino,Sênior,2019-06-04,2022-03-06,"11004,36",35,10,1,200.0,13,12,4.1,Presencial,Ativo,Civil,100,Salvador,BA,501,0,11-20
+497,Olivia Barbosa ,Feminino,Júnior,2025-08-15,,"3687,24",7,10,4,400.0,13,11,4.3,Presencial,Ativo,Civil,100,Belo Horizonte,MG,504,0,11-20
+498,Bruno Souza ,Não-binário,Pleno,2023-02-19,,"8049,79",19,10,1,400.0,31,2,4.0,Remoto,Desligado,Civil,100,Salvador,BA,501,1,0-10
+499,Ana Silva ,Masculino,Júnior,2025-04-09,,"4275,82",2,40,1,400.0,32,18,3.7,Remoto,Ativo,Tributário,400,Salvador,BA,501,0,11-20
+500,Hugo Ribeiro ,Feminino,Júnior,2024-05-20,,"4695,54",9,40,4,300.0,29,6,3.5,Presencial,Ativo,Tributário,400,Belo Horizonte,MG,504,0,0-10
+501,Ana Silva ,Masculino,Júnior,2025-06-14,,"4379,66",5,30,3,200.0,18,8,4.4,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,0-10
+502,Pedro Gomes ,Feminino,Júnior,2025-12-12,,"4537,76",4,10,3,400.0,25,12,3.5,Remoto,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,11-20
+503,Ana Silva ,Feminino,Pleno,2023-08-01,,"6190,82",13,10,4,100.0,17,2,3.9,Presencial,Ativo,Civil,100,Belo Horizonte,MG,504,0,0-10
+504,Diego Santos ,Não-binário,Pleno,2020-10-18,,"6083,21",13,30,1,300.0,21,7,3.6,Remoto,Desligado,Corporativo,300,Salvador,BA,501,1,0-10
+505,Hugo Ribeiro ,Não-binário,Sócio,2014-01-01,2017-02-11,"18167,95",39,20,3,,55,41,1.4,Presencial,Ativo,Trabalhista,200,Rio de Janeiro,RJ,503,0,41+
+506,Felipe Costa ,Masculino,Sênior,2019-12-16,2025-12-14,"10149,95",26,20,3,400.0,67,46,1.4,Presencial,Ativo,Trabalhista,200,Rio de Janeiro,RJ,503,0,41+
+507,Tatiana Mendes ,Não-binário,Júnior,2024-07-12,,"4781,65",8,20,1,100.0,63,50,1.3,Remoto,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+508,Renata Pinto ,Feminino,Júnior,2025-02-01,,"4626,96",5,40,1,400.0,28,17,4.5,Presencial,Ativo,Tributário,400,Salvador,BA,501,0,11-20
+509,Mariana Rocha ,Não-binário,Pleno,2023-07-30,,"7251,95",13,40,3,400.0,18,11,4.0,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+510,Samuel Teixeira ,Masculino,Pleno,2020-06-22,2021-08-29,"6385,14",18,20,3,400.0,55,48,1.6,Presencial,Ativo,Trabalhista,200,Rio de Janeiro,RJ,503,0,41+
+511,Kamila Pereira ,Masculino,Júnior,2024-10-06,,"4073,56",8,40,3,300.0,28,19,4.4,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+512,Carla Oliveira ,Feminino,Pleno,2022-07-01,,"6100,92",13,20,1,300.0,49,57,2.0,Presencial,Desligado,Trabalhista,200,Salvador,BA,501,1,41+
+513,Lucas Martins ,Masculino,Pleno,2024-05-22,,"8337,45",20,10,3,502.0,16,14,3.6,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,11-20
+514,Renata Pinto ,Feminino,Júnior,2025-08-24,,"4678,96",6,20,4,400.0,67,48,,Presencial,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+515,Tatiana Mendes ,Feminino,Sênior,2021-11-25,2025-11-24,"11749,1",30,10,3,502.0,25,14,4.6,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,11-20
+516,Ana Silva ,Não-binário,Pleno,2023-03-08,,"8266,43",16,30,3,200.0,24,4,4.2,Remoto,Desligado,Corporativo,300,Rio de Janeiro,RJ,503,1,0-10
+517,Tatiana Mendes ,Masculino,Sênior,2019-07-14,2024-07-12,"11988,08",35,40,1,400.0,18,4,4.8,Remoto,Desligado,Tributário,400,Salvador,BA,501,1,0-10
+518,João Lima ,Feminino,Júnior,2025-11-06,,"4286,59",2,30,2,400.0,15,6,4.2,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,0-10
+519,Elena Rodrigues ,Feminino,Júnior,2024-07-29,,"3964,64",3,10,4,100.0,28,16,3.7,Presencial,Ativo,Civil,100,Belo Horizonte,MG,504,0,11-20
+520,Mariana Rocha ,Feminino,Júnior,2025-09-11,,"4711,35",0,20,4,400.0,68,37,1.4,Presencial,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,31-40
+521,Vitor Xavier ,Masculino,Pleno,2020-12-24,,"6038,73",19,30,3,200.0,24,3,3.6,Remoto,Desligado,Corporativo,300,Rio de Janeiro,RJ,503,1,0-10
+522,Carla Oliveira ,Não-binário,Pleno,2023-11-30,2025-03-20,"6733,83",11,30,3,300.0,22,15,4.0,Remoto,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,11-20
+523,Ana Silva ,Masculino,Sócio,2012-10-26,2020-09-25,"21173,39",35,20,1,,55,56,2.0,Remoto,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+524,Carla Oliveira ,Feminino,Pleno,2023-01-28,2024-12-29,"8350,06",10,40,4,501.0,15,7,3.7,Presencial,Ativo,Tributário,400,Belo Horizonte,MG,504,0,0-10
+525,Ana Silva ,Feminino,Júnior,2025-11-24,,"3909,88",0,40,2,502.0,32,18,4.4,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+526,João Lima ,Não-binário,Júnior,2025-03-30,,"3578,62",3,10,4,100.0,14,2,4.0,Remoto,Ativo,Civil,100,Belo Horizonte,MG,504,0,0-10
+527,Carla Oliveira ,Não-binário,Júnior,2024-08-13,,"4938,12",8,30,2,502.0,15,12,3.8,Remoto,Ativo,Corporativo,300,São Paulo,SP,502,0,11-20
+528,Mariana Rocha ,Não-binário,Júnior,2025-03-14,,"3681,21",6,20,2,502.0,51,49,1.3,Presencial,Ativo,Trabalhista,200,São Paulo,SP,502,0,41+
+529,Carla Oliveira ,Feminino,Júnior,2024-08-11,,"4116,65",1,30,3,502.0,31,12,5.0,Remoto,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,11-20
+530,Felipe Costa ,Masculino,Pleno,2023-07-25,,"7562,88",10,40,2,502.0,30,16,3.9,Remoto,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+531,Ana Silva ,Feminino,Júnior,2025-09-23,,"4638,41",2,20,1,200.0,56,50,1.4,Presencial,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+532,Bruno Souza ,Não-binário,Pleno,2021-05-02,,"7294,23",14,40,2,400.0,32,3,4.1,Presencial,Desligado,Tributário,400,São Paulo,SP,502,1,0-10
+533,Kamila Pereira ,Feminino,Pleno,2021-02-12,,"7117,94",19,30,1,502.0,28,12,,Presencial,Desligado,Corporativo,300,Salvador,BA,501,1,11-20
+534,Carla Oliveira ,Masculino,Júnior,2024-07-16,,"3578,16",8,10,1,300.0,14,15,4.5,Remoto,Ativo,Civil,100,Salvador,BA,501,0,11-20
+535,Natan Alves ,Feminino,Júnior,2024-06-29,,"4408,78",1,20,2,400.0,56,47,1.5,Presencial,Ativo,Trabalhista,200,São Paulo,SP,502,0,41+
+536,Vitor Xavier ,Não-binário,Sênior,2021-02-14,,"13071,01",33,40,4,502.0,31,19,3.5,Remoto,Ativo,Tributário,400,Belo Horizonte,MG,504,0,11-20
+537,Olivia Barbosa ,Masculino,Pleno,2021-09-18,,"6625,44",13,20,3,501.0,51,35,1.0,Remoto,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,31-40
+538,Natan Alves ,Masculino,Pleno,2022-03-19,2023-09-26,"6423,43",16,30,4,300.0,17,8,4.6,Remoto,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,0-10
+539,Lucas Martins ,Não-binário,Sócio,2012-08-24,2019-09-15,"18276,06",46,30,4,,16,10,4.3,Presencial,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,0-10
+540,Vitor Xavier ,Feminino,Júnior,2025-08-15,,"4927,67",9,20,3,400.0,47,51,2.3,Presencial,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,41+
+541,João Lima ,Masculino,Sócio,2017-08-12,2021-04-11,"21292,87",37,20,4,,56,39,1.4,Presencial,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,31-40
+542,João Lima ,Não-binário,Júnior,2024-01-07,,"4980,54",4,20,4,300.0,68,48,1.2,Presencial,Desligado,Trabalhista,200,Belo Horizonte,MG,504,1,41+
+543,Pedro Gomes ,Feminino,Júnior,2024-07-05,,"4253,92",3,20,2,501.0,53,48,1.6,Remoto,Ativo,Trabalhista,200,São Paulo,SP,502,0,41+
+544,João Lima ,Feminino,Pleno,2020-06-24,2022-01-03,"5692,79",10,10,2,100.0,20,2,4.4,Presencial,Ativo,Civil,100,São Paulo,SP,502,0,0-10
+545,Ana Silva ,Não-binário,Sênior,2019-02-09,2024-02-08,"11016,63",30,10,2,100.0,23,14,3.9,Presencial,Ativo,Civil,100,São Paulo,SP,502,0,11-20
+546,Ana Silva ,Feminino,Júnior,2025-04-12,,"4805,81",4,30,3,501.0,34,9,3.9,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,0-10
+547,Gabriela Almeida ,Não-binário,Júnior,2024-04-01,,"4979,27",10,40,4,400.0,26,9,4.3,Presencial,Ativo,Tributário,400,Belo Horizonte,MG,504,0,0-10
+548,Pedro Gomes ,Masculino,Sênior,2020-09-10,2023-09-10,"10377,85",21,10,3,501.0,14,11,4.7,Presencial,Desligado,Civil,100,Rio de Janeiro,RJ,503,1,11-20
+549,Diego Santos ,Masculino,Pleno,2022-09-14,,"6222,7",16,40,2,300.0,17,12,4.8,Presencial,Desligado,Tributário,400,São Paulo,SP,502,1,11-20
+550,Pedro Gomes ,Não-binário,Pleno,2023-10-05,2024-06-12,"8268,21",19,20,3,502.0,47,55,1.5,Presencial,Ativo,Trabalhista,200,Rio de Janeiro,RJ,503,0,41+
+551,Hugo Ribeiro ,Feminino,Pleno,2021-06-14,,"5763,04",19,40,4,501.0,16,12,4.9,Remoto,Desligado,Tributário,400,Belo Horizonte,MG,504,1,11-20
+552,Tatiana Mendes ,Feminino,Pleno,2023-01-01,2024-04-07,"8439,55",11,10,3,300.0,12,19,,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,11-20
+553,Pedro Gomes ,Feminino,Júnior,2025-11-27,,"4183,68",8,20,3,502.0,67,38,1.4,Presencial,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,31-40
+554,João Lima ,Masculino,Júnior,2025-12-22,,"4949,74",2,40,2,502.0,27,14,3.7,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+555,Mariana Rocha ,Não-binário,Júnior,2024-12-11,,"4133,66",3,20,1,200.0,67,52,1.6,Presencial,Desligado,Trabalhista,200,Salvador,BA,501,1,41+
+556,João Lima ,Não-binário,Pleno,2022-07-26,,"7231,47",13,30,1,502.0,35,22,3.2,Presencial,Desligado,Corporativo,300,Salvador,BA,501,1,21-30
+557,Natan Alves ,Masculino,Pleno,2023-10-23,2025-01-16,"5788,14",18,10,2,200.0,22,20,4.0,Presencial,Ativo,Civil,100,São Paulo,SP,502,0,11-20
+558,Diego Santos ,Feminino,Pleno,2021-05-08,,"6408,07",17,40,2,400.0,24,10,4.3,Presencial,Desligado,Tributário,400,São Paulo,SP,502,1,0-10
+559,Diego Santos ,Feminino,Júnior,2024-03-25,,"3683,08",1,30,1,502.0,30,7,3.9,Presencial,Ativo,Corporativo,300,Salvador,BA,501,0,0-10
+560,Elena Rodrigues ,Não-binário,Júnior,2024-04-11,,"3987,84",8,40,3,501.0,29,18,4.1,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+561,Diego Santos ,Não-binário,Júnior,2024-04-07,,"4793,01",2,10,2,100.0,30,8,4.4,Remoto,Ativo,Civil,100,São Paulo,SP,502,0,0-10
+562,Diego Santos ,Feminino,Júnior,2025-06-02,,"3947,87",0,30,1,400.0,28,11,4.4,Remoto,Ativo,Corporativo,300,Salvador,BA,501,0,11-20
+563,Kamila Pereira ,Não-binário,Pleno,2022-12-06,2024-06-03,"7031,77",10,20,4,200.0,49,44,2.2,Presencial,Ativo,Trabalhista,200,Belo Horizonte,MG,504,0,41+
+564,Lucas Martins ,Não-binário,Júnior,2024-10-11,,"3692,74",7,20,2,502.0,47,43,1.9,Remoto,Ativo,Trabalhista,200,São Paulo,SP,502,0,41+
+565,Isabela Carvalho ,Feminino,Júnior,2025-10-10,,"4545,2",2,20,2,501.0,55,48,1.5,Presencial,Desligado,Trabalhista,200,São Paulo,SP,502,1,41+
+566,Diego Santos ,Masculino,Pleno,2022-12-24,,"7145,11",14,20,1,400.0,52,43,1.0,Remoto,Desligado,Trabalhista,200,Salvador,BA,501,1,41+
+567,Diego Santos ,Feminino,Pleno,2020-12-25,,"8126,54",19,20,4,100.0,62,43,1.9,Presencial,Desligado,Trabalhista,200,Belo Horizonte,MG,504,1,41+
+568,Felipe Costa ,Masculino,Júnior,2024-12-19,,"4709,13",2,20,3,502.0,53,35,2.0,Remoto,Ativo,Trabalhista,200,Rio de Janeiro,RJ,503,0,31-40
+569,Mariana Rocha ,Feminino,Júnior,2025-08-04,,"4603,13",2,20,2,501.0,59,46,2.1,Presencial,Desligado,Trabalhista,200,São Paulo,SP,502,1,41+
+570,Renata Pinto ,Masculino,Pleno,2024-01-11,,"7942,07",15,30,3,200.0,32,4,3.3,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,0-10
+571,Bruno Souza ,Não-binário,Pleno,2020-06-22,,"7162,48",17,10,2,400.0,28,19,,Remoto,Desligado,Civil,100,São Paulo,SP,502,1,11-20
+572,Ana Silva ,Não-binário,Júnior,2026-01-01,,"4137,47",7,10,2,200.0,17,18,4.8,Remoto,Ativo,Civil,100,São Paulo,SP,502,0,11-20
+573,Renata Pinto ,Feminino,Pleno,2021-12-24,,"6768,17",20,10,3,400.0,29,5,3.7,Remoto,Desligado,Civil,100,Rio de Janeiro,RJ,503,1,0-10
+574,Ana Silva ,Feminino,Sênior,2021-02-20,,"13699,0",34,30,3,400.0,13,13,3.2,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,11-20
+575,Diego Santos ,Masculino,Pleno,2020-11-01,2021-07-08,"6058,47",11,30,3,400.0,28,6,3.9,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,0-10
+576,Isabela Carvalho ,Não-binário,Júnior,2024-08-19,,"4206,05",7,10,2,300.0,33,16,3.5,Remoto,Ativo,Civil,100,São Paulo,SP,502,0,11-20
+577,Gabriela Almeida ,Masculino,Pleno,2020-08-14,,"5620,77",20,40,1,400.0,27,10,3.4,Presencial,Desligado,Tributário,400,Salvador,BA,501,1,0-10
+578,Mariana Rocha ,Masculino,Pleno,2022-10-24,,"7725,68",12,40,2,502.0,23,18,3.2,Presencial,Desligado,Tributário,400,São Paulo,SP,502,1,11-20
+579,Kamila Pereira ,Não-binário,Júnior,2025-03-15,,"4964,66",3,20,1,200.0,64,39,2.0,Remoto,Desligado,Trabalhista,200,Salvador,BA,501,1,31-40
+580,Isabela Carvalho ,Feminino,Júnior,2025-12-18,,"3871,03",9,20,3,100.0,65,55,1.2,Remoto,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,41+
+581,Isabela Carvalho ,Feminino,Pleno,2021-01-28,,"6778,91",16,20,4,200.0,54,57,1.9,Remoto,Desligado,Trabalhista,200,Belo Horizonte,MG,504,1,41+
+582,Pedro Gomes ,Masculino,Pleno,2020-05-05,2022-01-21,"5654,97",13,20,3,100.0,46,40,1.1,Presencial,Ativo,Trabalhista,200,Rio de Janeiro,RJ,503,0,31-40
+583,Pedro Gomes ,Masculino,Pleno,2021-07-27,,"5802,29",14,30,2,200.0,15,2,4.4,Presencial,Desligado,Corporativo,300,São Paulo,SP,502,1,0-10
+584,Lucas Martins ,Não-binário,Júnior,2025-08-26,,"4293,29",2,30,3,501.0,32,21,3.4,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,21-30
+585,Olivia Barbosa ,Não-binário,Sênior,2017-07-22,2020-07-21,"10856,64",24,20,2,300.0,51,48,1.8,Presencial,Ativo,Trabalhista,200,São Paulo,SP,502,0,41+
+586,Diego Santos ,Masculino,Sócio,2016-11-21,2019-10-26,"24327,08",40,30,3,,13,20,3.3,Remoto,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,11-20
+587,Samuel Teixeira ,Masculino,Júnior,2025-06-09,,"4957,31",4,20,4,501.0,51,40,1.0,Presencial,Desligado,Trabalhista,200,Belo Horizonte,MG,504,1,31-40
+588,Olivia Barbosa ,Não-binário,Pleno,2022-10-28,,"7075,22",12,20,1,100.0,46,52,1.3,Remoto,Desligado,Trabalhista,200,Salvador,BA,501,1,41+
+589,Isabela Carvalho ,Feminino,Júnior,2024-02-22,,"4463,62",9,20,3,502.0,56,45,1.1,Remoto,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,41+
+590,Vitor Xavier ,Masculino,Sênior,2018-08-27,2023-08-26,"9546,84",25,30,2,502.0,29,20,,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,11-20
+591,Vitor Xavier ,Não-binário,Júnior,2025-07-18,,"3809,24",7,40,3,400.0,19,15,3.9,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+592,Olivia Barbosa ,Feminino,Júnior,2024-07-08,,"4723,4",4,10,4,502.0,17,7,4.7,Presencial,Ativo,Civil,100,Belo Horizonte,MG,504,0,0-10
+593,Carla Oliveira ,Feminino,Júnior,2025-03-12,,"3867,88",9,20,1,100.0,48,47,1.5,Presencial,Desligado,Trabalhista,200,Salvador,BA,501,1,41+
+594,Hugo Ribeiro ,Feminino,Júnior,2024-03-26,,"3901,48",5,10,1,400.0,34,4,3.6,Remoto,Ativo,Civil,100,Salvador,BA,501,0,0-10
+595,Kamila Pereira ,Masculino,Júnior,2025-05-05,,"3731,77",1,40,2,400.0,29,11,3.4,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+596,Ana Silva ,Feminino,Pleno,2021-09-04,,"5942,13",17,20,1,300.0,48,42,1.1,Remoto,Desligado,Trabalhista,200,Salvador,BA,501,1,41+
+597,Kamila Pereira ,Não-binário,Júnior,2024-05-01,,"4040,74",8,30,1,400.0,22,21,3.5,Presencial,Ativo,Corporativo,300,Salvador,BA,501,0,21-30
+598,João Lima ,Não-binário,Júnior,2024-12-22,,"4813,1",2,20,3,400.0,65,39,1.4,Remoto,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,31-40
+599,Diego Santos ,Feminino,Pleno,2023-03-29,,"7680,12",16,40,4,502.0,22,17,4.0,Presencial,Desligado,Tributário,400,Belo Horizonte,MG,504,1,11-20
+600,Hugo Ribeiro ,Feminino,Pleno,2022-02-23,,"6991,31",11,40,3,502.0,34,15,4.1,Presencial,Desligado,Tributário,400,Rio de Janeiro,RJ,503,1,11-20
+601,Lucas Martins ,Feminino,Júnior,2024-01-03,,"3804,92",5,20,1,200.0,56,39,1.4,Presencial,Ativo,Trabalhista,200,Salvador,BA,501,0,31-40
+602,Hugo Ribeiro ,Feminino,Pleno,2020-04-24,2021-07-03,"7587,34",10,40,2,501.0,33,20,3.3,Remoto,Ativo,Tributário,400,São Paulo,SP,502,0,11-20
+603,Lucas Martins ,Feminino,Júnior,2024-05-24,,"3618,49",2,20,1,300.0,68,51,2.0,Remoto,Desligado,Trabalhista,200,Salvador,BA,501,1,41+
+604,Kamila Pereira ,Não-binário,Júnior,2025-03-30,,"4672,1",2,40,4,400.0,28,7,3.2,Remoto,Ativo,Tributário,400,Belo Horizonte,MG,504,0,0-10
+605,Renata Pinto ,Não-binário,Júnior,2024-11-09,,"4564,03",3,40,3,400.0,24,21,3.3,Remoto,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,21-30
+606,Olivia Barbosa ,Não-binário,Júnior,2025-05-03,,"3969,78",4,20,1,501.0,48,38,1.1,Presencial,Ativo,Trabalhista,200,Salvador,BA,501,0,31-40
+607,João Lima ,Feminino,Júnior,2024-06-15,,"4312,35",3,30,1,100.0,32,3,3.6,Presencial,Ativo,Corporativo,300,Salvador,BA,501,0,0-10
+608,Bruno Souza ,Feminino,Sênior,2018-10-07,2021-10-06,"11104,92",26,10,4,502.0,35,13,5.0,Presencial,Ativo,Civil,100,Belo Horizonte,MG,504,0,11-20
+609,Renata Pinto ,Masculino,Pleno,2020-07-25,2022-04-08,"5950,56",14,10,3,502.0,16,16,,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,11-20
+610,Elena Rodrigues ,Feminino,Sócio,2013-10-21,2021-12-11,"22186,3",45,10,2,,21,13,4.3,Presencial,Ativo,Civil,100,São Paulo,SP,502,0,11-20
+611,Mariana Rocha ,Não-binário,Pleno,2021-05-04,,"7331,16",11,40,1,100.0,16,11,4.2,Presencial,Desligado,Tributário,400,Salvador,BA,501,1,11-20
+612,Kamila Pereira ,Masculino,Júnior,2024-06-22,,"4901,08",7,40,1,400.0,20,17,5.0,Presencial,Ativo,Tributário,400,Salvador,BA,501,0,11-20
+613,Pedro Gomes ,Não-binário,Sênior,2017-03-23,2022-03-22,"13356,5",34,20,1,502.0,64,45,1.5,Presencial,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+614,Bruno Souza ,Masculino,Júnior,2025-09-27,,"4966,15",1,40,4,400.0,21,14,3.5,Presencial,Ativo,Tributário,400,Belo Horizonte,MG,504,0,11-20
+615,Olivia Barbosa ,Masculino,Júnior,2025-11-16,,"3640,25",2,10,2,400.0,35,5,4.9,Presencial,Ativo,Civil,100,São Paulo,SP,502,0,0-10
+616,Kamila Pereira ,Masculino,Sênior,2017-05-13,2022-05-12,"10456,86",28,40,2,200.0,29,6,4.9,Presencial,Ativo,Tributário,400,São Paulo,SP,502,0,0-10
+617,Bruno Souza ,Não-binário,Pleno,2023-05-16,,"5687,2",10,20,3,300.0,45,56,1.6,Remoto,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,41+
+618,Carla Oliveira ,Feminino,Júnior,2024-10-07,,"4107,6",4,20,1,400.0,50,36,1.1,Presencial,Ativo,Trabalhista,200,Salvador,BA,501,0,31-40
+619,Gabriela Almeida ,Feminino,Sênior,2018-12-17,2024-12-15,"13027,36",31,30,3,501.0,12,19,4.6,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,11-20
+620,Tatiana Mendes ,Não-binário,Pleno,2023-06-16,,"7492,19",12,20,1,100.0,49,50,2.2,Remoto,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+621,Ana Silva ,Não-binário,Pleno,2022-07-11,2023-09-13,"7416,75",18,40,3,200.0,31,14,3.6,Presencial,Ativo,Tributário,400,Rio de Janeiro,RJ,503,0,11-20
+622,Lucas Martins ,Masculino,Sênior,2017-02-03,2022-02-02,"13404,91",34,20,1,400.0,56,46,2.2,Remoto,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+623,Olivia Barbosa ,Feminino,Júnior,2025-03-14,,"4059,68",4,30,1,100.0,34,21,4.9,Remoto,Ativo,Corporativo,300,Salvador,BA,501,0,21-30
+624,Ana Silva ,Feminino,Júnior,2025-09-23,,"4898,75",7,10,1,502.0,28,20,4.7,Remoto,Ativo,Civil,100,Salvador,BA,501,0,11-20
+625,Hugo Ribeiro ,Feminino,Sênior,2021-05-11,,"13353,54",34,30,4,300.0,34,14,3.2,Remoto,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,11-20
+626,Isabela Carvalho ,Masculino,Pleno,2021-09-21,,"7885,41",10,20,3,501.0,49,46,2.2,Presencial,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,41+
+627,Tatiana Mendes ,Feminino,Júnior,2025-03-16,,"3862,75",10,30,3,300.0,24,7,3.9,Presencial,Ativo,Corporativo,300,Rio de Janeiro,RJ,503,0,0-10
+628,Diego Santos ,Feminino,Júnior,2025-12-28,,"4701,76",2,20,4,100.0,55,41,,Presencial,Desligado,Trabalhista,200,Belo Horizonte,MG,504,1,41+
+629,Tatiana Mendes ,Não-binário,Júnior,2024-06-05,,"3541,73",7,40,1,200.0,32,22,4.6,Presencial,Ativo,Tributário,400,Salvador,BA,501,0,21-30
+630,Gabriela Almeida ,Masculino,Júnior,2025-07-02,,"4760,69",1,20,2,501.0,49,55,1.0,Remoto,Desligado,Trabalhista,200,São Paulo,SP,502,1,41+
+631,Vitor Xavier ,Masculino,Sócio,2013-05-17,2017-04-24,"18619,05",46,10,1,,27,2,3.9,Presencial,Ativo,Civil,100,Salvador,BA,501,0,0-10
+632,Natan Alves ,Feminino,Pleno,2022-02-07,,"7400,66",12,40,1,100.0,30,22,4.3,Remoto,Desligado,Tributário,400,Salvador,BA,501,1,21-30
+633,Pedro Gomes ,Masculino,Júnior,2025-09-20,,"4399,99",0,10,3,200.0,29,2,4.1,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,0-10
+634,Gabriela Almeida ,Feminino,Júnior,2024-01-31,,"3991,31",3,20,3,502.0,47,46,2.0,Remoto,Desligado,Trabalhista,200,Rio de Janeiro,RJ,503,1,41+
+635,Pedro Gomes ,Não-binário,Sênior,2019-06-13,2025-06-11,"10390,44",32,30,4,200.0,30,11,3.5,Presencial,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,11-20
+636,Natan Alves ,Masculino,Júnior,2025-09-02,,"4620,62",5,40,4,400.0,23,22,4.7,Presencial,Ativo,Tributário,400,Belo Horizonte,MG,504,0,21-30
+637,Isabela Carvalho ,Não-binário,Sênior,2020-04-16,2026-04-15,"12402,94",32,20,1,200.0,50,45,1.6,Presencial,Ativo,Trabalhista,200,Salvador,BA,501,0,41+
+638,Gabriela Almeida ,Feminino,Pleno,2023-07-09,2025-03-15,"7838,54",13,30,2,501.0,30,12,4.8,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,11-20
+639,Vitor Xavier ,Masculino,Pleno,2021-03-10,2022-12-04,"7182,88",20,10,4,100.0,22,12,3.6,Remoto,Ativo,Civil,100,Belo Horizonte,MG,504,0,11-20
+640,Isabela Carvalho ,Feminino,Júnior,2025-03-07,,"3678,89",0,40,4,400.0,32,20,5.0,Remoto,Ativo,Tributário,400,Belo Horizonte,MG,504,0,11-20
+641,Bruno Souza ,Masculino,Júnior,2025-06-30,,"4877,05",4,30,2,501.0,22,13,3.9,Presencial,Ativo,Corporativo,300,São Paulo,SP,502,0,11-20
+642,Bruno Souza ,Não-binário,Pleno,2022-03-16,,"8451,9",19,30,4,100.0,12,9,3.3,Presencial,Desligado,Corporativo,300,Belo Horizonte,MG,504,1,0-10
+643,Natan Alves ,Masculino,Pleno,2021-04-08,,"6073,48",10,20,1,300.0,46,38,1.1,Presencial,Desligado,Trabalhista,200,Salvador,BA,501,1,31-40
+644,Vitor Xavier ,Masculino,Júnior,2025-01-23,,"3904,87",9,10,3,100.0,25,22,4.0,Presencial,Ativo,Civil,100,Rio de Janeiro,RJ,503,0,21-30
+645,Pedro Gomes ,Não-binário,Júnior,2024-10-14,,"3982,87",8,20,4,200.0,52,56,1.9,Presencial,Desligado,Trabalhista,200,Belo Horizonte,MG,504,1,41+
+646,Bruno Souza ,Masculino,Júnior,2024-08-05,,"3519,69",9,10,1,300.0,28,18,4.7,Remoto,Ativo,Civil,100,Salvador,BA,501,0,11-20
+647,Diego Santos ,Não-binário,Pleno,2020-09-23,,"6590,93",16,40,2,502.0,14,10,,Remoto,Desligado,Tributário,400,São Paulo,SP,502,1,0-10
+648,Olivia Barbosa ,Feminino,Sócio,2013-03-14,2017-03-04,"18228,69",51,30,1,,15,19,3.4,Remoto,Ativo,Corporativo,300,Salvador,BA,501,0,11-20
+649,Mariana Rocha ,Feminino,Pleno,2022-10-25,,"6501,22",16,40,2,501.0,21,8,3.9,Remoto,Desligado,Tributário,400,São Paulo,SP,502,1,0-10
+650,Natan Alves ,Não-binário,Júnior,2024-04-21,,"4521,74",4,30,4,300.0,19,4,4.2,Remoto,Ativo,Corporativo,300,Belo Horizonte,MG,504,0,0-10
